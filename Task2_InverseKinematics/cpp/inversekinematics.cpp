@@ -1,23 +1,23 @@
 #include "inversekinematics.h"
-#include "hls_math.h"
-#include <iostream>
 
-void inversekinematics(float x, float y, float a1, float a2, float *th1, float *th2)
+void inversekinematics(float din[BRAM_SIZE], float dout[BRAM_SIZE])
 {
-	#pragma HLS INTERFACE ap_memory storage_type=ram_1p port=x;
-	#pragma HLS INTERFACE ap_memory storage_type=ram_1p port=y;
-	#pragma HLS INTERFACE ap_memory storage_type=ram_1p port=a1;
-	#pragma HLS INTERFACE ap_memory storage_type=ram_1p port=a2;
-	#pragma HLS INTERFACE ap_memory storage_type=ram_1p port=th1;
-	#pragma HLS INTERFACE ap_memory storage_type=ram_1p port=th2;
+	#pragma HLS INTERFACE ap_memory storage_type=ram_1p port=din;
+	#pragma HLS INTERFACE ap_memory storage_type=ram_1p port=dout;
 
 	float pi = 3.14159;
 
-    //float x = -6.0;
-    //float y = 5.0; // i could make a constraint to not go below minus
+    float a1 = 5.0; // length of our first limb part
+    float a2 = 7.0; // length of our second limb part
 
-    //float a1 = 5.2; // length of our first limb part
-    //float a2 = 7.0; // length of our second limb part
+    data_t din_[2];
+
+    for (int i = 0; i < 2; i++) {
+    		din_[i] = (data_t)din[i];
+    	}
+
+    data_t x = din_[0];
+    data_t y = din_[1];
 
     // inverse kinematics
     float r1 = sqrt(pow(x, 2.0) + pow(y, 2.0));
@@ -31,9 +31,8 @@ void inversekinematics(float x, float y, float a1, float a2, float *th1, float *
 
     float theta_2 = 180.0 - (phi_3 * (180 / pi));
 
-    *th1 = theta_1;
-    *th2 = theta_2;
 
-    // std::cout << "theta one: " << theta_1;
-    // std::cout << "theta two: " << theta_2;
+    dout[0] = (data_t)theta_1; // angle for first motor
+    dout[1] = (data_t)theta_2; // angle for second motor
+
 }

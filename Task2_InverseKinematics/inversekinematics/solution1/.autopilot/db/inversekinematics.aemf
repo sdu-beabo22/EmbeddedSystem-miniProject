@@ -1,0 +1,1855 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cdfg:DBCdfg xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:cdfg="http://www.autoesl.com/DBCdfg" timeStamp="1671038205614">
+  <ports id="1" name="din" type="PortType" coreName="RAM" coreId="1970037614" bitwidth="32" iftype="IfTypeRegister" arraysize="2048">
+    <dataOutputObjs>getelementptr</dataOutputObjs>
+  </ports>
+  <ports id="2" name="dout" type="PortType" coreName="RAM" coreId="1643357184" bitwidth="32" direction="DirOut" iftype="IfTypeRegister" arraysize="2048">
+    <dataInputObjs>getelementptr</dataInputObjs>
+    <dataInputObjs>getelementptr</dataInputObjs>
+  </ports>
+  <edges id="91" edge_type="CtrlEdge" source_obj="//@regions.0/@basic_blocks.0" sink_obj="//@blocks.0/@node_objs.0"/>
+  <edges id="94" edge_type="CtrlEdge" source_obj="//@blocks.0" sink_obj="//@regions.0/@basic_blocks.0/@node_objs.0"/>
+  <edges id="95" source_obj="//@regions.0/@basic_blocks.1/@node_objs.5" sink_obj="//@regions.0/@basic_blocks.0/@node_objs.0" is_back_edge="1"/>
+  <edges id="96" edge_type="CtrlEdge" source_obj="//@regions.0/@basic_blocks.1" sink_obj="//@regions.0/@basic_blocks.0/@node_objs.0" is_back_edge="1"/>
+  <edges id="98" edge_type="CtrlEdge" source_obj="//@blocks.0" sink_obj="//@regions.0/@basic_blocks.0/@node_objs.1"/>
+  <edges id="99" source_obj="//@regions.0/@basic_blocks.1/@node_objs.6" sink_obj="//@regions.0/@basic_blocks.0/@node_objs.1" is_back_edge="1"/>
+  <edges id="100" edge_type="CtrlEdge" source_obj="//@regions.0/@basic_blocks.1" sink_obj="//@regions.0/@basic_blocks.0/@node_objs.1" is_back_edge="1"/>
+  <edges id="103" edge_type="CtrlEdge" source_obj="//@blocks.0" sink_obj="//@regions.0/@basic_blocks.0/@node_objs.2"/>
+  <edges id="104" source_obj="//@regions.0/@basic_blocks.0/@node_objs.3" sink_obj="//@regions.0/@basic_blocks.0/@node_objs.2" is_back_edge="1"/>
+  <edges id="105" edge_type="CtrlEdge" source_obj="//@regions.0/@basic_blocks.1" sink_obj="//@regions.0/@basic_blocks.0/@node_objs.2" is_back_edge="1"/>
+  <edges id="106" source_obj="//@regions.0/@basic_blocks.0/@node_objs.2" sink_obj="//@regions.0/@basic_blocks.0/@node_objs.3"/>
+  <edges id="109" source_obj="//@regions.0/@basic_blocks.0/@node_objs.2" sink_obj="//@regions.0/@basic_blocks.0/@node_objs.4"/>
+  <edges id="112" source_obj="//@regions.0/@basic_blocks.0/@node_objs.4" sink_obj="//@regions.0/@basic_blocks.0/@node_objs.5"/>
+  <edges id="113" edge_type="CtrlEdge" source_obj="//@regions.0/@basic_blocks.1" sink_obj="//@regions.0/@basic_blocks.0/@node_objs.5"/>
+  <edges id="114" edge_type="CtrlEdge" source_obj="//@blocks.1" sink_obj="//@regions.0/@basic_blocks.0/@node_objs.5"/>
+  <edges id="115" source_obj="//@regions.0/@basic_blocks.0/@node_objs.2" sink_obj="//@regions.0/@basic_blocks.1/@node_objs.0"/>
+  <edges id="116" source_obj="//@ports.0" sink_obj="//@regions.0/@basic_blocks.1/@node_objs.1"/>
+  <edges id="119" source_obj="//@regions.0/@basic_blocks.1/@node_objs.0" sink_obj="//@regions.0/@basic_blocks.1/@node_objs.1"/>
+  <edges id="120" source_obj="//@regions.0/@basic_blocks.1/@node_objs.1" sink_obj="//@regions.0/@basic_blocks.1/@node_objs.2"/>
+  <edges id="121" source_obj="//@regions.0/@basic_blocks.1/@node_objs.2" sink_obj="//@regions.0/@basic_blocks.1/@node_objs.3"/>
+  <edges id="122" source_obj="//@regions.0/@basic_blocks.0/@node_objs.2" sink_obj="//@regions.0/@basic_blocks.1/@node_objs.4"/>
+  <edges id="123" source_obj="//@regions.0/@basic_blocks.1/@node_objs.4" sink_obj="//@regions.0/@basic_blocks.1/@node_objs.5"/>
+  <edges id="124" source_obj="//@regions.0/@basic_blocks.1/@node_objs.3" sink_obj="//@regions.0/@basic_blocks.1/@node_objs.5"/>
+  <edges id="125" source_obj="//@regions.0/@basic_blocks.0/@node_objs.0" sink_obj="//@regions.0/@basic_blocks.1/@node_objs.5"/>
+  <edges id="126" source_obj="//@regions.0/@basic_blocks.1/@node_objs.4" sink_obj="//@regions.0/@basic_blocks.1/@node_objs.6"/>
+  <edges id="127" source_obj="//@regions.0/@basic_blocks.0/@node_objs.1" sink_obj="//@regions.0/@basic_blocks.1/@node_objs.6"/>
+  <edges id="128" source_obj="//@regions.0/@basic_blocks.1/@node_objs.3" sink_obj="//@regions.0/@basic_blocks.1/@node_objs.6"/>
+  <edges id="129" edge_type="CtrlEdge" source_obj="//@regions.0/@basic_blocks.0" sink_obj="//@regions.0/@basic_blocks.1/@node_objs.7"/>
+  <edges id="130" source_obj="//@regions.0/@basic_blocks.0/@node_objs.1" sink_obj="//@blocks.1/@node_objs.0"/>
+  <edges id="133" source_obj="//@blocks.1/@node_objs.0" sink_obj="//@blocks.1/@node_objs.1"/>
+  <edges id="134" source_obj="//@regions.0/@basic_blocks.0/@node_objs.0" sink_obj="//@blocks.1/@node_objs.2"/>
+  <edges id="136" source_obj="//@blocks.1/@node_objs.2" sink_obj="//@blocks.1/@node_objs.3"/>
+  <edges id="137" source_obj="//@blocks.1/@node_objs.1" sink_obj="//@blocks.1/@node_objs.4"/>
+  <edges id="138" source_obj="//@blocks.1/@node_objs.3" sink_obj="//@blocks.1/@node_objs.4"/>
+  <edges id="141" source_obj="//@blocks.1/@node_objs.4" sink_obj="//@blocks.1/@node_objs.5"/>
+  <edges id="142" source_obj="//@blocks.1/@node_objs.5" sink_obj="//@blocks.1/@node_objs.6"/>
+  <edges id="143" source_obj="//@blocks.1/@node_objs.6" sink_obj="//@blocks.1/@node_objs.7"/>
+  <edges id="145" source_obj="//@blocks.1/@node_objs.7" sink_obj="//@blocks.1/@node_objs.8"/>
+  <edges id="148" source_obj="//@blocks.1/@node_objs.8" sink_obj="//@blocks.1/@node_objs.9"/>
+  <edges id="149" source_obj="//@blocks.1/@node_objs.7" sink_obj="//@blocks.1/@node_objs.10"/>
+  <edges id="152" source_obj="//@blocks.1/@node_objs.9" sink_obj="//@blocks.1/@node_objs.11"/>
+  <edges id="153" source_obj="//@blocks.1/@node_objs.10" sink_obj="//@blocks.1/@node_objs.11"/>
+  <edges id="156" source_obj="//@blocks.1/@node_objs.11" sink_obj="//@blocks.1/@node_objs.12"/>
+  <edges id="159" source_obj="//@blocks.1/@node_objs.12" sink_obj="//@blocks.1/@node_objs.13"/>
+  <edges id="160" source_obj="//@blocks.1/@node_objs.13" sink_obj="//@blocks.1/@node_objs.14"/>
+  <edges id="163" source_obj="//@blocks.1/@node_objs.2" sink_obj="//@blocks.1/@node_objs.15"/>
+  <edges id="164" source_obj="//@blocks.1/@node_objs.0" sink_obj="//@blocks.1/@node_objs.15"/>
+  <edges id="165" source_obj="//@blocks.1/@node_objs.15" sink_obj="//@blocks.1/@node_objs.16"/>
+  <edges id="166" source_obj="//@blocks.1/@node_objs.16" sink_obj="//@blocks.1/@node_objs.17"/>
+  <edges id="167" source_obj="//@blocks.1/@node_objs.14" sink_obj="//@blocks.1/@node_objs.17"/>
+  <edges id="168" source_obj="//@blocks.1/@node_objs.17" sink_obj="//@blocks.1/@node_objs.18"/>
+  <edges id="171" source_obj="//@blocks.1/@node_objs.8" sink_obj="//@blocks.1/@node_objs.19"/>
+  <edges id="174" source_obj="//@blocks.1/@node_objs.19" sink_obj="//@blocks.1/@node_objs.20"/>
+  <edges id="177" source_obj="//@blocks.1/@node_objs.20" sink_obj="//@blocks.1/@node_objs.21"/>
+  <edges id="181" source_obj="//@blocks.1/@node_objs.21" sink_obj="//@blocks.1/@node_objs.22"/>
+  <edges id="183" source_obj="//@blocks.1/@node_objs.22" sink_obj="//@blocks.1/@node_objs.23"/>
+  <edges id="184" source_obj="//@blocks.1/@node_objs.23" sink_obj="//@blocks.1/@node_objs.24"/>
+  <edges id="185" source_obj="//@blocks.1/@node_objs.24" sink_obj="//@blocks.1/@node_objs.25"/>
+  <edges id="189" source_obj="//@blocks.1/@node_objs.25" sink_obj="//@blocks.1/@node_objs.26"/>
+  <edges id="190" source_obj="//@blocks.1/@node_objs.18" sink_obj="//@blocks.1/@node_objs.27"/>
+  <edges id="191" source_obj="//@blocks.1/@node_objs.28" sink_obj="//@ports.1"/>
+  <edges id="194" source_obj="//@blocks.1/@node_objs.27" sink_obj="//@blocks.1/@node_objs.29"/>
+  <edges id="195" source_obj="//@blocks.1/@node_objs.28" sink_obj="//@blocks.1/@node_objs.29"/>
+  <edges id="196" source_obj="//@blocks.1/@node_objs.26" sink_obj="//@blocks.1/@node_objs.30"/>
+  <edges id="197" source_obj="//@blocks.1/@node_objs.31" sink_obj="//@ports.1"/>
+  <edges id="201" source_obj="//@blocks.1/@node_objs.30" sink_obj="//@blocks.1/@node_objs.32"/>
+  <edges id="202" source_obj="//@blocks.1/@node_objs.31" sink_obj="//@blocks.1/@node_objs.32"/>
+  <edges id="203" sink_obj="//@blocks.1/@node_objs.1"/>
+  <edges id="204" sink_obj="//@blocks.1/@node_objs.1"/>
+  <edges id="205" sink_obj="//@blocks.1/@node_objs.1"/>
+  <edges id="206" sink_obj="//@blocks.1/@node_objs.1"/>
+  <edges id="207" sink_obj="//@blocks.1/@node_objs.1"/>
+  <edges id="208" sink_obj="//@blocks.1/@node_objs.1"/>
+  <edges id="209" sink_obj="//@blocks.1/@node_objs.1"/>
+  <edges id="210" sink_obj="//@blocks.1/@node_objs.1"/>
+  <edges id="211" sink_obj="//@blocks.1/@node_objs.1"/>
+  <edges id="212" sink_obj="//@blocks.1/@node_objs.1"/>
+  <edges id="213" sink_obj="//@blocks.1/@node_objs.1"/>
+  <edges id="214" sink_obj="//@blocks.1/@node_objs.1"/>
+  <edges id="215" sink_obj="//@blocks.1/@node_objs.3"/>
+  <edges id="216" sink_obj="//@blocks.1/@node_objs.3"/>
+  <edges id="217" sink_obj="//@blocks.1/@node_objs.3"/>
+  <edges id="218" sink_obj="//@blocks.1/@node_objs.3"/>
+  <edges id="219" sink_obj="//@blocks.1/@node_objs.3"/>
+  <edges id="220" sink_obj="//@blocks.1/@node_objs.3"/>
+  <edges id="221" sink_obj="//@blocks.1/@node_objs.3"/>
+  <edges id="222" sink_obj="//@blocks.1/@node_objs.3"/>
+  <edges id="223" sink_obj="//@blocks.1/@node_objs.3"/>
+  <edges id="224" sink_obj="//@blocks.1/@node_objs.3"/>
+  <edges id="225" sink_obj="//@blocks.1/@node_objs.3"/>
+  <edges id="226" sink_obj="//@blocks.1/@node_objs.3"/>
+  <edges id="227" sink_obj="//@blocks.1/@node_objs.8"/>
+  <edges id="228" sink_obj="//@blocks.1/@node_objs.8"/>
+  <edges id="229" sink_obj="//@blocks.1/@node_objs.8"/>
+  <edges id="230" sink_obj="//@blocks.1/@node_objs.8"/>
+  <edges id="231" sink_obj="//@blocks.1/@node_objs.8"/>
+  <edges id="232" sink_obj="//@blocks.1/@node_objs.8"/>
+  <edges id="233" sink_obj="//@blocks.1/@node_objs.8"/>
+  <edges id="234" sink_obj="//@blocks.1/@node_objs.8"/>
+  <edges id="235" sink_obj="//@blocks.1/@node_objs.8"/>
+  <edges id="236" sink_obj="//@blocks.1/@node_objs.8"/>
+  <edges id="237" sink_obj="//@blocks.1/@node_objs.8"/>
+  <edges id="238" sink_obj="//@blocks.1/@node_objs.8"/>
+  <edges id="239" sink_obj="//@blocks.1/@node_objs.12"/>
+  <edges id="240" sink_obj="//@blocks.1/@node_objs.15"/>
+  <edges id="241" sink_obj="//@blocks.1/@node_objs.22"/>
+  <edges id="313" edge_type="CtrlEdge" source_obj="//@blocks.0" sink_obj="//@regions.0/@basic_blocks.0"/>
+  <edges id="314" edge_type="CtrlEdge" source_obj="//@regions.0/@basic_blocks.0" sink_obj="//@blocks.1"/>
+  <edges id="315" edge_type="CtrlEdge" source_obj="//@regions.0/@basic_blocks.0" sink_obj="//@regions.0/@basic_blocks.1"/>
+  <edges id="316" edge_type="CtrlEdge" source_obj="//@regions.0/@basic_blocks.1" sink_obj="//@regions.0/@basic_blocks.0" is_back_edge="1"/>
+  <blocks id="36" name="block_36" type="BlockType">
+    <controlOutputObjs>phi</controlOutputObjs>
+    <controlOutputObjs>phi</controlOutputObjs>
+    <controlOutputObjs>phi</controlOutputObjs>
+    <controlOutputObjs>block_45</controlOutputObjs>
+    <node_objs xsi:type="cdfg:CdfgNode" id="35" name="br_ln15" lineNumber="15" fileName="../cpp/inversekinematics.cpp" fileDirectory=".." coreId="184" contextFuncName="inversekinematics" opcode="br" m_display="0" m_delay="0.48" m_topoIndex="1" m_clusterGroupNumber="-1">
+      <inlineStackInfo fileName="../cpp/inversekinematics.cpp" linenumber="15" fileDirectory="/home/gabris/Documents/inversekinematics" functionName="inversekinematics"/>
+      <controlInputObjs>block_45</controlInputObjs>
+    </node_objs>
+    <fileValidLineNumbers fileName="../cpp/inversekinematics.cpp">
+      <validLinenumbers>15</validLinenumbers>
+    </fileValidLineNumbers>
+  </blocks>
+  <blocks id="90" name="block_90" type="BlockType">
+    <controlInputObjs>block_45</controlInputObjs>
+    <controlOutputObjs>br</controlOutputObjs>
+    <node_objs xsi:type="cdfg:CdfgNode" id="56" name="x_assign" lineNumber="23" originalName="x" fileName="../cpp/inversekinematics.cpp" fileDirectory=".." rtlName="fpext_32ns_64_2_no_dsp_1_U60" opType="fpext" coreId="0" contextFuncName="inversekinematics" bitwidth="64" opcode="fpext" nodeLabel="3.0" nodeLatency="1" m_display="0" m_delay="2.78" m_topoIndex="16" m_clusterGroupNumber="-1">
+      <inlineStackInfo fileName="../cpp/inversekinematics.cpp" linenumber="23" fileDirectory="/home/gabris/Documents/inversekinematics" functionName="inversekinematics"/>
+      <dataInputObjs>phi</dataInputObjs>
+      <dataOutputObjs>call</dataOutputObjs>
+      <dataOutputObjs>call</dataOutputObjs>
+    </node_objs>
+    <node_objs xsi:type="cdfg:CdfgNode" id="57" name="tmp" lineNumber="7" fileName="/wrk/ci/prod/2020.2/rdi_builds/continuous/2020_11_18_3064766/src/shared/hls/clib/hlsmath/src/c/powdouble.cpp" fileDirectory="../../../../../wrk/ci/prod/2020.2/rdi_builds/continuous/2020_11_18_3064766/src/shared" rtlName="grp_pow_generic_double_s_fu_169" coreId="0" contextFuncName="pow" bitwidth="64" opcode="call" nodeLabel="4.0" nodeLatency="23" m_display="0" m_delay="3.34" m_topoIndex="18" m_clusterGroupNumber="-1">
+      <inlineStackInfo fileName="/wrk/ci/prod/2020.2/rdi_builds/continuous/2020_11_18_3064766/src/shared/hls/clib/hlsmath/src/c/powdouble.cpp" linenumber="7" fileDirectory="/wrk/ci/prod/2020.2/rdi_builds/continuous/2020_11_18_3064766/src/shared" functionName="pow"/>
+      <dataInputObjs>fpext</dataInputObjs>
+      <dataOutputObjs>dadd</dataOutputObjs>
+      <constName>pow_generic_double_s</constName>
+    </node_objs>
+    <node_objs xsi:type="cdfg:CdfgNode" id="58" name="x_assign_5" lineNumber="23" originalName="x" fileName="../cpp/inversekinematics.cpp" fileDirectory=".." rtlName="fpext_32ns_64_2_no_dsp_1_U61" opType="fpext" coreId="0" contextFuncName="inversekinematics" bitwidth="64" opcode="fpext" nodeLabel="3.0" nodeLatency="1" m_display="0" m_delay="2.78" m_topoIndex="17" m_clusterGroupNumber="-1">
+      <inlineStackInfo fileName="../cpp/inversekinematics.cpp" linenumber="23" fileDirectory="/home/gabris/Documents/inversekinematics" functionName="inversekinematics"/>
+      <dataInputObjs>phi</dataInputObjs>
+      <dataOutputObjs>call</dataOutputObjs>
+      <dataOutputObjs>call</dataOutputObjs>
+    </node_objs>
+    <node_objs xsi:type="cdfg:CdfgNode" id="59" name="tmp_s" lineNumber="7" fileName="/wrk/ci/prod/2020.2/rdi_builds/continuous/2020_11_18_3064766/src/shared/hls/clib/hlsmath/src/c/powdouble.cpp" fileDirectory="../../../../../wrk/ci/prod/2020.2/rdi_builds/continuous/2020_11_18_3064766/src/shared" rtlName="grp_pow_generic_double_s_fu_198" coreId="0" contextFuncName="pow" bitwidth="64" opcode="call" nodeLabel="4.0" nodeLatency="23" m_display="0" m_delay="3.34" m_topoIndex="19" m_clusterGroupNumber="-1">
+      <inlineStackInfo fileName="/wrk/ci/prod/2020.2/rdi_builds/continuous/2020_11_18_3064766/src/shared/hls/clib/hlsmath/src/c/powdouble.cpp" linenumber="7" fileDirectory="/wrk/ci/prod/2020.2/rdi_builds/continuous/2020_11_18_3064766/src/shared" functionName="pow"/>
+      <dataInputObjs>fpext</dataInputObjs>
+      <dataOutputObjs>dadd</dataOutputObjs>
+      <constName>pow_generic_double_s</constName>
+    </node_objs>
+    <node_objs xsi:type="cdfg:CdfgNode" id="60" name="add" lineNumber="23" fileName="../cpp/inversekinematics.cpp" fileDirectory=".." rtlName="dadddsub_64ns_64ns_64_5_full_dsp_1_U62" coreName="DAddSub_fulldsp" implIndex="fulldsp" control="auto" opType="dadd" coreId="37" contextFuncName="inversekinematics" bitwidth="64" opcode="dadd" nodeLabel="28.0" nodeLatency="4" m_display="0" m_delay="6.91" m_topoIndex="20" m_clusterGroupNumber="-1">
+      <inlineStackInfo fileName="../cpp/inversekinematics.cpp" linenumber="23" fileDirectory="/home/gabris/Documents/inversekinematics" functionName="inversekinematics"/>
+      <dataInputObjs>call</dataInputObjs>
+      <dataInputObjs>call</dataInputObjs>
+      <dataOutputObjs>dsqrt</dataOutputObjs>
+    </node_objs>
+    <node_objs xsi:type="cdfg:CdfgNode" id="61" name="tmp_8" lineNumber="23" fileName="../cpp/inversekinematics.cpp" fileDirectory=".." rtlName="dsqrt_64ns_64ns_64_30_no_dsp_1_U66" coreName="DSqrt" implIndex="fabric" control="auto" opType="dsqrt" coreId="52" contextFuncName="inversekinematics" bitwidth="64" opcode="dsqrt" nodeLabel="33.0" nodeLatency="29" m_display="0" m_delay="5.53" m_topoIndex="21" m_clusterGroupNumber="-1">
+      <inlineStackInfo fileName="../cpp/inversekinematics.cpp" linenumber="23" fileDirectory="/home/gabris/Documents/inversekinematics" functionName="inversekinematics"/>
+      <dataInputObjs>dadd</dataInputObjs>
+      <dataOutputObjs>fptrunc</dataOutputObjs>
+    </node_objs>
+    <node_objs xsi:type="cdfg:CdfgNode" id="62" name="r1" lineNumber="23" originalName="r1" fileName="../cpp/inversekinematics.cpp" fileDirectory=".." rtlName="fptrunc_64ns_32_2_no_dsp_1_U59" opType="fptrunc" coreId="145" contextFuncName="inversekinematics" bitwidth="32" opcode="fptrunc" nodeLabel="63.0" nodeLatency="1" m_display="0" m_delay="3.32" m_topoIndex="22" m_clusterGroupNumber="-1">
+      <inlineStackInfo fileName="../cpp/inversekinematics.cpp" linenumber="23" fileDirectory="/home/gabris/Documents/inversekinematics" functionName="inversekinematics"/>
+      <dataInputObjs>dsqrt</dataInputObjs>
+      <dataOutputObjs>fpext</dataOutputObjs>
+    </node_objs>
+    <node_objs xsi:type="cdfg:CdfgNode" id="63" name="x_assign_2" lineNumber="25" originalName="x" fileName="../cpp/inversekinematics.cpp" fileDirectory=".." rtlName="fpext_32ns_64_2_no_dsp_1_U60" opType="fpext" coreId="145" contextFuncName="inversekinematics" bitwidth="64" opcode="fpext" nodeLabel="64.0" nodeLatency="1" m_display="0" m_delay="2.78" m_topoIndex="23" m_clusterGroupNumber="-1">
+      <inlineStackInfo fileName="../cpp/inversekinematics.cpp" linenumber="25" fileDirectory="/home/gabris/Documents/inversekinematics" functionName="inversekinematics"/>
+      <dataInputObjs>fptrunc</dataInputObjs>
+      <dataOutputObjs>call</dataOutputObjs>
+      <dataOutputObjs>dmul</dataOutputObjs>
+    </node_objs>
+    <node_objs xsi:type="cdfg:CdfgNode" id="64" name="tmp_9" lineNumber="7" fileName="/wrk/ci/prod/2020.2/rdi_builds/continuous/2020_11_18_3064766/src/shared/hls/clib/hlsmath/src/c/powdouble.cpp" fileDirectory="../../../../../wrk/ci/prod/2020.2/rdi_builds/continuous/2020_11_18_3064766/src/shared" rtlName="grp_pow_generic_double_s_fu_169" coreId="145" contextFuncName="pow" bitwidth="64" opcode="call" nodeLabel="65.0" nodeLatency="23" m_display="0" m_delay="3.34" m_topoIndex="24" m_clusterGroupNumber="-1">
+      <inlineStackInfo fileName="/wrk/ci/prod/2020.2/rdi_builds/continuous/2020_11_18_3064766/src/shared/hls/clib/hlsmath/src/c/powdouble.cpp" linenumber="7" fileDirectory="/wrk/ci/prod/2020.2/rdi_builds/continuous/2020_11_18_3064766/src/shared" functionName="pow"/>
+      <dataInputObjs>fpext</dataInputObjs>
+      <dataOutputObjs>dsub</dataOutputObjs>
+      <dataOutputObjs>dadd</dataOutputObjs>
+      <constName>pow_generic_double_s</constName>
+    </node_objs>
+    <node_objs xsi:type="cdfg:CdfgNode" id="65" name="sub" lineNumber="25" fileName="../cpp/inversekinematics.cpp" fileDirectory=".." rtlName="dadddsub_64ns_64ns_64_5_full_dsp_1_U62" coreName="DAddSub_fulldsp" implIndex="fulldsp" control="auto" opType="dadd" coreId="37" contextFuncName="inversekinematics" bitwidth="64" opcode="dsub" nodeLabel="89.0" nodeLatency="4" m_display="0" m_delay="6.91" m_topoIndex="26" m_clusterGroupNumber="-1">
+      <inlineStackInfo fileName="../cpp/inversekinematics.cpp" linenumber="25" fileDirectory="/home/gabris/Documents/inversekinematics" functionName="inversekinematics"/>
+      <dataInputObjs>call</dataInputObjs>
+      <dataOutputObjs>ddiv</dataOutputObjs>
+      <constName>empty</constName>
+    </node_objs>
+    <node_objs xsi:type="cdfg:CdfgNode" id="66" name="mul" lineNumber="25" fileName="../cpp/inversekinematics.cpp" fileDirectory=".." rtlName="dmul_64ns_64ns_64_6_max_dsp_1_U64" coreName="DMul_maxdsp" implIndex="maxdsp" control="auto" opType="dmul" coreId="49" contextFuncName="inversekinematics" bitwidth="64" opcode="dmul" nodeLabel="88.0" nodeLatency="5" m_display="0" m_delay="6.6" m_topoIndex="25" m_clusterGroupNumber="-1">
+      <inlineStackInfo fileName="../cpp/inversekinematics.cpp" linenumber="25" fileDirectory="/home/gabris/Documents/inversekinematics" functionName="inversekinematics"/>
+      <dataInputObjs>fpext</dataInputObjs>
+      <dataOutputObjs>ddiv</dataOutputObjs>
+      <constName>empty</constName>
+    </node_objs>
+    <node_objs xsi:type="cdfg:CdfgNode" id="67" name="x_assign_6" lineNumber="25" originalName="x" fileName="../cpp/inversekinematics.cpp" fileDirectory=".." rtlName="ddiv_64ns_64ns_64_22_no_dsp_1_U65" coreName="DDiv" implIndex="fabric" control="auto" opType="ddiv" coreId="39" contextFuncName="inversekinematics" bitwidth="64" opcode="ddiv" nodeLabel="94.0" nodeLatency="21" m_display="0" m_delay="7.28" m_topoIndex="28" m_clusterGroupNumber="-1">
+      <inlineStackInfo fileName="../cpp/inversekinematics.cpp" linenumber="25" fileDirectory="/home/gabris/Documents/inversekinematics" functionName="inversekinematics"/>
+      <dataInputObjs>dsub</dataInputObjs>
+      <dataInputObjs>dmul</dataInputObjs>
+      <dataOutputObjs>call</dataOutputObjs>
+    </node_objs>
+    <node_objs xsi:type="cdfg:CdfgNode" id="68" name="tmp_1" lineNumber="145" fileName="/wrk/ci/prod/2020.2/rdi_builds/continuous/2020_11_18_3064766/src/shared/hls/clib/hlsmath/include/FloatingPoint/hls_asin_acos.h" fileDirectory="../../../../../wrk/ci/prod/2020.2/rdi_builds/continuous/2020_11_18_3064766/src/shared" rtlName="grp_generic_asin_double_s_fu_235" coreId="145" contextFuncName="generic_acos_double_s" bitwidth="64" opcode="call" nodeLabel="116.0" nodeLatency="1" m_display="0" m_delay="2.01" m_topoIndex="31" m_clusterGroupNumber="-1">
+      <inlineStackInfo fileName="/wrk/ci/prod/2020.2/rdi_builds/continuous/2020_11_18_3064766/src/shared/hls/clib/hlsmath/include/FloatingPoint/hls_asin_acos.h" linenumber="145" fileDirectory="/wrk/ci/prod/2020.2/rdi_builds/continuous/2020_11_18_3064766/src/shared" functionName="generic_acos&amp;lt;double&amp;gt;"/>
+      <dataInputObjs>ddiv</dataInputObjs>
+      <dataOutputObjs>dsub</dataOutputObjs>
+      <constName>generic_asin_double_s</constName>
+    </node_objs>
+    <node_objs xsi:type="cdfg:CdfgNode" id="69" name="sub_i_i_i" lineNumber="145" fileName="/wrk/ci/prod/2020.2/rdi_builds/continuous/2020_11_18_3064766/src/shared/hls/clib/hlsmath/include/FloatingPoint/hls_asin_acos.h" fileDirectory="../../../../../wrk/ci/prod/2020.2/rdi_builds/continuous/2020_11_18_3064766/src/shared" rtlName="dadddsub_64ns_64ns_64_5_full_dsp_1_U62" coreName="DAddSub_fulldsp" implIndex="fulldsp" control="auto" opType="dadd" coreId="37" contextFuncName="generic_acos_double_s" bitwidth="64" opcode="dsub" nodeLabel="118.0" nodeLatency="4" m_display="0" m_delay="6.91" m_topoIndex="34" m_clusterGroupNumber="-1">
+      <inlineStackInfo fileName="/wrk/ci/prod/2020.2/rdi_builds/continuous/2020_11_18_3064766/src/shared/hls/clib/hlsmath/include/FloatingPoint/hls_asin_acos.h" linenumber="145" fileDirectory="/wrk/ci/prod/2020.2/rdi_builds/continuous/2020_11_18_3064766/src/shared" functionName="generic_acos&amp;lt;double&amp;gt;"/>
+      <dataInputObjs>call</dataInputObjs>
+      <dataOutputObjs>fptrunc</dataOutputObjs>
+      <constName>empty</constName>
+    </node_objs>
+    <node_objs xsi:type="cdfg:CdfgNode" id="70" name="phi_1" lineNumber="25" originalName="phi_1" fileName="../cpp/inversekinematics.cpp" fileDirectory=".." rtlName="dadddsub_64ns_64ns_64_5_full_dsp_1_U62" opType="fptrunc" coreId="9" contextFuncName="inversekinematics" bitwidth="32" opcode="fptrunc" nodeLabel="123.0" nodeLatency="1" m_display="0" m_delay="3.32" m_topoIndex="36" m_clusterGroupNumber="-1">
+      <inlineStackInfo fileName="../cpp/inversekinematics.cpp" linenumber="25" fileDirectory="/home/gabris/Documents/inversekinematics" functionName="inversekinematics"/>
+      <dataInputObjs>dsub</dataInputObjs>
+      <dataOutputObjs>fsub</dataOutputObjs>
+    </node_objs>
+    <node_objs xsi:type="cdfg:CdfgNode" id="71" name="tmp_2" lineNumber="7" fileName="/wrk/ci/prod/2020.2/rdi_builds/continuous/2020_11_18_3064766/src/shared/hls/clib/hlsmath/src/c/atan2double.cpp" fileDirectory="../../../../../wrk/ci/prod/2020.2/rdi_builds/continuous/2020_11_18_3064766/src/shared" rtlName="grp_atan2_cordic_double_s_fu_227" coreId="177" contextFuncName="atan2" bitwidth="64" opcode="call" nodeLabel="116.0" nodeLatency="1" m_display="0" m_delay="3.61" m_topoIndex="32" m_clusterGroupNumber="-1">
+      <inlineStackInfo fileName="/wrk/ci/prod/2020.2/rdi_builds/continuous/2020_11_18_3064766/src/shared/hls/clib/hlsmath/src/c/atan2double.cpp" linenumber="7" fileDirectory="/wrk/ci/prod/2020.2/rdi_builds/continuous/2020_11_18_3064766/src/shared" functionName="atan2"/>
+      <dataInputObjs>fpext</dataInputObjs>
+      <dataInputObjs>fpext</dataInputObjs>
+      <dataOutputObjs>fptrunc</dataOutputObjs>
+      <constName>atan2_cordic_double_s</constName>
+    </node_objs>
+    <node_objs xsi:type="cdfg:CdfgNode" id="72" name="phi_2" lineNumber="26" originalName="phi_2" fileName="../cpp/inversekinematics.cpp" fileDirectory=".." rtlName="fptrunc_64ns_32_2_no_dsp_1_U59" opType="fptrunc" coreId="2209756528" contextFuncName="inversekinematics" bitwidth="32" opcode="fptrunc" nodeLabel="117.0" nodeLatency="1" m_display="0" m_delay="3.32" m_topoIndex="33" m_clusterGroupNumber="-1">
+      <inlineStackInfo fileName="../cpp/inversekinematics.cpp" linenumber="26" fileDirectory="/home/gabris/Documents/inversekinematics" functionName="inversekinematics"/>
+      <dataInputObjs>call</dataInputObjs>
+      <dataOutputObjs>fsub</dataOutputObjs>
+    </node_objs>
+    <node_objs xsi:type="cdfg:CdfgNode" id="73" name="sub1" lineNumber="28" fileName="../cpp/inversekinematics.cpp" fileDirectory=".." rtlName="fsub_32ns_32ns_32_5_full_dsp_1_U56" coreName="FAddSub_fulldsp" implIndex="fulldsp" control="auto" opType="fsub" coreId="18" contextFuncName="inversekinematics" bitwidth="32" opcode="fsub" nodeLabel="125.0" nodeLatency="4" m_display="0" m_delay="6.01" m_topoIndex="38" m_clusterGroupNumber="-1">
+      <inlineStackInfo fileName="../cpp/inversekinematics.cpp" linenumber="28" fileDirectory="/home/gabris/Documents/inversekinematics" functionName="inversekinematics"/>
+      <dataInputObjs>fptrunc</dataInputObjs>
+      <dataInputObjs>fptrunc</dataInputObjs>
+      <dataOutputObjs>fmul</dataOutputObjs>
+    </node_objs>
+    <node_objs xsi:type="cdfg:CdfgNode" id="74" name="theta_1" lineNumber="28" originalName="theta_1" fileName="../cpp/inversekinematics.cpp" fileDirectory=".." rtlName="dadddsub_64ns_64ns_64_5_full_dsp_1_U62" coreName="FMul_maxdsp" implIndex="maxdsp" control="auto" opType="fmul" coreId="30" contextFuncName="inversekinematics" bitwidth="32" opcode="fmul" nodeLabel="130.0" nodeLatency="3" m_display="0" m_delay="4.67" m_topoIndex="40" m_clusterGroupNumber="-1">
+      <inlineStackInfo fileName="../cpp/inversekinematics.cpp" linenumber="28" fileDirectory="/home/gabris/Documents/inversekinematics" functionName="inversekinematics"/>
+      <dataInputObjs>fsub</dataInputObjs>
+      <dataOutputObjs>bitcast</dataOutputObjs>
+      <constName>empty</constName>
+    </node_objs>
+    <node_objs xsi:type="cdfg:CdfgNode" id="75" name="sub2" lineNumber="30" fileName="../cpp/inversekinematics.cpp" fileDirectory=".." rtlName="dadd_64ns_64ns_64_5_full_dsp_1_U63" coreName="DAddSub_fulldsp" implIndex="fulldsp" control="auto" opType="dadd" coreId="37" contextFuncName="inversekinematics" bitwidth="64" opcode="dadd" nodeLabel="89.0" nodeLatency="4" m_display="0" m_delay="6.91" m_topoIndex="27" m_clusterGroupNumber="-1">
+      <inlineStackInfo fileName="../cpp/inversekinematics.cpp" linenumber="30" fileDirectory="/home/gabris/Documents/inversekinematics" functionName="inversekinematics"/>
+      <dataInputObjs>call</dataInputObjs>
+      <dataOutputObjs>dadd</dataOutputObjs>
+      <constName>empty</constName>
+    </node_objs>
+    <node_objs xsi:type="cdfg:CdfgNode" id="76" name="sub3" lineNumber="30" fileName="../cpp/inversekinematics.cpp" fileDirectory=".." rtlName="dadddsub_64ns_64ns_64_5_full_dsp_1_U62" coreName="DAddSub_fulldsp" implIndex="fulldsp" control="auto" opType="dadd" coreId="37" contextFuncName="inversekinematics" bitwidth="64" opcode="dadd" nodeLabel="94.0" nodeLatency="4" m_display="0" m_delay="6.91" m_topoIndex="29" m_clusterGroupNumber="-1">
+      <inlineStackInfo fileName="../cpp/inversekinematics.cpp" linenumber="30" fileDirectory="/home/gabris/Documents/inversekinematics" functionName="inversekinematics"/>
+      <dataInputObjs>dadd</dataInputObjs>
+      <dataOutputObjs>ddiv</dataOutputObjs>
+      <constName>empty</constName>
+    </node_objs>
+    <node_objs xsi:type="cdfg:CdfgNode" id="77" name="x_assign_7" lineNumber="30" originalName="x" fileName="../cpp/inversekinematics.cpp" fileDirectory=".." rtlName="ddiv_64ns_64ns_64_22_no_dsp_1_U65" coreName="DDiv" implIndex="fabric" control="auto" opType="ddiv" coreId="39" contextFuncName="inversekinematics" bitwidth="64" opcode="ddiv" nodeLabel="99.0" nodeLatency="21" m_display="0" m_delay="7.28" m_topoIndex="30" m_clusterGroupNumber="-1">
+      <inlineStackInfo fileName="../cpp/inversekinematics.cpp" linenumber="30" fileDirectory="/home/gabris/Documents/inversekinematics" functionName="inversekinematics"/>
+      <dataInputObjs>dadd</dataInputObjs>
+      <dataOutputObjs>call</dataOutputObjs>
+      <constName>empty</constName>
+    </node_objs>
+    <node_objs xsi:type="cdfg:CdfgNode" id="78" name="tmp_3" lineNumber="145" fileName="/wrk/ci/prod/2020.2/rdi_builds/continuous/2020_11_18_3064766/src/shared/hls/clib/hlsmath/include/FloatingPoint/hls_asin_acos.h" fileDirectory="../../../../../wrk/ci/prod/2020.2/rdi_builds/continuous/2020_11_18_3064766/src/shared" rtlName="grp_generic_asin_double_s_fu_235" coreId="1713401449" contextFuncName="generic_acos_double_s" bitwidth="64" opcode="call" nodeLabel="121.0" nodeLatency="1" m_display="0" m_delay="2.01" m_topoIndex="35" m_clusterGroupNumber="-1">
+      <inlineStackInfo fileName="/wrk/ci/prod/2020.2/rdi_builds/continuous/2020_11_18_3064766/src/shared/hls/clib/hlsmath/include/FloatingPoint/hls_asin_acos.h" linenumber="145" fileDirectory="/wrk/ci/prod/2020.2/rdi_builds/continuous/2020_11_18_3064766/src/shared" functionName="generic_acos&amp;lt;double&amp;gt;"/>
+      <dataInputObjs>ddiv</dataInputObjs>
+      <dataOutputObjs>dsub</dataOutputObjs>
+      <constName>generic_asin_double_s</constName>
+    </node_objs>
+    <node_objs xsi:type="cdfg:CdfgNode" id="79" name="sub_i_i_i6" lineNumber="145" fileName="/wrk/ci/prod/2020.2/rdi_builds/continuous/2020_11_18_3064766/src/shared/hls/clib/hlsmath/include/FloatingPoint/hls_asin_acos.h" fileDirectory="../../../../../wrk/ci/prod/2020.2/rdi_builds/continuous/2020_11_18_3064766/src/shared" rtlName="dadddsub_64ns_64ns_64_5_full_dsp_1_U62" coreName="DAddSub_fulldsp" implIndex="fulldsp" control="auto" opType="dadd" coreId="37" contextFuncName="generic_acos_double_s" bitwidth="64" opcode="dsub" nodeLabel="123.0" nodeLatency="4" m_display="0" m_delay="6.91" m_topoIndex="37" m_clusterGroupNumber="-1">
+      <inlineStackInfo fileName="/wrk/ci/prod/2020.2/rdi_builds/continuous/2020_11_18_3064766/src/shared/hls/clib/hlsmath/include/FloatingPoint/hls_asin_acos.h" linenumber="145" fileDirectory="/wrk/ci/prod/2020.2/rdi_builds/continuous/2020_11_18_3064766/src/shared" functionName="generic_acos&amp;lt;double&amp;gt;"/>
+      <dataInputObjs>call</dataInputObjs>
+      <dataOutputObjs>fptrunc</dataOutputObjs>
+      <constName>empty</constName>
+    </node_objs>
+    <node_objs xsi:type="cdfg:CdfgNode" id="80" name="phi_3" lineNumber="30" originalName="phi_3" fileName="../cpp/inversekinematics.cpp" fileDirectory=".." rtlName="fptrunc_64ns_32_2_no_dsp_1_U59" opType="fptrunc" coreId="1869377390" contextFuncName="inversekinematics" bitwidth="32" opcode="fptrunc" nodeLabel="128.0" nodeLatency="1" m_display="0" m_delay="3.32" m_topoIndex="39" m_clusterGroupNumber="-1">
+      <inlineStackInfo fileName="../cpp/inversekinematics.cpp" linenumber="30" fileDirectory="/home/gabris/Documents/inversekinematics" functionName="inversekinematics"/>
+      <dataInputObjs>dsub</dataInputObjs>
+      <dataOutputObjs>fmul</dataOutputObjs>
+    </node_objs>
+    <node_objs xsi:type="cdfg:CdfgNode" id="81" name="mul2" lineNumber="32" fileName="../cpp/inversekinematics.cpp" fileDirectory=".." rtlName="fmul_32ns_32ns_32_4_max_dsp_1_U58" coreName="FMul_maxdsp" implIndex="maxdsp" control="auto" opType="fmul" coreId="30" contextFuncName="inversekinematics" bitwidth="32" opcode="fmul" nodeLabel="130.0" nodeLatency="3" m_display="0" m_delay="4.67" m_topoIndex="41" m_clusterGroupNumber="-1">
+      <inlineStackInfo fileName="../cpp/inversekinematics.cpp" linenumber="32" fileDirectory="/home/gabris/Documents/inversekinematics" functionName="inversekinematics"/>
+      <dataInputObjs>fptrunc</dataInputObjs>
+      <dataOutputObjs>fsub</dataOutputObjs>
+      <constName>empty</constName>
+    </node_objs>
+    <node_objs xsi:type="cdfg:CdfgNode" id="82" name="theta_2" lineNumber="32" originalName="theta_2" fileName="../cpp/inversekinematics.cpp" fileDirectory=".." rtlName="fsub_32ns_32ns_32_5_full_dsp_1_U56" coreName="FAddSub_fulldsp" implIndex="fulldsp" control="auto" opType="fsub" coreId="18" contextFuncName="inversekinematics" bitwidth="32" opcode="fsub" nodeLabel="134.0" nodeLatency="4" m_display="0" m_delay="6.01" m_topoIndex="45" m_clusterGroupNumber="-1">
+      <inlineStackInfo fileName="../cpp/inversekinematics.cpp" linenumber="32" fileDirectory="/home/gabris/Documents/inversekinematics" functionName="inversekinematics"/>
+      <dataInputObjs>fmul</dataInputObjs>
+      <dataOutputObjs>bitcast</dataOutputObjs>
+      <constName>empty</constName>
+    </node_objs>
+    <node_objs xsi:type="cdfg:CdfgNode" id="83" name="bitcast_ln35" lineNumber="35" fileName="../cpp/inversekinematics.cpp" fileDirectory=".." rtlName="bitcast_ln35_fu_374_p1" coreId="1717924464" contextFuncName="inversekinematics" bitwidth="32" opcode="bitcast" nodeLabel="133.0" m_display="0" m_topoIndex="42" m_clusterGroupNumber="-1">
+      <inlineStackInfo fileName="../cpp/inversekinematics.cpp" linenumber="35" fileDirectory="/home/gabris/Documents/inversekinematics" functionName="inversekinematics"/>
+      <dataInputObjs>fmul</dataInputObjs>
+      <dataOutputObjs>store</dataOutputObjs>
+    </node_objs>
+    <node_objs xsi:type="cdfg:CdfgNode" id="84" name="dout_addr" lineNumber="35" fileName="../cpp/inversekinematics.cpp" fileDirectory=".." coreId="1031369833" contextFuncName="inversekinematics" bitwidth="11" opcode="getelementptr" nodeLabel="133.0" m_display="0" m_topoIndex="43" m_clusterGroupNumber="-1">
+      <inlineStackInfo fileName="../cpp/inversekinematics.cpp" linenumber="35" fileDirectory="/home/gabris/Documents/inversekinematics" functionName="inversekinematics"/>
+      <dataOutputObjs>dout</dataOutputObjs>
+      <dataOutputObjs>store</dataOutputObjs>
+      <constName>empty</constName>
+    </node_objs>
+    <node_objs xsi:type="cdfg:CdfgNode" id="85" name="dout_addr_write_ln35" lineNumber="35" fileName="../cpp/inversekinematics.cpp" fileDirectory=".." coreName="RAM" implIndex="auto" control="auto" opType="ram" coreId="83" contextFuncName="inversekinematics" opcode="store" nodeLabel="133.0" m_display="0" m_delay="1.35" m_topoIndex="44" m_clusterGroupNumber="-1">
+      <inlineStackInfo fileName="../cpp/inversekinematics.cpp" linenumber="35" fileDirectory="/home/gabris/Documents/inversekinematics" functionName="inversekinematics"/>
+      <dataInputObjs>bitcast</dataInputObjs>
+      <dataInputObjs>getelementptr</dataInputObjs>
+    </node_objs>
+    <node_objs xsi:type="cdfg:CdfgNode" id="86" name="bitcast_ln36" lineNumber="36" fileName="../cpp/inversekinematics.cpp" fileDirectory=".." rtlName="bitcast_ln36_fu_379_p1" coreId="1598312009" contextFuncName="inversekinematics" bitwidth="32" opcode="bitcast" nodeLabel="139.0" m_display="0" m_topoIndex="46" m_clusterGroupNumber="-1">
+      <inlineStackInfo fileName="../cpp/inversekinematics.cpp" linenumber="36" fileDirectory="/home/gabris/Documents/inversekinematics" functionName="inversekinematics"/>
+      <dataInputObjs>fsub</dataInputObjs>
+      <dataOutputObjs>store</dataOutputObjs>
+    </node_objs>
+    <node_objs xsi:type="cdfg:CdfgNode" id="87" name="dout_addr_1" lineNumber="36" fileName="../cpp/inversekinematics.cpp" fileDirectory=".." coreId="757935405" contextFuncName="inversekinematics" bitwidth="11" opcode="getelementptr" nodeLabel="139.0" m_display="0" m_topoIndex="47" m_clusterGroupNumber="-1">
+      <inlineStackInfo fileName="../cpp/inversekinematics.cpp" linenumber="36" fileDirectory="/home/gabris/Documents/inversekinematics" functionName="inversekinematics"/>
+      <dataOutputObjs>dout</dataOutputObjs>
+      <dataOutputObjs>store</dataOutputObjs>
+      <constName>empty</constName>
+    </node_objs>
+    <node_objs xsi:type="cdfg:CdfgNode" id="88" name="dout_addr_1_write_ln36" lineNumber="36" fileName="../cpp/inversekinematics.cpp" fileDirectory=".." coreName="RAM" implIndex="auto" control="auto" opType="ram" coreId="83" contextFuncName="inversekinematics" opcode="store" nodeLabel="139.0" m_display="0" m_delay="1.35" m_topoIndex="48" m_clusterGroupNumber="-1">
+      <inlineStackInfo fileName="../cpp/inversekinematics.cpp" linenumber="36" fileDirectory="/home/gabris/Documents/inversekinematics" functionName="inversekinematics"/>
+      <dataInputObjs>bitcast</dataInputObjs>
+      <dataInputObjs>getelementptr</dataInputObjs>
+    </node_objs>
+    <node_objs xsi:type="cdfg:CdfgNode" id="89" name="_ln38" lineNumber="38" fileName="../cpp/inversekinematics.cpp" fileDirectory=".." coreId="1314214434" contextFuncName="inversekinematics" opcode="ret" nodeLabel="139.0" m_display="0" m_topoIndex="49" m_clusterGroupNumber="-1">
+      <inlineStackInfo fileName="../cpp/inversekinematics.cpp" linenumber="38" fileDirectory="/home/gabris/Documents/inversekinematics" functionName="inversekinematics"/>
+    </node_objs>
+    <fileValidLineNumbers fileName="/wrk/ci/prod/2020.2/rdi_builds/continuous/2020_11_18_3064766/src/shared/hls/clib/hlsmath/src/c/powdouble.cpp">
+      <validLinenumbers>7</validLinenumbers>
+    </fileValidLineNumbers>
+    <fileValidLineNumbers fileName="../cpp/inversekinematics.cpp">
+      <validLinenumbers>23</validLinenumbers>
+      <validLinenumbers>25</validLinenumbers>
+      <validLinenumbers>26</validLinenumbers>
+      <validLinenumbers>28</validLinenumbers>
+      <validLinenumbers>30</validLinenumbers>
+      <validLinenumbers>32</validLinenumbers>
+      <validLinenumbers>35</validLinenumbers>
+      <validLinenumbers>36</validLinenumbers>
+      <validLinenumbers>38</validLinenumbers>
+    </fileValidLineNumbers>
+    <fileValidLineNumbers fileName="/wrk/ci/prod/2020.2/rdi_builds/continuous/2020_11_18_3064766/src/shared/hls/clib/hlsmath/include/FloatingPoint/hls_asin_acos.h">
+      <validLinenumbers>145</validLinenumbers>
+    </fileValidLineNumbers>
+    <fileValidLineNumbers fileName="/wrk/ci/prod/2020.2/rdi_builds/continuous/2020_11_18_3064766/src/shared/hls/clib/hlsmath/src/c/atan2double.cpp">
+      <validLinenumbers>7</validLinenumbers>
+    </fileValidLineNumbers>
+  </blocks>
+  <regions anchor_node="-1" region_type="8" interval="1" typeName="Pipeline" id="746" pipe_depth="2" RegionName="VITIS_LOOP_15_1">
+    <basic_blocks id="45" name="block_45" type="BlockType">
+      <controlInputObjs>block_36</controlInputObjs>
+      <controlInputObjs>.split</controlInputObjs>
+      <controlOutputObjs>br</controlOutputObjs>
+      <controlOutputObjs>br</controlOutputObjs>
+      <controlOutputObjs>block_90</controlOutputObjs>
+      <controlOutputObjs>.split</controlOutputObjs>
+      <node_objs xsi:type="cdfg:CdfgNode" id="37" name="y" originalName="y" coreId="35" bitwidth="32" opcode="phi" nodeLabel="2.0" m_display="0" m_topoIndex="2" m_clusterGroupNumber="-1">
+        <dataInputObjs>select</dataInputObjs>
+        <dataOutputObjs>select</dataOutputObjs>
+        <dataOutputObjs>fpext</dataOutputObjs>
+        <controlInputObjs>block_36</controlInputObjs>
+        <controlInputObjs>.split</controlInputObjs>
+        <constName>empty</constName>
+      </node_objs>
+      <node_objs xsi:type="cdfg:CdfgNode" id="38" name="x" originalName="din_[1]" coreId="261" bitwidth="32" opcode="phi" nodeLabel="2.0" m_display="0" m_topoIndex="3" m_clusterGroupNumber="-1">
+        <dataInputObjs>select</dataInputObjs>
+        <dataOutputObjs>select</dataOutputObjs>
+        <dataOutputObjs>fpext</dataOutputObjs>
+        <controlInputObjs>block_36</controlInputObjs>
+        <controlInputObjs>.split</controlInputObjs>
+        <constName>empty</constName>
+      </node_objs>
+      <node_objs xsi:type="cdfg:CdfgNode" id="39" name="i" lineNumber="15" originalName="i" fileName="../cpp/inversekinematics.cpp" fileDirectory=".." coreId="2" contextFuncName="inversekinematics" bitwidth="2" opcode="phi" nodeLabel="1.0" m_display="0" m_topoIndex="4" m_clusterGroupNumber="-1">
+        <inlineStackInfo fileName="../cpp/inversekinematics.cpp" linenumber="15" fileDirectory="/home/gabris/Documents/inversekinematics" functionName="inversekinematics"/>
+        <dataInputObjs>add</dataInputObjs>
+        <dataOutputObjs>add</dataOutputObjs>
+        <dataOutputObjs>icmp</dataOutputObjs>
+        <dataOutputObjs>zext</dataOutputObjs>
+        <dataOutputObjs>trunc</dataOutputObjs>
+        <controlInputObjs>block_36</controlInputObjs>
+        <controlInputObjs>.split</controlInputObjs>
+        <constName>empty</constName>
+      </node_objs>
+      <node_objs xsi:type="cdfg:CdfgNode" id="40" name="add_ln15" lineNumber="15" fileName="../cpp/inversekinematics.cpp" fileDirectory=".." rtlName="add_ln15_fu_335_p2" coreName="Adder" implIndex="fabric" control="auto" opType="add" coreId="1" contextFuncName="inversekinematics" bitwidth="2" opcode="add" nodeLabel="1.0" m_display="0" m_delay="0.62" m_topoIndex="5" m_clusterGroupNumber="-1">
+        <inlineStackInfo fileName="../cpp/inversekinematics.cpp" linenumber="15" fileDirectory="/home/gabris/Documents/inversekinematics" functionName="inversekinematics"/>
+        <dataInputObjs>phi</dataInputObjs>
+        <dataOutputObjs>phi</dataOutputObjs>
+        <constName>empty</constName>
+      </node_objs>
+      <node_objs xsi:type="cdfg:CdfgNode" id="42" name="icmp_ln15" lineNumber="15" fileName="../cpp/inversekinematics.cpp" fileDirectory=".." rtlName="icmp_ln15_fu_341_p2" opType="icmp" coreId="18273" contextFuncName="inversekinematics" bitwidth="1" opcode="icmp" nodeLabel="1.0" m_display="0" m_delay="0.51" m_topoIndex="6" m_clusterGroupNumber="-1">
+        <inlineStackInfo fileName="../cpp/inversekinematics.cpp" linenumber="15" fileDirectory="/home/gabris/Documents/inversekinematics" functionName="inversekinematics"/>
+        <dataInputObjs>phi</dataInputObjs>
+        <dataOutputObjs>br</dataOutputObjs>
+        <constName>empty</constName>
+      </node_objs>
+      <node_objs xsi:type="cdfg:CdfgNode" id="44" name="br_ln15" lineNumber="15" fileName="../cpp/inversekinematics.cpp" fileDirectory=".." coreId="339" contextFuncName="inversekinematics" opcode="br" nodeLabel="1.0" m_display="0" m_topoIndex="7" m_clusterGroupNumber="-1">
+        <inlineStackInfo fileName="../cpp/inversekinematics.cpp" linenumber="15" fileDirectory="/home/gabris/Documents/inversekinematics" functionName="inversekinematics"/>
+        <dataInputObjs>icmp</dataInputObjs>
+        <controlInputObjs>.split</controlInputObjs>
+        <controlInputObjs>block_90</controlInputObjs>
+      </node_objs>
+      <fileValidLineNumbers fileName="../cpp/inversekinematics.cpp">
+        <validLinenumbers>15</validLinenumbers>
+      </fileValidLineNumbers>
+    </basic_blocks>
+    <basic_blocks id="55" name=".split" type="BlockType">
+      <controlInputObjs>block_45</controlInputObjs>
+      <controlOutputObjs>phi</controlOutputObjs>
+      <controlOutputObjs>phi</controlOutputObjs>
+      <controlOutputObjs>phi</controlOutputObjs>
+      <controlOutputObjs>br</controlOutputObjs>
+      <controlOutputObjs>block_45</controlOutputObjs>
+      <node_objs xsi:type="cdfg:CdfgNode" id="46" name="i_cast" lineNumber="15" fileName="../cpp/inversekinematics.cpp" fileDirectory=".." rtlName="i_cast_fu_347_p1" coreId="0" contextFuncName="inversekinematics" bitwidth="64" opcode="zext" nodeLabel="1.0" m_display="0" m_topoIndex="8" m_clusterGroupNumber="-1">
+        <inlineStackInfo fileName="../cpp/inversekinematics.cpp" linenumber="15" fileDirectory="/home/gabris/Documents/inversekinematics" functionName="inversekinematics"/>
+        <dataInputObjs>phi</dataInputObjs>
+        <dataOutputObjs>getelementptr</dataOutputObjs>
+      </node_objs>
+      <node_objs xsi:type="cdfg:CdfgNode" id="48" name="din_addr" lineNumber="16" fileName="../cpp/inversekinematics.cpp" fileDirectory=".." coreId="0" contextFuncName="inversekinematics" bitwidth="11" opcode="getelementptr" nodeLabel="1.0" m_display="0" m_topoIndex="9" m_clusterGroupNumber="-1">
+        <inlineStackInfo fileName="../cpp/inversekinematics.cpp" linenumber="16" fileDirectory="/home/gabris/Documents/inversekinematics" functionName="inversekinematics"/>
+        <dataInputObjs>din</dataInputObjs>
+        <dataInputObjs>zext</dataInputObjs>
+        <dataOutputObjs>load</dataOutputObjs>
+        <constName>empty</constName>
+      </node_objs>
+      <node_objs xsi:type="cdfg:CdfgNode" id="49" name="din_load" lineNumber="16" fileName="../cpp/inversekinematics.cpp" fileDirectory=".." coreName="RAM" implIndex="auto" control="auto" opType="ram" coreId="83" contextFuncName="inversekinematics" bitwidth="32" opcode="load" nodeLabel="1.0" nodeLatency="1" m_display="0" m_delay="1.35" m_topoIndex="10" m_clusterGroupNumber="-1">
+        <inlineStackInfo fileName="../cpp/inversekinematics.cpp" linenumber="16" fileDirectory="/home/gabris/Documents/inversekinematics" functionName="inversekinematics"/>
+        <dataInputObjs>getelementptr</dataInputObjs>
+        <dataOutputObjs>bitcast</dataOutputObjs>
+      </node_objs>
+      <node_objs xsi:type="cdfg:CdfgNode" id="50" name="din_0" lineNumber="16" originalName="din_[0]" fileName="../cpp/inversekinematics.cpp" fileDirectory=".." rtlName="din_0_fu_356_p1" coreId="145" contextFuncName="inversekinematics" bitwidth="32" opcode="bitcast" nodeLabel="2.0" m_display="0" m_topoIndex="12" m_clusterGroupNumber="-1">
+        <inlineStackInfo fileName="../cpp/inversekinematics.cpp" linenumber="16" fileDirectory="/home/gabris/Documents/inversekinematics" functionName="inversekinematics"/>
+        <dataInputObjs>load</dataInputObjs>
+        <dataOutputObjs>select</dataOutputObjs>
+        <dataOutputObjs>select</dataOutputObjs>
+      </node_objs>
+      <node_objs xsi:type="cdfg:CdfgNode" id="51" name="trunc_ln16" lineNumber="16" fileName="../cpp/inversekinematics.cpp" fileDirectory=".." rtlName="trunc_ln16_fu_352_p1" coreId="0" contextFuncName="inversekinematics" bitwidth="1" opcode="trunc" nodeLabel="1.0" m_display="0" m_topoIndex="11" m_clusterGroupNumber="-1">
+        <inlineStackInfo fileName="../cpp/inversekinematics.cpp" linenumber="16" fileDirectory="/home/gabris/Documents/inversekinematics" functionName="inversekinematics"/>
+        <dataInputObjs>phi</dataInputObjs>
+        <dataOutputObjs>select</dataOutputObjs>
+        <dataOutputObjs>select</dataOutputObjs>
+      </node_objs>
+      <node_objs xsi:type="cdfg:CdfgNode" id="52" name="y_1" lineNumber="16" originalName="y" fileName="../cpp/inversekinematics.cpp" fileDirectory=".." rtlName="y_1_fu_360_p3" coreName="Sel" implIndex="auto_sel" control="auto" opType="select" coreId="73" contextFuncName="inversekinematics" bitwidth="32" opcode="select" nodeLabel="2.0" m_display="0" m_delay="0.52" m_topoIndex="13" m_clusterGroupNumber="-1">
+        <inlineStackInfo fileName="../cpp/inversekinematics.cpp" linenumber="16" fileDirectory="/home/gabris/Documents/inversekinematics" functionName="inversekinematics"/>
+        <dataInputObjs>trunc</dataInputObjs>
+        <dataInputObjs>bitcast</dataInputObjs>
+        <dataInputObjs>phi</dataInputObjs>
+        <dataOutputObjs>phi</dataOutputObjs>
+      </node_objs>
+      <node_objs xsi:type="cdfg:CdfgNode" id="53" name="din_1_1" lineNumber="16" originalName="din_[1]" fileName="../cpp/inversekinematics.cpp" fileDirectory=".." rtlName="din_1_1_fu_367_p3" coreName="Sel" implIndex="auto_sel" control="auto" opType="select" coreId="73" contextFuncName="inversekinematics" bitwidth="32" opcode="select" nodeLabel="2.0" m_display="0" m_delay="0.52" m_topoIndex="14" m_clusterGroupNumber="-1">
+        <inlineStackInfo fileName="../cpp/inversekinematics.cpp" linenumber="16" fileDirectory="/home/gabris/Documents/inversekinematics" functionName="inversekinematics"/>
+        <dataInputObjs>trunc</dataInputObjs>
+        <dataInputObjs>phi</dataInputObjs>
+        <dataInputObjs>bitcast</dataInputObjs>
+        <dataOutputObjs>phi</dataOutputObjs>
+      </node_objs>
+      <node_objs xsi:type="cdfg:CdfgNode" id="54" name="br_ln0" coreId="145" opcode="br" nodeLabel="2.0" m_display="0" m_topoIndex="15" m_clusterGroupNumber="-1">
+        <controlInputObjs>block_45</controlInputObjs>
+      </node_objs>
+      <fileValidLineNumbers fileName="../cpp/inversekinematics.cpp">
+        <validLinenumbers>15</validLinenumbers>
+        <validLinenumbers>16</validLinenumbers>
+      </fileValidLineNumbers>
+    </basic_blocks>
+  </regions>
+  <ScheduleInfo time="0"/>
+  <ScheduleInfo time="1"/>
+  <ScheduleInfo time="2"/>
+  <ScheduleInfo time="3"/>
+  <ScheduleInfo time="4"/>
+  <ScheduleInfo time="5"/>
+  <ScheduleInfo time="6"/>
+  <ScheduleInfo time="7"/>
+  <ScheduleInfo time="8"/>
+  <ScheduleInfo time="9"/>
+  <ScheduleInfo time="10"/>
+  <ScheduleInfo time="11"/>
+  <ScheduleInfo time="12"/>
+  <ScheduleInfo time="13"/>
+  <ScheduleInfo time="14"/>
+  <ScheduleInfo time="15"/>
+  <ScheduleInfo time="16"/>
+  <ScheduleInfo time="17"/>
+  <ScheduleInfo time="18"/>
+  <ScheduleInfo time="19"/>
+  <ScheduleInfo time="20"/>
+  <ScheduleInfo time="21"/>
+  <ScheduleInfo time="22"/>
+  <ScheduleInfo time="23"/>
+  <ScheduleInfo time="24"/>
+  <ScheduleInfo time="25"/>
+  <ScheduleInfo time="26"/>
+  <ScheduleInfo time="27"/>
+  <ScheduleInfo time="28"/>
+  <ScheduleInfo time="29"/>
+  <ScheduleInfo time="30"/>
+  <ScheduleInfo time="31"/>
+  <ScheduleInfo time="32"/>
+  <ScheduleInfo time="33"/>
+  <ScheduleInfo time="34"/>
+  <ScheduleInfo time="35"/>
+  <ScheduleInfo time="36"/>
+  <ScheduleInfo time="37"/>
+  <ScheduleInfo time="38"/>
+  <ScheduleInfo time="39"/>
+  <ScheduleInfo time="40"/>
+  <ScheduleInfo time="41"/>
+  <ScheduleInfo time="42"/>
+  <ScheduleInfo time="43"/>
+  <ScheduleInfo time="44"/>
+  <ScheduleInfo time="45"/>
+  <ScheduleInfo time="46"/>
+  <ScheduleInfo time="47"/>
+  <ScheduleInfo time="48"/>
+  <ScheduleInfo time="49"/>
+  <ScheduleInfo time="50"/>
+  <ScheduleInfo time="51"/>
+  <ScheduleInfo time="52"/>
+  <ScheduleInfo time="53"/>
+  <ScheduleInfo time="54"/>
+  <ScheduleInfo time="55"/>
+  <ScheduleInfo time="56"/>
+  <ScheduleInfo time="57"/>
+  <ScheduleInfo time="58"/>
+  <ScheduleInfo time="59"/>
+  <ScheduleInfo time="60"/>
+  <ScheduleInfo time="61"/>
+  <ScheduleInfo time="62"/>
+  <ScheduleInfo time="63"/>
+  <ScheduleInfo time="64"/>
+  <ScheduleInfo time="65"/>
+  <ScheduleInfo time="66"/>
+  <ScheduleInfo time="67"/>
+  <ScheduleInfo time="68"/>
+  <ScheduleInfo time="69"/>
+  <ScheduleInfo time="70"/>
+  <ScheduleInfo time="71"/>
+  <ScheduleInfo time="72"/>
+  <ScheduleInfo time="73"/>
+  <ScheduleInfo time="74"/>
+  <ScheduleInfo time="75"/>
+  <ScheduleInfo time="76"/>
+  <ScheduleInfo time="77"/>
+  <ScheduleInfo time="78"/>
+  <ScheduleInfo time="79"/>
+  <ScheduleInfo time="80"/>
+  <ScheduleInfo time="81"/>
+  <ScheduleInfo time="82"/>
+  <ScheduleInfo time="83"/>
+  <ScheduleInfo time="84"/>
+  <ScheduleInfo time="85"/>
+  <ScheduleInfo time="86"/>
+  <ScheduleInfo time="87"/>
+  <ScheduleInfo time="88"/>
+  <ScheduleInfo time="89"/>
+  <ScheduleInfo time="90"/>
+  <ScheduleInfo time="91"/>
+  <ScheduleInfo time="92"/>
+  <ScheduleInfo time="93"/>
+  <ScheduleInfo time="94"/>
+  <ScheduleInfo time="95"/>
+  <ScheduleInfo time="96"/>
+  <ScheduleInfo time="97"/>
+  <ScheduleInfo time="98"/>
+  <ScheduleInfo time="99"/>
+  <ScheduleInfo time="100"/>
+  <ScheduleInfo time="101"/>
+  <ScheduleInfo time="102"/>
+  <ScheduleInfo time="103"/>
+  <ScheduleInfo time="104"/>
+  <ScheduleInfo time="105"/>
+  <ScheduleInfo time="106"/>
+  <ScheduleInfo time="107"/>
+  <ScheduleInfo time="108"/>
+  <ScheduleInfo time="109"/>
+  <ScheduleInfo time="110"/>
+  <ScheduleInfo time="111"/>
+  <ScheduleInfo time="112"/>
+  <ScheduleInfo time="113"/>
+  <ScheduleInfo time="114"/>
+  <ScheduleInfo time="115"/>
+  <ScheduleInfo time="116"/>
+  <ScheduleInfo time="117"/>
+  <ScheduleInfo time="118"/>
+  <ScheduleInfo time="119"/>
+  <ScheduleInfo time="120"/>
+  <ScheduleInfo time="121"/>
+  <ScheduleInfo time="122"/>
+  <ScheduleInfo time="123"/>
+  <ScheduleInfo time="124"/>
+  <ScheduleInfo time="125"/>
+  <ScheduleInfo time="126"/>
+  <ScheduleInfo time="127"/>
+  <ScheduleInfo time="128"/>
+  <ScheduleInfo time="129"/>
+  <ScheduleInfo time="130"/>
+  <ScheduleInfo time="131"/>
+  <ScheduleInfo time="132"/>
+  <ScheduleInfo time="133"/>
+  <ScheduleInfo time="134"/>
+  <ScheduleInfo time="135"/>
+  <ScheduleInfo time="136"/>
+  <ScheduleInfo time="137"/>
+  <ScheduleInfo time="138"/>
+  <ScheduleInfo time="139"/>
+  <regnodes realName="tmp_2_reg_457">
+    <nodeIds>71</nodeIds>
+  </regnodes>
+  <regnodes realName="y_1_reg_404">
+    <nodeIds>52</nodeIds>
+  </regnodes>
+  <regnodes realName="sub3_reg_452">
+    <nodeIds>76</nodeIds>
+  </regnodes>
+  <regnodes realName="x_assign_reg_414">
+    <nodeIds>56</nodeIds>
+  </regnodes>
+  <regnodes realName="phi_1_reg_462">
+    <nodeIds>70</nodeIds>
+  </regnodes>
+  <regnodes realName="x_assign_5_reg_420">
+    <nodeIds>58</nodeIds>
+  </regnodes>
+  <regnodes realName="i_reg_158">
+    <nodeIds>39</nodeIds>
+  </regnodes>
+  <regnodes realName="din_1_1_reg_409">
+    <nodeIds>53</nodeIds>
+  </regnodes>
+  <regnodes realName="tmp_s_reg_426">
+    <nodeIds>59</nodeIds>
+  </regnodes>
+  <regnodes realName="reg_299">
+    <nodeIds>57</nodeIds>
+    <nodeIds>64</nodeIds>
+  </regnodes>
+  <regnodes realName="reg_330">
+    <nodeIds>73</nodeIds>
+    <nodeIds>82</nodeIds>
+  </regnodes>
+  <regnodes realName="trunc_ln16_reg_398">
+    <nodeIds>51</nodeIds>
+  </regnodes>
+  <regnodes realName="mul_reg_442">
+    <nodeIds>66</nodeIds>
+  </regnodes>
+  <regnodes realName="x_reg_146">
+    <nodeIds>38</nodeIds>
+  </regnodes>
+  <regnodes realName="reg_313">
+    <nodeIds>62</nodeIds>
+    <nodeIds>72</nodeIds>
+    <nodeIds>80</nodeIds>
+  </regnodes>
+  <regnodes realName="tmp_8_reg_431">
+    <nodeIds>61</nodeIds>
+  </regnodes>
+  <regnodes realName="sub2_reg_447">
+    <nodeIds>75</nodeIds>
+  </regnodes>
+  <regnodes realName="icmp_ln15_reg_389">
+    <nodeIds>42</nodeIds>
+  </regnodes>
+  <regnodes realName="mul2_reg_467">
+    <nodeIds>81</nodeIds>
+  </regnodes>
+  <regnodes realName="din_addr_reg_393">
+    <nodeIds>48</nodeIds>
+  </regnodes>
+  <regnodes realName="reg_320">
+    <nodeIds>67</nodeIds>
+    <nodeIds>77</nodeIds>
+  </regnodes>
+  <regnodes realName="x_assign_2_reg_436">
+    <nodeIds>63</nodeIds>
+  </regnodes>
+  <regnodes realName="reg_306">
+    <nodeIds>60</nodeIds>
+    <nodeIds>65</nodeIds>
+    <nodeIds>69</nodeIds>
+    <nodeIds>79</nodeIds>
+  </regnodes>
+  <regnodes realName="add_ln15_reg_384">
+    <nodeIds>40</nodeIds>
+  </regnodes>
+  <regnodes realName="reg_325">
+    <nodeIds>68</nodeIds>
+    <nodeIds>78</nodeIds>
+  </regnodes>
+  <regnodes realName="y_reg_134">
+    <nodeIds>37</nodeIds>
+  </regnodes>
+  <expressionNodes realName="i_cast_fu_347">
+    <nodeIds>46</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="y_phi_fu_138">
+    <nodeIds>37</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="i_phi_fu_162">
+    <nodeIds>39</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="y_1_fu_360">
+    <nodeIds>52</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="din_1_1_fu_367">
+    <nodeIds>53</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="din_addr_gep_fu_98">
+    <nodeIds>48</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="bitcast_ln36_fu_379">
+    <nodeIds>86</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="bitcast_ln35_fu_374">
+    <nodeIds>83</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="dout_addr_1_gep_fu_125">
+    <nodeIds>87</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="icmp_ln15_fu_341">
+    <nodeIds>42</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="din_0_fu_356">
+    <nodeIds>50</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="dout_addr_gep_fu_111">
+    <nodeIds>84</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="trunc_ln16_fu_352">
+    <nodeIds>51</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="x_phi_fu_150">
+    <nodeIds>38</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="add_ln15_fu_335">
+    <nodeIds>40</nodeIds>
+  </expressionNodes>
+  <moduleNodes realName="grp_generic_asin_double_s_fu_235">
+    <nodeIds>68</nodeIds>
+    <nodeIds>78</nodeIds>
+  </moduleNodes>
+  <moduleNodes realName="grp_pow_generic_double_s_fu_169">
+    <nodeIds>57</nodeIds>
+    <nodeIds>64</nodeIds>
+  </moduleNodes>
+  <moduleNodes realName="grp_pow_generic_double_s_fu_198">
+    <nodeIds>59</nodeIds>
+  </moduleNodes>
+  <moduleNodes realName="grp_atan2_cordic_double_s_fu_227">
+    <nodeIds>71</nodeIds>
+  </moduleNodes>
+  <moduleNodes realName="grp_fu_261">
+    <nodeIds>56</nodeIds>
+    <nodeIds>63</nodeIds>
+  </moduleNodes>
+  <moduleNodes realName="grp_fu_272">
+    <nodeIds>60</nodeIds>
+    <nodeIds>65</nodeIds>
+    <nodeIds>76</nodeIds>
+    <nodeIds>69</nodeIds>
+    <nodeIds>79</nodeIds>
+  </moduleNodes>
+  <moduleNodes realName="grp_fu_294">
+    <nodeIds>61</nodeIds>
+  </moduleNodes>
+  <moduleNodes realName="grp_fu_266">
+    <nodeIds>58</nodeIds>
+  </moduleNodes>
+  <moduleNodes realName="grp_fu_277">
+    <nodeIds>75</nodeIds>
+  </moduleNodes>
+  <moduleNodes realName="grp_fu_289">
+    <nodeIds>67</nodeIds>
+    <nodeIds>77</nodeIds>
+  </moduleNodes>
+  <moduleNodes realName="grp_fu_257">
+    <nodeIds>62</nodeIds>
+    <nodeIds>72</nodeIds>
+    <nodeIds>70</nodeIds>
+    <nodeIds>80</nodeIds>
+  </moduleNodes>
+  <moduleNodes realName="grp_fu_247">
+    <nodeIds>74</nodeIds>
+  </moduleNodes>
+  <moduleNodes realName="grp_fu_284">
+    <nodeIds>66</nodeIds>
+  </moduleNodes>
+  <moduleNodes realName="grp_fu_252">
+    <nodeIds>81</nodeIds>
+  </moduleNodes>
+  <moduleNodes realName="grp_fu_242">
+    <nodeIds>73</nodeIds>
+    <nodeIds>82</nodeIds>
+  </moduleNodes>
+  <memoryPorts dataString="cordic_apfixed_circ_table_arctan_128_V" portID="100">
+    <nodeIds>68</nodeIds>
+    <nodeIds>78</nodeIds>
+  </memoryPorts>
+  <memoryPorts dataString="cordic_ctab_table_128_V" portID="100">
+    <nodeIds>71</nodeIds>
+  </memoryPorts>
+  <memoryPorts dataString="din">
+    <nodeIds>49</nodeIds>
+  </memoryPorts>
+  <memoryPorts dataString="dout">
+    <nodeIds>85</nodeIds>
+    <nodeIds>88</nodeIds>
+  </memoryPorts>
+  <memoryPorts dataString="pow_reduce_anonymous_namespace_log0_lut_table_ap_fixed_121_12_ap_q_mode_5_ap_o_mode_3_0_double_0_5_64_array_V" portID="100">
+    <nodeIds>57</nodeIds>
+    <nodeIds>59</nodeIds>
+    <nodeIds>64</nodeIds>
+  </memoryPorts>
+  <memoryPorts dataString="pow_reduce_anonymous_namespace_log_inverse_lut_table_pow_0_5_64_array_V" portID="100">
+    <nodeIds>57</nodeIds>
+    <nodeIds>59</nodeIds>
+    <nodeIds>64</nodeIds>
+  </memoryPorts>
+  <memoryPorts dataString="pow_reduce_anonymous_namespace_log_lut_table_ap_fixed_121_12_ap_q_mode_5_ap_o_mode_3_0_12_6_64_array_V" portID="100">
+    <nodeIds>57</nodeIds>
+    <nodeIds>59</nodeIds>
+    <nodeIds>64</nodeIds>
+  </memoryPorts>
+  <memoryPorts dataString="pow_reduce_anonymous_namespace_log_lut_table_ap_fixed_121_12_ap_q_mode_5_ap_o_mode_3_0_17_6_64_array_V" portID="100">
+    <nodeIds>57</nodeIds>
+    <nodeIds>59</nodeIds>
+    <nodeIds>64</nodeIds>
+  </memoryPorts>
+  <memoryPorts dataString="pow_reduce_anonymous_namespace_log_lut_table_ap_fixed_121_12_ap_q_mode_5_ap_o_mode_3_0_22_6_64_array_V" portID="100">
+    <nodeIds>57</nodeIds>
+    <nodeIds>59</nodeIds>
+    <nodeIds>64</nodeIds>
+  </memoryPorts>
+  <memoryPorts dataString="pow_reduce_anonymous_namespace_log_lut_table_ap_fixed_121_12_ap_q_mode_5_ap_o_mode_3_0_27_6_64_array_V" portID="100">
+    <nodeIds>57</nodeIds>
+    <nodeIds>59</nodeIds>
+    <nodeIds>64</nodeIds>
+  </memoryPorts>
+  <memoryPorts dataString="pow_reduce_anonymous_namespace_log_lut_table_ap_fixed_121_12_ap_q_mode_5_ap_o_mode_3_0_32_6_64_array_V" portID="100">
+    <nodeIds>57</nodeIds>
+    <nodeIds>59</nodeIds>
+    <nodeIds>64</nodeIds>
+  </memoryPorts>
+  <memoryPorts dataString="pow_reduce_anonymous_namespace_log_lut_table_ap_fixed_121_12_ap_q_mode_5_ap_o_mode_3_0_4_4_16_array_V" portID="100">
+    <nodeIds>57</nodeIds>
+    <nodeIds>59</nodeIds>
+    <nodeIds>64</nodeIds>
+  </memoryPorts>
+  <memoryPorts dataString="pow_reduce_anonymous_namespace_log_lut_table_ap_fixed_121_12_ap_q_mode_5_ap_o_mode_3_0_7_6_64_array_V" portID="100">
+    <nodeIds>57</nodeIds>
+    <nodeIds>59</nodeIds>
+    <nodeIds>64</nodeIds>
+  </memoryPorts>
+  <memoryPorts dataString="pow_reduce_anonymous_namespace_table_exp_Z1_ap_ufixed_58_1_ap_q_mode_5_ap_o_mode_3_0_array_V" portID="100">
+    <nodeIds>57</nodeIds>
+    <nodeIds>59</nodeIds>
+    <nodeIds>64</nodeIds>
+  </memoryPorts>
+  <memoryPorts dataString="pow_reduce_anonymous_namespace_table_f_Z2_ap_ufixed_59_0_ap_q_mode_5_ap_o_mode_3_0_array_V" portID="100">
+    <nodeIds>57</nodeIds>
+    <nodeIds>59</nodeIds>
+    <nodeIds>64</nodeIds>
+  </memoryPorts>
+  <memoryPorts dataString="pow_reduce_anonymous_namespace_table_f_Z3_ap_ufixed_59_0_ap_q_mode_5_ap_o_mode_3_0_array_V" portID="100">
+    <nodeIds>57</nodeIds>
+    <nodeIds>59</nodeIds>
+    <nodeIds>64</nodeIds>
+  </memoryPorts>
+  <ioPorts name="din(p0)">
+    <contents name="load">
+      <nodeIds>49</nodeIds>
+    </contents>
+  </ioPorts>
+  <ioPorts name="dout(p0)">
+    <contents name="store">
+      <nodeIds>85</nodeIds>
+      <nodeIds>88</nodeIds>
+    </contents>
+  </ioPorts>
+  <fsm>
+    <states id="1">
+      <operations id="30" stage="1" latency="1"/>
+      <operations id="31" stage="1" latency="1"/>
+      <operations id="32" stage="1" latency="1"/>
+      <operations id="33" stage="1" latency="1"/>
+      <operations id="34" stage="1" latency="1"/>
+      <operations id="35" stage="1" latency="1"/>
+    </states>
+    <states id="2">
+      <operations id="37" stage="1" latency="1"/>
+      <operations id="38" stage="1" latency="1"/>
+      <operations id="39" stage="1" latency="1"/>
+      <operations id="40" stage="1" latency="1"/>
+      <operations id="41" stage="1" latency="1"/>
+      <operations id="42" stage="1" latency="1"/>
+      <operations id="43" stage="1" latency="1"/>
+      <operations id="44" stage="1" latency="1"/>
+      <operations id="46" stage="1" latency="1"/>
+      <operations id="48" stage="1" latency="1"/>
+      <operations id="49" stage="2" latency="2"/>
+      <operations id="51" stage="1" latency="1"/>
+    </states>
+    <states id="3">
+      <operations id="47" stage="1" latency="1"/>
+      <operations id="49" stage="1" latency="2"/>
+      <operations id="50" stage="1" latency="1"/>
+      <operations id="52" stage="1" latency="1"/>
+      <operations id="53" stage="1" latency="1"/>
+      <operations id="54" stage="1" latency="1"/>
+    </states>
+    <states id="4">
+      <operations id="56" stage="2" latency="2"/>
+      <operations id="58" stage="2" latency="2"/>
+    </states>
+    <states id="5">
+      <operations id="56" stage="1" latency="2"/>
+      <operations id="57" stage="24" latency="24"/>
+      <operations id="58" stage="1" latency="2"/>
+      <operations id="59" stage="24" latency="24"/>
+    </states>
+    <states id="6">
+      <operations id="57" stage="23" latency="24"/>
+      <operations id="59" stage="23" latency="24"/>
+    </states>
+    <states id="7">
+      <operations id="57" stage="22" latency="24"/>
+      <operations id="59" stage="22" latency="24"/>
+    </states>
+    <states id="8">
+      <operations id="57" stage="21" latency="24"/>
+      <operations id="59" stage="21" latency="24"/>
+    </states>
+    <states id="9">
+      <operations id="57" stage="20" latency="24"/>
+      <operations id="59" stage="20" latency="24"/>
+    </states>
+    <states id="10">
+      <operations id="57" stage="19" latency="24"/>
+      <operations id="59" stage="19" latency="24"/>
+    </states>
+    <states id="11">
+      <operations id="57" stage="18" latency="24"/>
+      <operations id="59" stage="18" latency="24"/>
+    </states>
+    <states id="12">
+      <operations id="57" stage="17" latency="24"/>
+      <operations id="59" stage="17" latency="24"/>
+    </states>
+    <states id="13">
+      <operations id="57" stage="16" latency="24"/>
+      <operations id="59" stage="16" latency="24"/>
+    </states>
+    <states id="14">
+      <operations id="57" stage="15" latency="24"/>
+      <operations id="59" stage="15" latency="24"/>
+    </states>
+    <states id="15">
+      <operations id="57" stage="14" latency="24"/>
+      <operations id="59" stage="14" latency="24"/>
+    </states>
+    <states id="16">
+      <operations id="57" stage="13" latency="24"/>
+      <operations id="59" stage="13" latency="24"/>
+    </states>
+    <states id="17">
+      <operations id="57" stage="12" latency="24"/>
+      <operations id="59" stage="12" latency="24"/>
+    </states>
+    <states id="18">
+      <operations id="57" stage="11" latency="24"/>
+      <operations id="59" stage="11" latency="24"/>
+    </states>
+    <states id="19">
+      <operations id="57" stage="10" latency="24"/>
+      <operations id="59" stage="10" latency="24"/>
+    </states>
+    <states id="20">
+      <operations id="57" stage="9" latency="24"/>
+      <operations id="59" stage="9" latency="24"/>
+    </states>
+    <states id="21">
+      <operations id="57" stage="8" latency="24"/>
+      <operations id="59" stage="8" latency="24"/>
+    </states>
+    <states id="22">
+      <operations id="57" stage="7" latency="24"/>
+      <operations id="59" stage="7" latency="24"/>
+    </states>
+    <states id="23">
+      <operations id="57" stage="6" latency="24"/>
+      <operations id="59" stage="6" latency="24"/>
+    </states>
+    <states id="24">
+      <operations id="57" stage="5" latency="24"/>
+      <operations id="59" stage="5" latency="24"/>
+    </states>
+    <states id="25">
+      <operations id="57" stage="4" latency="24"/>
+      <operations id="59" stage="4" latency="24"/>
+    </states>
+    <states id="26">
+      <operations id="57" stage="3" latency="24"/>
+      <operations id="59" stage="3" latency="24"/>
+    </states>
+    <states id="27">
+      <operations id="57" stage="2" latency="24"/>
+      <operations id="59" stage="2" latency="24"/>
+    </states>
+    <states id="28">
+      <operations id="57" stage="1" latency="24"/>
+      <operations id="59" stage="1" latency="24"/>
+    </states>
+    <states id="29">
+      <operations id="60" stage="5" latency="5"/>
+    </states>
+    <states id="30">
+      <operations id="60" stage="4" latency="5"/>
+    </states>
+    <states id="31">
+      <operations id="60" stage="3" latency="5"/>
+    </states>
+    <states id="32">
+      <operations id="60" stage="2" latency="5"/>
+    </states>
+    <states id="33">
+      <operations id="60" stage="1" latency="5"/>
+    </states>
+    <states id="34">
+      <operations id="61" stage="30" latency="30"/>
+    </states>
+    <states id="35">
+      <operations id="61" stage="29" latency="30"/>
+    </states>
+    <states id="36">
+      <operations id="61" stage="28" latency="30"/>
+    </states>
+    <states id="37">
+      <operations id="61" stage="27" latency="30"/>
+    </states>
+    <states id="38">
+      <operations id="61" stage="26" latency="30"/>
+    </states>
+    <states id="39">
+      <operations id="61" stage="25" latency="30"/>
+    </states>
+    <states id="40">
+      <operations id="61" stage="24" latency="30"/>
+    </states>
+    <states id="41">
+      <operations id="61" stage="23" latency="30"/>
+    </states>
+    <states id="42">
+      <operations id="61" stage="22" latency="30"/>
+    </states>
+    <states id="43">
+      <operations id="61" stage="21" latency="30"/>
+    </states>
+    <states id="44">
+      <operations id="61" stage="20" latency="30"/>
+    </states>
+    <states id="45">
+      <operations id="61" stage="19" latency="30"/>
+    </states>
+    <states id="46">
+      <operations id="61" stage="18" latency="30"/>
+    </states>
+    <states id="47">
+      <operations id="61" stage="17" latency="30"/>
+    </states>
+    <states id="48">
+      <operations id="61" stage="16" latency="30"/>
+    </states>
+    <states id="49">
+      <operations id="61" stage="15" latency="30"/>
+    </states>
+    <states id="50">
+      <operations id="61" stage="14" latency="30"/>
+    </states>
+    <states id="51">
+      <operations id="61" stage="13" latency="30"/>
+    </states>
+    <states id="52">
+      <operations id="61" stage="12" latency="30"/>
+    </states>
+    <states id="53">
+      <operations id="61" stage="11" latency="30"/>
+    </states>
+    <states id="54">
+      <operations id="61" stage="10" latency="30"/>
+    </states>
+    <states id="55">
+      <operations id="61" stage="9" latency="30"/>
+    </states>
+    <states id="56">
+      <operations id="61" stage="8" latency="30"/>
+    </states>
+    <states id="57">
+      <operations id="61" stage="7" latency="30"/>
+    </states>
+    <states id="58">
+      <operations id="61" stage="6" latency="30"/>
+    </states>
+    <states id="59">
+      <operations id="61" stage="5" latency="30"/>
+    </states>
+    <states id="60">
+      <operations id="61" stage="4" latency="30"/>
+    </states>
+    <states id="61">
+      <operations id="61" stage="3" latency="30"/>
+    </states>
+    <states id="62">
+      <operations id="61" stage="2" latency="30"/>
+    </states>
+    <states id="63">
+      <operations id="61" stage="1" latency="30"/>
+    </states>
+    <states id="64">
+      <operations id="62" stage="2" latency="2"/>
+    </states>
+    <states id="65">
+      <operations id="62" stage="1" latency="2"/>
+      <operations id="63" stage="2" latency="2"/>
+    </states>
+    <states id="66">
+      <operations id="63" stage="1" latency="2"/>
+      <operations id="64" stage="24" latency="24"/>
+    </states>
+    <states id="67">
+      <operations id="64" stage="23" latency="24"/>
+    </states>
+    <states id="68">
+      <operations id="64" stage="22" latency="24"/>
+    </states>
+    <states id="69">
+      <operations id="64" stage="21" latency="24"/>
+    </states>
+    <states id="70">
+      <operations id="64" stage="20" latency="24"/>
+    </states>
+    <states id="71">
+      <operations id="64" stage="19" latency="24"/>
+    </states>
+    <states id="72">
+      <operations id="64" stage="18" latency="24"/>
+    </states>
+    <states id="73">
+      <operations id="64" stage="17" latency="24"/>
+    </states>
+    <states id="74">
+      <operations id="64" stage="16" latency="24"/>
+    </states>
+    <states id="75">
+      <operations id="64" stage="15" latency="24"/>
+    </states>
+    <states id="76">
+      <operations id="64" stage="14" latency="24"/>
+    </states>
+    <states id="77">
+      <operations id="64" stage="13" latency="24"/>
+    </states>
+    <states id="78">
+      <operations id="64" stage="12" latency="24"/>
+    </states>
+    <states id="79">
+      <operations id="64" stage="11" latency="24"/>
+    </states>
+    <states id="80">
+      <operations id="64" stage="10" latency="24"/>
+    </states>
+    <states id="81">
+      <operations id="64" stage="9" latency="24"/>
+    </states>
+    <states id="82">
+      <operations id="64" stage="8" latency="24"/>
+    </states>
+    <states id="83">
+      <operations id="64" stage="7" latency="24"/>
+    </states>
+    <states id="84">
+      <operations id="64" stage="6" latency="24"/>
+    </states>
+    <states id="85">
+      <operations id="64" stage="5" latency="24"/>
+    </states>
+    <states id="86">
+      <operations id="64" stage="4" latency="24"/>
+    </states>
+    <states id="87">
+      <operations id="64" stage="3" latency="24"/>
+    </states>
+    <states id="88">
+      <operations id="64" stage="2" latency="24"/>
+    </states>
+    <states id="89">
+      <operations id="64" stage="1" latency="24"/>
+      <operations id="66" stage="6" latency="6"/>
+    </states>
+    <states id="90">
+      <operations id="65" stage="5" latency="5"/>
+      <operations id="66" stage="5" latency="6"/>
+      <operations id="75" stage="5" latency="5"/>
+    </states>
+    <states id="91">
+      <operations id="65" stage="4" latency="5"/>
+      <operations id="66" stage="4" latency="6"/>
+      <operations id="75" stage="4" latency="5"/>
+    </states>
+    <states id="92">
+      <operations id="65" stage="3" latency="5"/>
+      <operations id="66" stage="3" latency="6"/>
+      <operations id="75" stage="3" latency="5"/>
+    </states>
+    <states id="93">
+      <operations id="65" stage="2" latency="5"/>
+      <operations id="66" stage="2" latency="6"/>
+      <operations id="75" stage="2" latency="5"/>
+    </states>
+    <states id="94">
+      <operations id="65" stage="1" latency="5"/>
+      <operations id="66" stage="1" latency="6"/>
+      <operations id="75" stage="1" latency="5"/>
+    </states>
+    <states id="95">
+      <operations id="67" stage="22" latency="22"/>
+      <operations id="76" stage="5" latency="5"/>
+    </states>
+    <states id="96">
+      <operations id="67" stage="21" latency="22"/>
+      <operations id="76" stage="4" latency="5"/>
+    </states>
+    <states id="97">
+      <operations id="67" stage="20" latency="22"/>
+      <operations id="76" stage="3" latency="5"/>
+    </states>
+    <states id="98">
+      <operations id="67" stage="19" latency="22"/>
+      <operations id="76" stage="2" latency="5"/>
+    </states>
+    <states id="99">
+      <operations id="67" stage="18" latency="22"/>
+      <operations id="76" stage="1" latency="5"/>
+    </states>
+    <states id="100">
+      <operations id="67" stage="17" latency="22"/>
+      <operations id="77" stage="22" latency="22"/>
+    </states>
+    <states id="101">
+      <operations id="67" stage="16" latency="22"/>
+      <operations id="77" stage="21" latency="22"/>
+    </states>
+    <states id="102">
+      <operations id="67" stage="15" latency="22"/>
+      <operations id="77" stage="20" latency="22"/>
+    </states>
+    <states id="103">
+      <operations id="67" stage="14" latency="22"/>
+      <operations id="77" stage="19" latency="22"/>
+    </states>
+    <states id="104">
+      <operations id="67" stage="13" latency="22"/>
+      <operations id="77" stage="18" latency="22"/>
+    </states>
+    <states id="105">
+      <operations id="67" stage="12" latency="22"/>
+      <operations id="77" stage="17" latency="22"/>
+    </states>
+    <states id="106">
+      <operations id="67" stage="11" latency="22"/>
+      <operations id="77" stage="16" latency="22"/>
+    </states>
+    <states id="107">
+      <operations id="67" stage="10" latency="22"/>
+      <operations id="77" stage="15" latency="22"/>
+    </states>
+    <states id="108">
+      <operations id="67" stage="9" latency="22"/>
+      <operations id="77" stage="14" latency="22"/>
+    </states>
+    <states id="109">
+      <operations id="67" stage="8" latency="22"/>
+      <operations id="77" stage="13" latency="22"/>
+    </states>
+    <states id="110">
+      <operations id="67" stage="7" latency="22"/>
+      <operations id="77" stage="12" latency="22"/>
+    </states>
+    <states id="111">
+      <operations id="67" stage="6" latency="22"/>
+      <operations id="77" stage="11" latency="22"/>
+    </states>
+    <states id="112">
+      <operations id="67" stage="5" latency="22"/>
+      <operations id="77" stage="10" latency="22"/>
+    </states>
+    <states id="113">
+      <operations id="67" stage="4" latency="22"/>
+      <operations id="77" stage="9" latency="22"/>
+    </states>
+    <states id="114">
+      <operations id="67" stage="3" latency="22"/>
+      <operations id="77" stage="8" latency="22"/>
+    </states>
+    <states id="115">
+      <operations id="67" stage="2" latency="22"/>
+      <operations id="77" stage="7" latency="22"/>
+    </states>
+    <states id="116">
+      <operations id="67" stage="1" latency="22"/>
+      <operations id="77" stage="6" latency="22"/>
+    </states>
+    <states id="117">
+      <operations id="68" stage="2" latency="2"/>
+      <operations id="71" stage="2" latency="2"/>
+      <operations id="77" stage="5" latency="22"/>
+    </states>
+    <states id="118">
+      <operations id="68" stage="1" latency="2"/>
+      <operations id="71" stage="1" latency="2"/>
+      <operations id="72" stage="2" latency="2"/>
+      <operations id="77" stage="4" latency="22"/>
+    </states>
+    <states id="119">
+      <operations id="69" stage="5" latency="5"/>
+      <operations id="72" stage="1" latency="2"/>
+      <operations id="77" stage="3" latency="22"/>
+    </states>
+    <states id="120">
+      <operations id="69" stage="4" latency="5"/>
+      <operations id="77" stage="2" latency="22"/>
+    </states>
+    <states id="121">
+      <operations id="69" stage="3" latency="5"/>
+      <operations id="77" stage="1" latency="22"/>
+    </states>
+    <states id="122">
+      <operations id="69" stage="2" latency="5"/>
+      <operations id="78" stage="2" latency="2"/>
+    </states>
+    <states id="123">
+      <operations id="69" stage="1" latency="5"/>
+      <operations id="78" stage="1" latency="2"/>
+    </states>
+    <states id="124">
+      <operations id="70" stage="2" latency="2"/>
+      <operations id="79" stage="5" latency="5"/>
+    </states>
+    <states id="125">
+      <operations id="70" stage="1" latency="2"/>
+      <operations id="79" stage="4" latency="5"/>
+    </states>
+    <states id="126">
+      <operations id="73" stage="5" latency="5"/>
+      <operations id="79" stage="3" latency="5"/>
+    </states>
+    <states id="127">
+      <operations id="73" stage="4" latency="5"/>
+      <operations id="79" stage="2" latency="5"/>
+    </states>
+    <states id="128">
+      <operations id="73" stage="3" latency="5"/>
+      <operations id="79" stage="1" latency="5"/>
+    </states>
+    <states id="129">
+      <operations id="73" stage="2" latency="5"/>
+      <operations id="80" stage="2" latency="2"/>
+    </states>
+    <states id="130">
+      <operations id="73" stage="1" latency="5"/>
+      <operations id="80" stage="1" latency="2"/>
+    </states>
+    <states id="131">
+      <operations id="74" stage="4" latency="4"/>
+      <operations id="81" stage="4" latency="4"/>
+    </states>
+    <states id="132">
+      <operations id="74" stage="3" latency="4"/>
+      <operations id="81" stage="3" latency="4"/>
+    </states>
+    <states id="133">
+      <operations id="74" stage="2" latency="4"/>
+      <operations id="81" stage="2" latency="4"/>
+    </states>
+    <states id="134">
+      <operations id="74" stage="1" latency="4"/>
+      <operations id="81" stage="1" latency="4"/>
+      <operations id="83" stage="1" latency="1"/>
+      <operations id="84" stage="1" latency="1"/>
+      <operations id="85" stage="1" latency="1"/>
+    </states>
+    <states id="135">
+      <operations id="82" stage="5" latency="5"/>
+    </states>
+    <states id="136">
+      <operations id="82" stage="4" latency="5"/>
+    </states>
+    <states id="137">
+      <operations id="82" stage="3" latency="5"/>
+    </states>
+    <states id="138">
+      <operations id="82" stage="2" latency="5"/>
+    </states>
+    <states id="139">
+      <operations id="82" stage="1" latency="5"/>
+    </states>
+    <states id="140">
+      <operations id="86" stage="1" latency="1"/>
+      <operations id="87" stage="1" latency="1"/>
+      <operations id="88" stage="1" latency="1"/>
+      <operations id="89" stage="1" latency="1"/>
+    </states>
+    <transitions inState="1" outState="2">
+      <condition id="-1"/>
+    </transitions>
+    <transitions inState="4" outState="5">
+      <condition id="-1"/>
+    </transitions>
+    <transitions inState="5" outState="6">
+      <condition id="-1"/>
+    </transitions>
+    <transitions inState="6" outState="7">
+      <condition id="-1"/>
+    </transitions>
+    <transitions inState="7" outState="8">
+      <condition id="-1"/>
+    </transitions>
+    <transitions inState="8" outState="9">
+      <condition id="-1"/>
+    </transitions>
+    <transitions inState="9" outState="10">
+      <condition id="-1"/>
+    </transitions>
+    <transitions inState="10" outState="11">
+      <condition id="-1"/>
+    </transitions>
+    <transitions inState="11" outState="12">
+      <condition id="-1"/>
+    </transitions>
+    <transitions inState="12" outState="13">
+      <condition id="-1"/>
+    </transitions>
+    <transitions inState="13" outState="14">
+      <condition id="-1"/>
+    </transitions>
+    <transitions inState="14" outState="15">
+      <condition id="-1"/>
+    </transitions>
+    <transitions inState="15" outState="16">
+      <condition id="-1"/>
+    </transitions>
+    <transitions inState="16" outState="17">
+      <condition id="-1"/>
+    </transitions>
+    <transitions inState="17" outState="18">
+      <condition id="-1"/>
+    </transitions>
+    <transitions inState="18" outState="19">
+      <condition id="-1"/>
+    </transitions>
+    <transitions inState="19" outState="20">
+      <condition id="-1"/>
+    </transitions>
+    <transitions inState="20" outState="21">
+      <condition id="-1"/>
+    </transitions>
+    <transitions inState="21" outState="22">
+      <condition id="-1"/>
+    </transitions>
+    <transitions inState="22" outState="23">
+      <condition id="-1"/>
+    </transitions>
+    <transitions inState="23" outState="24">
+      <condition id="-1"/>
+    </transitions>
+    <transitions inState="24" outState="25">
+      <condition id="-1"/>
+    </transitions>
+    <transitions inState="25" outState="26">
+      <condition id="-1"/>
+    </transitions>
+    <transitions inState="26" outState="27">
+      <condition id="-1"/>
+    </transitions>
+    <transitions inState="27" outState="28">
+      <condition id="-1"/>
+    </transitions>
+    <transitions inState="28" outState="29">
+      <condition id="-1"/>
+    </transitions>
+    <transitions inState="29" outState="30">
+      <condition id="-1"/>
+    </transitions>
+    <transitions inState="30" outState="31">
+      <condition id="-1"/>
+    </transitions>
+    <transitions inState="31" outState="32">
+      <condition id="-1"/>
+    </transitions>
+    <transitions inState="32" outState="33">
+      <condition id="-1"/>
+    </transitions>
+    <transitions inState="33" outState="34">
+      <condition id="-1"/>
+    </transitions>
+    <transitions inState="34" outState="35">
+      <condition id="-1"/>
+    </transitions>
+    <transitions inState="35" outState="36">
+      <condition id="-1"/>
+    </transitions>
+    <transitions inState="36" outState="37">
+      <condition id="-1"/>
+    </transitions>
+    <transitions inState="37" outState="38">
+      <condition id="-1"/>
+    </transitions>
+    <transitions inState="38" outState="39">
+      <condition id="-1"/>
+    </transitions>
+    <transitions inState="39" outState="40">
+      <condition id="-1"/>
+    </transitions>
+    <transitions inState="40" outState="41">
+      <condition id="-1"/>
+    </transitions>
+    <transitions inState="41" outState="42">
+      <condition id="-1"/>
+    </transitions>
+    <transitions inState="42" outState="43">
+      <condition id="-1"/>
+    </transitions>
+    <transitions inState="43" outState="44">
+      <condition id="-1"/>
+    </transitions>
+    <transitions inState="44" outState="45">
+      <condition id="-1"/>
+    </transitions>
+    <transitions inState="45" outState="46">
+      <condition id="-1"/>
+    </transitions>
+    <transitions inState="46" outState="47">
+      <condition id="-1"/>
+    </transitions>
+    <transitions inState="47" outState="48">
+      <condition id="-1"/>
+    </transitions>
+    <transitions inState="48" outState="49">
+      <condition id="-1"/>
+    </transitions>
+    <transitions inState="49" outState="50">
+      <condition id="-1"/>
+    </transitions>
+    <transitions inState="50" outState="51">
+      <condition id="-1"/>
+    </transitions>
+    <transitions inState="51" outState="52">
+      <condition id="-1"/>
+    </transitions>
+    <transitions inState="52" outState="53">
+      <condition id="-1"/>
+    </transitions>
+    <transitions inState="53" outState="54">
+      <condition id="-1"/>
+    </transitions>
+    <transitions inState="54" outState="55">
+      <condition id="-1"/>
+    </transitions>
+    <transitions inState="55" outState="56">
+      <condition id="-1"/>
+    </transitions>
+    <transitions inState="56" outState="57">
+      <condition id="-1"/>
+    </transitions>
+    <transitions inState="57" outState="58">
+      <condition id="-1"/>
+    </transitions>
+    <transitions inState="58" outState="59">
+      <condition id="-1"/>
+    </transitions>
+    <transitions inState="59" outState="60">
+      <condition id="-1"/>
+    </transitions>
+    <transitions inState="60" outState="61">
+      <condition id="-1"/>
+    </transitions>
+    <transitions inState="61" outState="62">
+      <condition id="-1"/>
+    </transitions>
+    <transitions inState="62" outState="63">
+      <condition id="-1"/>
+    </transitions>
+    <transitions inState="63" outState="64">
+      <condition id="-1"/>
+    </transitions>
+    <transitions inState="64" outState="65">
+      <condition id="-1"/>
+    </transitions>
+    <transitions inState="65" outState="66">
+      <condition id="-1"/>
+    </transitions>
+    <transitions inState="66" outState="67">
+      <condition id="-1"/>
+    </transitions>
+    <transitions inState="67" outState="68">
+      <condition id="-1"/>
+    </transitions>
+    <transitions inState="68" outState="69">
+      <condition id="-1"/>
+    </transitions>
+    <transitions inState="69" outState="70">
+      <condition id="-1"/>
+    </transitions>
+    <transitions inState="70" outState="71">
+      <condition id="-1"/>
+    </transitions>
+    <transitions inState="71" outState="72">
+      <condition id="-1"/>
+    </transitions>
+    <transitions inState="72" outState="73">
+      <condition id="-1"/>
+    </transitions>
+    <transitions inState="73" outState="74">
+      <condition id="-1"/>
+    </transitions>
+    <transitions inState="74" outState="75">
+      <condition id="-1"/>
+    </transitions>
+    <transitions inState="75" outState="76">
+      <condition id="-1"/>
+    </transitions>
+    <transitions inState="76" outState="77">
+      <condition id="-1"/>
+    </transitions>
+    <transitions inState="77" outState="78">
+      <condition id="-1"/>
+    </transitions>
+    <transitions inState="78" outState="79">
+      <condition id="-1"/>
+    </transitions>
+    <transitions inState="79" outState="80">
+      <condition id="-1"/>
+    </transitions>
+    <transitions inState="80" outState="81">
+      <condition id="-1"/>
+    </transitions>
+    <transitions inState="81" outState="82">
+      <condition id="-1"/>
+    </transitions>
+    <transitions inState="82" outState="83">
+      <condition id="-1"/>
+    </transitions>
+    <transitions inState="83" outState="84">
+      <condition id="-1"/>
+    </transitions>
+    <transitions inState="84" outState="85">
+      <condition id="-1"/>
+    </transitions>
+    <transitions inState="85" outState="86">
+      <condition id="-1"/>
+    </transitions>
+    <transitions inState="86" outState="87">
+      <condition id="-1"/>
+    </transitions>
+    <transitions inState="87" outState="88">
+      <condition id="-1"/>
+    </transitions>
+    <transitions inState="88" outState="89">
+      <condition id="-1"/>
+    </transitions>
+    <transitions inState="89" outState="90">
+      <condition id="-1"/>
+    </transitions>
+    <transitions inState="90" outState="91">
+      <condition id="-1"/>
+    </transitions>
+    <transitions inState="91" outState="92">
+      <condition id="-1"/>
+    </transitions>
+    <transitions inState="92" outState="93">
+      <condition id="-1"/>
+    </transitions>
+    <transitions inState="93" outState="94">
+      <condition id="-1"/>
+    </transitions>
+    <transitions inState="94" outState="95">
+      <condition id="-1"/>
+    </transitions>
+    <transitions inState="95" outState="96">
+      <condition id="-1"/>
+    </transitions>
+    <transitions inState="96" outState="97">
+      <condition id="-1"/>
+    </transitions>
+    <transitions inState="97" outState="98">
+      <condition id="-1"/>
+    </transitions>
+    <transitions inState="98" outState="99">
+      <condition id="-1"/>
+    </transitions>
+    <transitions inState="99" outState="100">
+      <condition id="-1"/>
+    </transitions>
+    <transitions inState="100" outState="101">
+      <condition id="-1"/>
+    </transitions>
+    <transitions inState="101" outState="102">
+      <condition id="-1"/>
+    </transitions>
+    <transitions inState="102" outState="103">
+      <condition id="-1"/>
+    </transitions>
+    <transitions inState="103" outState="104">
+      <condition id="-1"/>
+    </transitions>
+    <transitions inState="104" outState="105">
+      <condition id="-1"/>
+    </transitions>
+    <transitions inState="105" outState="106">
+      <condition id="-1"/>
+    </transitions>
+    <transitions inState="106" outState="107">
+      <condition id="-1"/>
+    </transitions>
+    <transitions inState="107" outState="108">
+      <condition id="-1"/>
+    </transitions>
+    <transitions inState="108" outState="109">
+      <condition id="-1"/>
+    </transitions>
+    <transitions inState="109" outState="110">
+      <condition id="-1"/>
+    </transitions>
+    <transitions inState="110" outState="111">
+      <condition id="-1"/>
+    </transitions>
+    <transitions inState="111" outState="112">
+      <condition id="-1"/>
+    </transitions>
+    <transitions inState="112" outState="113">
+      <condition id="-1"/>
+    </transitions>
+    <transitions inState="113" outState="114">
+      <condition id="-1"/>
+    </transitions>
+    <transitions inState="114" outState="115">
+      <condition id="-1"/>
+    </transitions>
+    <transitions inState="115" outState="116">
+      <condition id="-1"/>
+    </transitions>
+    <transitions inState="116" outState="117">
+      <condition id="-1"/>
+    </transitions>
+    <transitions inState="117" outState="118">
+      <condition id="-1"/>
+    </transitions>
+    <transitions inState="118" outState="119">
+      <condition id="-1"/>
+    </transitions>
+    <transitions inState="119" outState="120">
+      <condition id="-1"/>
+    </transitions>
+    <transitions inState="120" outState="121">
+      <condition id="-1"/>
+    </transitions>
+    <transitions inState="121" outState="122">
+      <condition id="-1"/>
+    </transitions>
+    <transitions inState="122" outState="123">
+      <condition id="-1"/>
+    </transitions>
+    <transitions inState="123" outState="124">
+      <condition id="-1"/>
+    </transitions>
+    <transitions inState="124" outState="125">
+      <condition id="-1"/>
+    </transitions>
+    <transitions inState="125" outState="126">
+      <condition id="-1"/>
+    </transitions>
+    <transitions inState="126" outState="127">
+      <condition id="-1"/>
+    </transitions>
+    <transitions inState="127" outState="128">
+      <condition id="-1"/>
+    </transitions>
+    <transitions inState="128" outState="129">
+      <condition id="-1"/>
+    </transitions>
+    <transitions inState="129" outState="130">
+      <condition id="-1"/>
+    </transitions>
+    <transitions inState="130" outState="131">
+      <condition id="-1"/>
+    </transitions>
+    <transitions inState="131" outState="132">
+      <condition id="-1"/>
+    </transitions>
+    <transitions inState="132" outState="133">
+      <condition id="-1"/>
+    </transitions>
+    <transitions inState="133" outState="134">
+      <condition id="-1"/>
+    </transitions>
+    <transitions inState="134" outState="135">
+      <condition id="-1"/>
+    </transitions>
+    <transitions inState="135" outState="136">
+      <condition id="-1"/>
+    </transitions>
+    <transitions inState="136" outState="137">
+      <condition id="-1"/>
+    </transitions>
+    <transitions inState="137" outState="138">
+      <condition id="-1"/>
+    </transitions>
+    <transitions inState="138" outState="139">
+      <condition id="-1"/>
+    </transitions>
+    <transitions inState="139" outState="140">
+      <condition id="-1"/>
+    </transitions>
+    <transitions inState="3" outState="2">
+      <condition id="-1"/>
+    </transitions>
+    <transitions inState="2" outState="4">
+      <condition id="-1"/>
+    </transitions>
+    <transitions inState="2" outState="3">
+      <condition id="-1"/>
+    </transitions>
+  </fsm>
+  <CFGRegionsRoot>
+    <cfgRegions mId="1" mTag="inversekinematics" mII="-1" mDepth="-1" mMinTripCount="-1" mMaxTripCount="-1" mMinLatency="142" mMaxLatency="339">
+      <subRegions>2</subRegions>
+      <subRegions>3</subRegions>
+      <subRegions>4</subRegions>
+      <mDfPipe/>
+    </cfgRegions>
+    <cfgRegions mId="2" mTag="Entry" mII="-1" mDepth="-1" mMinTripCount="-1" mMaxTripCount="-1">
+      <basicBlocks>36</basicBlocks>
+      <mDfPipe/>
+    </cfgRegions>
+    <cfgRegions mId="3" mTag="VITIS_LOOP_15_1" mII="1" mDepth="2" mMinTripCount="2" mMaxTripCount="2" mMinLatency="2" mMaxLatency="2" mType="1">
+      <basicBlocks>45</basicBlocks>
+      <basicBlocks>55</basicBlocks>
+      <mDfPipe/>
+    </cfgRegions>
+    <cfgRegions mId="4" mTag="Return" mII="-1" mDepth="-1" mMinTripCount="-1" mMaxTripCount="-1" mMinLatency="138" mMaxLatency="335">
+      <basicBlocks>90</basicBlocks>
+      <mDfPipe/>
+    </cfgRegions>
+  </CFGRegionsRoot>
+</cdfg:DBCdfg>

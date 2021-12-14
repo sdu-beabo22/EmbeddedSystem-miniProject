@@ -1,4 +1,8 @@
-#include <iostream>
+#include "hls_math.h"
 
+#define BRAM_SIZE 2048
 
-void inversekinematics(float x, float y, float a1, float a2, float *th1, float *th2);
+typedef	float data_t;
+//typedef ap_fixed<16,8> data_t;
+
+void inversekinematics(float din[2048], float dout[2048]);

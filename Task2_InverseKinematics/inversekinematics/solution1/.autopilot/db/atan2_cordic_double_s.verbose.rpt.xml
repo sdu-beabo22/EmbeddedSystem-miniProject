@@ -1,0 +1,175 @@
+<profile>
+
+<section name = "Vitis HLS Report for 'atan2_cordic_double_s'" level="0">
+<item name = "Date">Wed Dec 14 18:16:43 2022
+</item>
+<item name = "Version">2020.2 (Build 3064766 on Wed Nov 18 09:12:47 MST 2020)</item>
+<item name = "Project">inversekinematics</item>
+<item name = "Solution">solution1 (Vivado IP Flow Target)</item>
+<item name = "Product family">zynquplus</item>
+<item name = "Target device">xczu3eg-sbva484-1-i</item>
+</section>
+
+<section name = "Performance Estimates" level="0">
+<item name = "Timing">
+<section name = "" level="1">
+<item name = "Summary"><table name="" hasTotal="0">
+<keys size="4">Clock, Target, Estimated, Uncertainty</keys>
+<column name="ap_clk">10.00 ns, 7.300 ns, 2.70 ns</column>
+</table>
+</item>
+</section>
+</item>
+<item name = "Latency">
+<section name = "" level="1">
+<item name = "Summary"><table name="" hasTotal="0">
+<keys size="8">, min, max, min, max, min, max, Type</keys>
+<column name="">1, 109, 10.000 ns, 1.090 us, 1, 109, none</column>
+</table>
+</item>
+<item name = "Detail">
+<section name = "" level="1">
+<item name = "Instance"><table name="" hasTotal="0">
+<keys size="9">Instance, Module, min, max, min, max, min, max, Type</keys>
+<column name="grp_atan2_generic_double_s_fu_163">atan2_generic_double_s, 1, 94, 10.000 ns, 0.940 us, 1, 94, none</column>
+</table>
+</item>
+<item name = "Loop"><table name="" hasTotal="0">
+<keys size="8">Loop Name, min, max, Latency, achieved, target, Count, Pipelined</keys>
+</table>
+</item>
+</section>
+</item>
+</section>
+</item>
+</section>
+
+<section name = "Utilization Estimates" level="0">
+<item name = "Summary"><table name="" hasTotal="1">
+<keys size="6">Name, BRAM_18K, DSP, FF, LUT, URAM</keys>
+<column name="DSP">-, -, -, -, -</column>
+<column name="Expression">-, -, 0, 355, -</column>
+<column name="FIFO">-, -, -, -, -</column>
+<column name="Instance">4, -, 713, 4443, -</column>
+<column name="Memory">-, -, -, -, -</column>
+<column name="Multiplexer">-, -, -, 320, -</column>
+<column name="Register">-, -, 551, -, -</column>
+<specialColumn name="Available">432, 360, 141120, 70560, 0</specialColumn>
+<specialColumn name="Utilization (%)">~0, 0, ~0, 7, 0</specialColumn>
+</table>
+</item>
+<item name = "Detail">
+<section name = "" level="1">
+<item name = "Instance"><table name="" hasTotal="1">
+<keys size="7">Instance, Module, BRAM_18K, DSP, FF, LUT, URAM</keys>
+<column name="grp_atan2_generic_double_s_fu_163">atan2_generic_double_s, 4, 0, 713, 4443, 0</column>
+<column name="dcmp_64ns_64ns_1_2_no_dsp_1_U51">dcmp_64ns_64ns_1_2_no_dsp_1, 0, 0, 0, 0, 0</column>
+</table>
+</item>
+<item name = "DSP"><table name="" hasTotal="0">
+<keys size="3">Instance, Module, Expression</keys>
+</table>
+</item>
+<item name = "Memory"><table name="" hasTotal="1">
+<keys size="10">Memory, Module, BRAM_18K, FF, LUT, URAM, Words, Bits, Banks, W*Bits*Banks</keys>
+</table>
+</item>
+<item name = "FIFO"><table name="" hasTotal="1">
+<keys size="8">Name, BRAM_18K, FF, LUT, URAM, Depth, Bits, Size:D*B</keys>
+</table>
+</item>
+<item name = "Expression"><table name="" hasTotal="1">
+<keys size="7">Variable Name, Operation, DSP, FF, LUT, Bitwidth P0, Bitwidth P1</keys>
+<column name="and_ln18_1_fu_282_p2">and, 0, 0, 2, 1, 1</column>
+<column name="and_ln18_2_fu_320_p2">and, 0, 0, 2, 1, 1</column>
+<column name="and_ln18_3_fu_326_p2">and, 0, 0, 2, 1, 1</column>
+<column name="and_ln18_fu_258_p2">and, 0, 0, 2, 1, 1</column>
+<column name="and_ln746_1_fu_406_p2">and, 0, 0, 2, 1, 1</column>
+<column name="and_ln746_fu_400_p2">and, 0, 0, 2, 1, 1</column>
+<column name="and_ln762_fu_294_p2">and, 0, 0, 2, 1, 1</column>
+<column name="and_ln766_fu_306_p2">and, 0, 0, 2, 1, 1</column>
+<column name="ap_condition_647">and, 0, 0, 2, 1, 1</column>
+<column name="icmp_ln746_1_fu_386_p2">icmp, 0, 0, 11, 11, 2</column>
+<column name="icmp_ln746_fu_380_p2">icmp, 0, 0, 11, 11, 2</column>
+<column name="icmp_ln824_2_fu_264_p2">icmp, 0, 0, 11, 11, 2</column>
+<column name="icmp_ln824_3_fu_288_p2">icmp, 0, 0, 11, 11, 1</column>
+<column name="icmp_ln824_4_fu_300_p2">icmp, 0, 0, 11, 11, 1</column>
+<column name="icmp_ln824_5_fu_374_p2">icmp, 0, 0, 29, 64, 64</column>
+<column name="icmp_ln824_fu_240_p2">icmp, 0, 0, 11, 11, 2</column>
+<column name="icmp_ln828_1_fu_270_p2">icmp, 0, 0, 24, 52, 1</column>
+<column name="icmp_ln828_fu_246_p2">icmp, 0, 0, 24, 52, 1</column>
+<column name="or_ln746_1_fu_396_p2">or, 0, 0, 2, 1, 1</column>
+<column name="or_ln746_fu_392_p2">or, 0, 0, 2, 1, 1</column>
+<column name="select_ln809_fu_440_p3">select, 0, 0, 56, 1, 64</column>
+<column name="xor_ln822_fu_416_p2">xor, 0, 0, 65, 64, 65</column>
+<column name="xor_ln826_fu_429_p2">xor, 0, 0, 65, 64, 65</column>
+<column name="xor_ln828_1_fu_276_p2">xor, 0, 0, 2, 1, 2</column>
+<column name="xor_ln828_fu_252_p2">xor, 0, 0, 2, 1, 2</column>
+</table>
+</item>
+<item name = "Multiplexer"><table name="" hasTotal="1">
+<keys size="5">Name, LUT, Input Size, Bits, Total Bits</keys>
+<column name="UnifiedRetVal_reg_96">100, 20, 64, 1280</column>
+<column name="ap_NS_fsm">127, 26, 1, 26</column>
+<column name="ap_phi_mux_UnifiedRetVal_phi_fu_108_p42">14, 3, 64, 192</column>
+<column name="ap_return">9, 2, 64, 128</column>
+<column name="c_reg_82">14, 3, 64, 192</column>
+<column name="grp_atan2_generic_double_s_fu_163_x_in">14, 3, 64, 192</column>
+<column name="grp_atan2_generic_double_s_fu_163_y_in">14, 3, 64, 192</column>
+<column name="grp_fu_171_p0">14, 3, 64, 192</column>
+<column name="grp_fu_171_p1">14, 3, 64, 192</column>
+</table>
+</item>
+<item name = "Register"><table name="" hasTotal="1">
+<keys size="5">Name, FF, LUT, Bits, Const Bits</keys>
+<column name="UnifiedRetVal_reg_96">64, 0, 64, 0</column>
+<column name="a_reg_573">63, 0, 64, 1</column>
+<column name="and_ln18_1_reg_541">1, 0, 1, 0</column>
+<column name="and_ln18_2_reg_565">1, 0, 1, 0</column>
+<column name="and_ln18_3_reg_569">1, 0, 1, 0</column>
+<column name="and_ln18_reg_532">1, 0, 1, 0</column>
+<column name="and_ln762_reg_549">1, 0, 1, 0</column>
+<column name="and_ln766_reg_557">1, 0, 1, 0</column>
+<column name="ap_CS_fsm">25, 0, 25, 0</column>
+<column name="ap_return_preg">64, 0, 64, 0</column>
+<column name="b_reg_580">63, 0, 64, 1</column>
+<column name="c_reg_82">64, 0, 64, 0</column>
+<column name="d_reg_608">64, 0, 64, 0</column>
+<column name="grp_atan2_generic_double_s_fu_163_ap_start_reg">1, 0, 1, 0</column>
+<column name="icmp_ln746_1_reg_595">1, 0, 1, 0</column>
+<column name="icmp_ln746_reg_590">1, 0, 1, 0</column>
+<column name="icmp_ln824_3_reg_545">1, 0, 1, 0</column>
+<column name="icmp_ln824_4_reg_553">1, 0, 1, 0</column>
+<column name="icmp_ln828_1_reg_536">1, 0, 1, 0</column>
+<column name="icmp_ln828_reg_527">1, 0, 1, 0</column>
+<column name="p_Result_32_reg_516">1, 0, 1, 0</column>
+<column name="reg_182">64, 0, 64, 0</column>
+<column name="sub_i_reg_603">64, 0, 64, 0</column>
+<column name="tmp_s_reg_561">2, 0, 2, 0</column>
+</table>
+</item>
+</section>
+</item>
+</section>
+
+<section name = "Interface" level="0">
+<item name = "Summary"><table name="" hasTotal="0">
+<keys size="6">RTL Ports, Dir, Bits, Protocol, Source Object, C Type</keys>
+<column name="ap_clk">in, 1, ap_ctrl_hs, atan2_cordic&lt;double&gt;, return value</column>
+<column name="ap_rst">in, 1, ap_ctrl_hs, atan2_cordic&lt;double&gt;, return value</column>
+<column name="ap_start">in, 1, ap_ctrl_hs, atan2_cordic&lt;double&gt;, return value</column>
+<column name="ap_done">out, 1, ap_ctrl_hs, atan2_cordic&lt;double&gt;, return value</column>
+<column name="ap_idle">out, 1, ap_ctrl_hs, atan2_cordic&lt;double&gt;, return value</column>
+<column name="ap_ready">out, 1, ap_ctrl_hs, atan2_cordic&lt;double&gt;, return value</column>
+<column name="ap_return">out, 64, ap_ctrl_hs, atan2_cordic&lt;double&gt;, return value</column>
+<column name="grp_fu_272_p_din0">out, 64, ap_ctrl_hs, atan2_cordic&lt;double&gt;, return value</column>
+<column name="grp_fu_272_p_din1">out, 64, ap_ctrl_hs, atan2_cordic&lt;double&gt;, return value</column>
+<column name="grp_fu_272_p_opcode">out, 2, ap_ctrl_hs, atan2_cordic&lt;double&gt;, return value</column>
+<column name="grp_fu_272_p_dout0">in, 64, ap_ctrl_hs, atan2_cordic&lt;double&gt;, return value</column>
+<column name="grp_fu_272_p_ce">out, 1, ap_ctrl_hs, atan2_cordic&lt;double&gt;, return value</column>
+<column name="y_in">in, 64, ap_none, y_in, scalar</column>
+<column name="x_in">in, 64, ap_none, x_in, scalar</column>
+</table>
+</item>
+</section>
+</profile>
