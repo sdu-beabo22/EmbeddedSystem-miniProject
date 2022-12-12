@@ -1,5 +1,5 @@
 INFO: [HLS 200-10] Running '/tools/Xilinx/Vitis_HLS/2020.2/bin/unwrapped/lnx64.o/vitis_hls'
-INFO: [HLS 200-10] For user 'gabris' on host 'yra' (Linux_x86_64 version 5.15.0-56-generic) on Mon Dec 12 19:40:54 CET 2022
+INFO: [HLS 200-10] For user 'gabris' on host 'yra' (Linux_x86_64 version 5.15.0-56-generic) on Mon Dec 12 20:08:33 CET 2022
 INFO: [HLS 200-10] On os Ubuntu 22.04.1 LTS
 INFO: [HLS 200-10] In directory '/home/gabris/Documents/inversekinematics'
 Sourcing Tcl script '/home/gabris/Documents/inversekinematics/inversekinematics/solution1/csim.tcl'
@@ -28,4 +28,4 @@ INFO: [SIM 211-4] CSIM will launch GCC as the compiler.
    Generating csim.exe
 0 0INFO: [SIM 211-1] CSim done with 0 errors.
 INFO: [SIM 211-3] *************** CSIM finish ***************
-INFO: [HLS 200-111] Finished Command csim_design CPU user time: 4.93 seconds. CPU system time: 0.95 seconds. Elapsed time: 2.9 seconds; current allocated memory: 178.485 MB.
+INFO: [HLS 200-111] Finished Command csim_design CPU user time: 4.76 seconds. CPU system time: 1.16 seconds. Elapsed time: 3.03 seconds; current allocated memory: 178.475 MB.
