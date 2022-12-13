@@ -1,0 +1,31 @@
+INFO: [HLS 200-10] Running '/tools/Xilinx/Vitis_HLS/2020.2/bin/unwrapped/lnx64.o/vitis_hls'
+INFO: [HLS 200-10] For user 'gabris' on host 'yra' (Linux_x86_64 version 5.15.0-56-generic) on Mon Dec 12 20:08:33 CET 2022
+INFO: [HLS 200-10] On os Ubuntu 22.04.1 LTS
+INFO: [HLS 200-10] In directory '/home/gabris/Documents/inversekinematics'
+Sourcing Tcl script '/home/gabris/Documents/inversekinematics/inversekinematics/solution1/csim.tcl'
+INFO: [HLS 200-1510] Running: open_project inversekinematics 
+INFO: [HLS 200-10] Opening project '/home/gabris/Documents/inversekinematics/inversekinematics'.
+INFO: [HLS 200-1510] Running: set_top inversekinematics 
+INFO: [HLS 200-1510] Running: add_files ../cpp/inversekinematics.cpp 
+INFO: [HLS 200-10] Adding design file '../cpp/inversekinematics.cpp' to the project
+INFO: [HLS 200-1510] Running: add_files ../cpp/inversekinematics.h 
+INFO: [HLS 200-10] Adding design file '../cpp/inversekinematics.h' to the project
+INFO: [HLS 200-1510] Running: add_files -tb ../cpp/inversekinematics_test.cpp 
+INFO: [HLS 200-10] Adding test bench file '../cpp/inversekinematics_test.cpp' to the project
+INFO: [HLS 200-1510] Running: open_solution solution1 -flow_target vivado 
+INFO: [HLS 200-10] Opening solution '/home/gabris/Documents/inversekinematics/inversekinematics/solution1'.
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [HLS 200-10] Setting target device to 'xczu3eg-sbva484-1-i'
+INFO: [HLS 200-1505] Using flow_target 'vivado'
+Resolution: For help on HLS 200-1505 see www.xilinx.com/cgi-bin/docs/rdoc?v=2020.2;t=hls+guidance;d=200-1505.html
+INFO: [HLS 200-1510] Running: set_part xczu3eg-sbva484-1-i 
+INFO: [HLS 200-1510] Running: create_clock -period 10 -name default 
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [HLS 200-1510] Running: csim_design -quiet 
+INFO: [SIM 211-2] *************** CSIM start ***************
+INFO: [SIM 211-4] CSIM will launch GCC as the compiler.
+   Compiling ../../../../../cpp/inversekinematics.cpp in debug mode
+   Generating csim.exe
+0 0INFO: [SIM 211-1] CSim done with 0 errors.
+INFO: [SIM 211-3] *************** CSIM finish ***************
+INFO: [HLS 200-111] Finished Command csim_design CPU user time: 4.76 seconds. CPU system time: 1.16 seconds. Elapsed time: 3.03 seconds; current allocated memory: 178.475 MB.
