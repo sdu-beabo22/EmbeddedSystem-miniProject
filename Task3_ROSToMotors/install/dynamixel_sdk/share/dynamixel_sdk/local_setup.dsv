@@ -1,3 +1,1 @@
-source;share/dynamixel_sdk/environment/ament_prefix_path.sh
-source;share/dynamixel_sdk/environment/library_path.sh
-source;share/dynamixel_sdk/environment/path.sh
+/home/zain/Documents/1st_semester/Embedded_Systems/Assignments/MiniProject/EmbeddedSystem-miniProject/Task3_ROSToMotors/build/dynamixel_sdk/ament_cmake_environment_hooks/local_setup.dsv
