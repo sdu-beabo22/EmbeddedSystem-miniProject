@@ -1,1 +1,1 @@
-Due to the vitis HLS being poorly made, you will have to upload the source and simulation files independently from the project (Project > add source/testbench)
+Due to the vitis HLS being poorly made, you will have to upload the source and simulation files independently from the project that are located in the cpp file in this directory (to do it in Vitis HLS you navigate Project > add source/testbench and select the cpp and c files as source and the test file as testbench)
