@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <autopilotfilemapping:AutoPilotFileMapping xmlns:autopilotfilemapping="www.autoesl.com/autopilotfilemapping">
   <source>
-    <originFiles name="inversekinematics.cpp" path="/home/gabris/Documents/cpp/inversekinematics.cpp"/>
-    <originFiles name="inversekinematics.h" path="/home/gabris/Documents/cpp/inversekinematics.h"/>
+    <originFiles name="inversekinematics.h" path="/home/gabris/Documents/EmbeddedSystem-miniProject/Task2_InverseKinematics/inversekinematics.h"/>
+    <originFiles name="inversekinematics.cpp" path="/home/gabris/Documents/EmbeddedSystem-miniProject/Task2_InverseKinematics/inversekinematics.cpp"/>
   </source>
   <testbench>
-    <originFiles name="inversekinematics_test.cpp" path="/home/gabris/Documents/cpp/inversekinematics_test.cpp"/>
+    <originFiles name="inversekinematics_test.cpp" path="/home/gabris/Documents/EmbeddedSystem-miniProject/Task2_InverseKinematics/inversekinematics_test.cpp"/>
   </testbench>
 </autopilotfilemapping:AutoPilotFileMapping>
