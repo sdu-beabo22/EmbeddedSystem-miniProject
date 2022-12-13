@@ -1,0 +1,53 @@
+-- The C compiler identification is GNU 9.4.0
+-- The CXX compiler identification is GNU 9.4.0
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+-- Found PythonInterp: /opt/anaconda3/bin/python3 (found suitable version "3.9.15", minimum required is "3") 
+-- Using PYTHON_EXECUTABLE: /opt/anaconda3/bin/python3
+-- Found ament_lint_auto: 0.9.7 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+WARNING: Package name "ROS2Motors" does not follow the naming conventions. It should start with a lower case letter and only contain lower case letters, digits, underscores, and dashes.
+-- Added test 'copyright' to check source files copyright and LICENSE
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/zain/Documents/1st_semester/Embedded_Systems/Assignments/MiniProject/EmbeddedSystem-miniProject/Task3_ROSToMotors/ROS2Motors/include>
+-- Configured cppcheck exclude dirs and/or files: 
+-- Added test 'cpplint' to check C / C++ code against the Google style
+-- Configured cpplint exclude dirs and/or files: 
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'uncrustify' to check C / C++ code style
+-- Configured uncrustify additional arguments: 
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/zain/Documents/1st_semester/Embedded_Systems/Assignments/MiniProject/EmbeddedSystem-miniProject/Task3_ROSToMotors/build/ROS2Motors
+[35m[1mScanning dependencies of target ROS2Motors_node[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/ROS2Motors_node.dir/src/ROS2Motors_node.cpp.o[0m
+[100%] [32m[1mLinking CXX executable ROS2Motors_node[0m
+[100%] Built target ROS2Motors_node
+-- Install configuration: ""
+-- Installing: /home/zain/Documents/1st_semester/Embedded_Systems/Assignments/MiniProject/EmbeddedSystem-miniProject/Task3_ROSToMotors/install/ROS2Motors/lib/ROS2Motors/ROS2Motors_node
+-- Installing: /home/zain/Documents/1st_semester/Embedded_Systems/Assignments/MiniProject/EmbeddedSystem-miniProject/Task3_ROSToMotors/install/ROS2Motors/share/ament_index/resource_index/package_run_dependencies/ROS2Motors
+-- Installing: /home/zain/Documents/1st_semester/Embedded_Systems/Assignments/MiniProject/EmbeddedSystem-miniProject/Task3_ROSToMotors/install/ROS2Motors/share/ament_index/resource_index/parent_prefix_path/ROS2Motors
+-- Installing: /home/zain/Documents/1st_semester/Embedded_Systems/Assignments/MiniProject/EmbeddedSystem-miniProject/Task3_ROSToMotors/install/ROS2Motors/share/ROS2Motors/environment/ament_prefix_path.sh
+-- Installing: /home/zain/Documents/1st_semester/Embedded_Systems/Assignments/MiniProject/EmbeddedSystem-miniProject/Task3_ROSToMotors/install/ROS2Motors/share/ROS2Motors/environment/ament_prefix_path.dsv
+-- Installing: /home/zain/Documents/1st_semester/Embedded_Systems/Assignments/MiniProject/EmbeddedSystem-miniProject/Task3_ROSToMotors/install/ROS2Motors/share/ROS2Motors/environment/path.sh
+-- Installing: /home/zain/Documents/1st_semester/Embedded_Systems/Assignments/MiniProject/EmbeddedSystem-miniProject/Task3_ROSToMotors/install/ROS2Motors/share/ROS2Motors/environment/path.dsv
+-- Installing: /home/zain/Documents/1st_semester/Embedded_Systems/Assignments/MiniProject/EmbeddedSystem-miniProject/Task3_ROSToMotors/install/ROS2Motors/share/ROS2Motors/local_setup.bash
+-- Installing: /home/zain/Documents/1st_semester/Embedded_Systems/Assignments/MiniProject/EmbeddedSystem-miniProject/Task3_ROSToMotors/install/ROS2Motors/share/ROS2Motors/local_setup.sh
+-- Installing: /home/zain/Documents/1st_semester/Embedded_Systems/Assignments/MiniProject/EmbeddedSystem-miniProject/Task3_ROSToMotors/install/ROS2Motors/share/ROS2Motors/local_setup.zsh
+-- Installing: /home/zain/Documents/1st_semester/Embedded_Systems/Assignments/MiniProject/EmbeddedSystem-miniProject/Task3_ROSToMotors/install/ROS2Motors/share/ROS2Motors/local_setup.dsv
+-- Installing: /home/zain/Documents/1st_semester/Embedded_Systems/Assignments/MiniProject/EmbeddedSystem-miniProject/Task3_ROSToMotors/install/ROS2Motors/share/ROS2Motors/package.dsv
+-- Installing: /home/zain/Documents/1st_semester/Embedded_Systems/Assignments/MiniProject/EmbeddedSystem-miniProject/Task3_ROSToMotors/install/ROS2Motors/share/ament_index/resource_index/packages/ROS2Motors
+-- Installing: /home/zain/Documents/1st_semester/Embedded_Systems/Assignments/MiniProject/EmbeddedSystem-miniProject/Task3_ROSToMotors/install/ROS2Motors/share/ROS2Motors/cmake/ROS2MotorsConfig.cmake
+-- Installing: /home/zain/Documents/1st_semester/Embedded_Systems/Assignments/MiniProject/EmbeddedSystem-miniProject/Task3_ROSToMotors/install/ROS2Motors/share/ROS2Motors/cmake/ROS2MotorsConfig-version.cmake
+-- Installing: /home/zain/Documents/1st_semester/Embedded_Systems/Assignments/MiniProject/EmbeddedSystem-miniProject/Task3_ROSToMotors/install/ROS2Motors/share/ROS2Motors/package.xml
