@@ -29,32 +29,57 @@
 		<link>
 			<name>source</name>
 			<type>2</type>
-			<location>/home/gabris/Documents/EmbeddedSystem-miniProject/Task2_InverseKinematics/inversekinematics/.apc/.src</location>
+			<location>/home/gabris/Documents/inversekinematics/inversekinematics/.apc/.src</location>
 		</link>
 		<link>
 			<name>testbench</name>
 			<type>2</type>
-			<location>/home/gabris/Documents/EmbeddedSystem-miniProject/Task2_InverseKinematics/inversekinematics/.apc/.tb</location>
+			<location>/home/gabris/Documents/inversekinematics/inversekinematics/.apc/.tb</location>
+		</link>
+		<link>
+			<name>.reference/cmath</name>
+			<type>1</type>
+			<location>/tools/Xilinx/Vitis_HLS/2020.2/tps/lnx64/gcc-6.2.0/include/c++/6.2.0/cmath</location>
+		</link>
+		<link>
+			<name>.reference/mathcalls.h</name>
+			<type>1</type>
+			<location>/usr/include/x86_64-linux-gnu/bits/mathcalls.h</location>
 		</link>
 		<link>
 			<name>solution1/constraints</name>
 			<type>2</type>
-			<location>/home/gabris/Documents/EmbeddedSystem-miniProject/Task2_InverseKinematics/inversekinematics/solution1/.tcls</location>
+			<location>/home/gabris/Documents/inversekinematics/inversekinematics/solution1/.tcls</location>
+		</link>
+		<link>
+			<name>source/inversekinematics.cpp</name>
+			<type>1</type>
+			<location>/home/gabris/Documents/cpp/inversekinematics.cpp</location>
+		</link>
+		<link>
+			<name>source/inversekinematics.h</name>
+			<type>1</type>
+			<location>/home/gabris/Documents/cpp/inversekinematics.h</location>
+		</link>
+		<link>
+			<name>testbench/inversekinematics_test.cpp</name>
+			<type>1</type>
+			<location>/home/gabris/Documents/cpp/inversekinematics_test.cpp</location>
 		</link>
 		<link>
 			<name>solution1/constraints/.xml.directive</name>
 			<type>1</type>
-			<location>/home/gabris/Documents/EmbeddedSystem-miniProject/Task2_InverseKinematics/inversekinematics/solution1/solution1.directive</location>
+			<location>/home/gabris/Documents/inversekinematics/inversekinematics/solution1/solution1.directive</location>
 		</link>
 		<link>
 			<name>solution1/constraints/directives.tcl</name>
 			<type>1</type>
-			<location>/home/gabris/Documents/EmbeddedSystem-miniProject/Task2_InverseKinematics/inversekinematics/solution1/directives.tcl</location>
+			<location>/home/gabris/Documents/inversekinematics/inversekinematics/solution1/directives.tcl</location>
 		</link>
 		<link>
 			<name>solution1/constraints/script.tcl</name>
 			<type>1</type>
-			<location>/home/gabris/Documents/EmbeddedSystem-miniProject/Task2_InverseKinematics/inversekinematics/solution1/script.tcl</location>
+			<location>/home/gabris/Documents/inversekinematics/inversekinematics/solution1/script.tcl</location>
 		</link>
 	</linkedResources>
 </projectDescription>
