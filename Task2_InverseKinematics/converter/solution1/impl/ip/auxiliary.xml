@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xd:acceleratorMap xmlns:xd="http://www.xilinx.com/xidane" xd:functionName="converter" xd:componentRef="converter" xd:initiationInterval="3" xd:clockPeriod="10.000" xd:sequential="true" xd:hostMachine="64" xd:reset="control">
+  <xd:controlReg xd:name="control" xd:interfaceRef="ap_ctrl" xd:busTypeRef="acc_handshake" xd:type="acc_handshake"/>
+  <xd:arg xd:name="din_q0" xd:originalName="din_q0" xd:direction="in" xd:interfaceRef="din_q0" xd:busTypeRef="ap_memory" xd:arraySize="1" xd:dataWidth="32"/>
+  <xd:arg xd:name="dout_d0" xd:originalName="dout_d0" xd:direction="out" xd:interfaceRef="dout_d0" xd:busTypeRef="ap_memory" xd:arraySize="1" xd:dataWidth="32"/>
+  <xd:arg xd:name="dout_d1" xd:originalName="dout_d1" xd:direction="out" xd:interfaceRef="dout_d1" xd:busTypeRef="ap_memory" xd:arraySize="1" xd:dataWidth="32"/>
+  <xd:latencyEstimates xd:best-case="2" xd:worst-case="2" xd:average-case="2"/>
+  <xd:resourceEstimates xd:LUT="111" xd:FF="5" xd:BRAM="0" xd:DSP="0"/>
+</xd:acceleratorMap>

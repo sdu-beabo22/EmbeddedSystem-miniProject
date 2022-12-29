@@ -1,0 +1,24 @@
+
+
+================================================================
+== Synthesis Summary Report of 'converter'
+================================================================
++ General Information: 
+    * Date:           Wed Dec 29 18:23:14 2021
+    * Version:        2020.2 (Build 3064766 on Wed Nov 18 09:12:47 MST 2020)
+    * Project:        converter
+    * Solution:       solution1 (Vivado IP Flow Target)
+    * Product family: zynquplus
+    * Target device:  xczu3eg-sbva484-1-i
+    
+
++ Performance & Resource Estimates: 
+    
+    PS: '+' for module; 'o' for loop; '*' for dataflow
+    +-------------+------+-------+---------+--------+----------+---------+------+----------+------+----+---------+-----------+-----+
+    |   Modules   | Issue|       | Latency | Latency| Iteration|         | Trip |          |      |    |         |           |     |
+    |   & Loops   | Type | Slack | (cycles)|  (ns)  |  Latency | Interval| Count| Pipelined| BRAM | DSP|    FF   |    LUT    | URAM|
+    +-------------+------+-------+---------+--------+----------+---------+------+----------+------+----+---------+-----------+-----+
+    |+ converter  |     -|  -1.74|        2|  20.000|         -|        3|     -|        no|     -|   -|  5 (~0%)|  111 (~0%)|    -|
+    +-------------+------+-------+---------+--------+----------+---------+------+----------+------+----+---------+-----------+-----+
+
