@@ -1,0 +1,51 @@
+(base) sdu@sdu-Standard-PC-Q35-ICH9-2009:~/Documents/embeddedSystems/project/miniproject$ ls /dev/
+autofs           loop10            sda2      tty23  tty60      udmabuf
+block            loop11            sda5      tty24  tty61      uhid
+bsg              loop12            sdb       tty25  tty62      uinput
+btrfs-control    loop13            sdb1      tty26  tty63      urandom
+bus              loop14            sdc       tty27  tty7       usb
+char             loop15            sdc1      tty28  tty8       userio
+console          loop16            sdc2      tty29  tty9       v4l
+core             loop2             sdc3      tty3   ttyprintk  vcs
+cpu              loop3             sdc4      tty30  ttyS0      vcs1
+cpu_dma_latency  loop4             sdc5      tty31  ttyS1      vcs2
+cuse             loop5             sdc8      tty32  ttyS10     vcs3
+disk             loop6             serial    tty33  ttyS11     vcs4
+dma_heap         loop7             sg0       tty34  ttyS12     vcs5
+dri              loop8             sg1       tty35  ttyS13     vcs6
+drm_dp_aux0      loop9             sg2       tty36  ttyS14     vcsa
+drm_dp_aux1      loop-control      sg3       tty37  ttyS15     vcsa1
+ecryptfs         mapper            shm       tty38  ttyS16     vcsa2
+fb0              mcelog            snapshot  tty39  ttyS17     vcsa3
+fd               media0            snd       tty4   ttyS18     vcsa4
+full             mei0              stderr    tty40  ttyS19     vcsa5
+fuse             mem               stdin     tty41  ttyS2      vcsa6
+hidraw0          mqueue            stdout    tty42  ttyS20     vcsu
+hidraw1          net               tpm0      tty43  ttyS21     vcsu1
+hidraw2          null              tpmrm0    tty44  ttyS22     vcsu2
+hpet             nvidia0           tty       tty45  ttyS23     vcsu3
+hugepages        nvidiactl         tty0      tty46  ttyS24     vcsu4
+hwrng            nvidia-modeset    tty1      tty47  ttyS25     vcsu5
+i2c-0            nvidia-uvm        tty10     tty48  ttyS26     vcsu6
+i2c-1            nvidia-uvm-tools  tty11     tty49  ttyS27     vfio
+i2c-2            nvram             tty12     tty5   ttyS28     vga_arbiter
+i2c-3            port              tty13     tty50  ttyS29     vhci
+i2c-4            ppp               tty14     tty51  ttyS3      vhost-net
+i2c-5            psaux             tty15     tty52  ttyS30     vhost-vsock
+i2c-6            ptmx              tty16     tty53  ttyS31     video0
+initctl          pts               tty17     tty54  ttyS4      video1
+input            random            tty18     tty55  ttyS5      zero
+kmsg             rfkill            tty19     tty56  ttyS6      zfs
+kvm              rtc               tty2      tty57  ttyS7
+log              rtc0              tty20     tty58  ttyS8
+loop0            sda               tty21     tty59  ttyS9
+loop1            sda1              tty22     tty6   ttyUSB1
+(base) sdu@sdu-Standard-PC-Q35-ICH9-2009:~/Documents/embeddedSystems/project/miniproject$  cd FPGA_AI/src/python/
+(base) sdu@sdu-Standard-PC-Q35-ICH9-2009:~/Documents/embeddedSystems/project/miniproject/FPGA_AI/src/python$  ls
+mnist_net.py  uart_test_nn.py
+(base) sdu@sdu-Standard-PC-Q35-ICH9-2009:~/Documents/embeddedSystems/project/miniproject/FPGA_AI/src/python$ python3 uart_test_nn.py -port /dev/ttyUSB1
+Label:  1  Filename:  0aaa59b29a9292516249795e8f4fea6d.png  Serialport:  /dev/ttyUSB1
+Network output: 1
+
+(base) sdu@sdu-Standard-PC-Q35-ICH9-2009:~/Documents/embeddedSystems/project/miniproject/FPGA_AI/src/python$ 
+

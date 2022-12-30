@@ -1,0 +1,1071 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:47 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Thu Dec 29 17:40:39 2022
+# Process ID: 18461
+# Current directory: /home/sdu/Documents/embeddedSystems/project/miniproject/vivado/ArmNet/ArmNet.runs/design_1_nn_inference_0_1_synth_1
+# Command line: vivado -log design_1_nn_inference_0_1.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source design_1_nn_inference_0_1.tcl
+# Log file: /home/sdu/Documents/embeddedSystems/project/miniproject/vivado/ArmNet/ArmNet.runs/design_1_nn_inference_0_1_synth_1/design_1_nn_inference_0_1.vds
+# Journal file: /home/sdu/Documents/embeddedSystems/project/miniproject/vivado/ArmNet/ArmNet.runs/design_1_nn_inference_0_1_synth_1/vivado.jou
+#-----------------------------------------------------------
+source design_1_nn_inference_0_1.tcl -notrace
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository '/home/sdu/Documents/embeddedSystems/project/miniproject/FPGA_AI/hls/ArmNet'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/tools/Xilinx/Vivado/2020.2/data/ip'.
+Command: synth_design -top design_1_nn_inference_0_1 -part xczu3eg-sbva484-1-i -mode out_of_context
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xczu3eg'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xczu3eg'
+INFO: [Device 21-403] Loading part xczu3eg-sbva484-1-i
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 4 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 18665
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:07 ; elapsed = 00:00:13 . Memory (MB): peak = 2618.914 ; gain = 30.875 ; free physical = 2186 ; free virtual = 15778
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'design_1_nn_inference_0_1' [/home/sdu/Documents/embeddedSystems/project/miniproject/vivado/ArmNet/ArmNet.gen/sources_1/bd/design_1/ip/design_1_nn_inference_0_1/synth/design_1_nn_inference_0_1.v:58]
+INFO: [Synth 8-6157] synthesizing module 'nn_inference' [/home/sdu/Documents/embeddedSystems/project/miniproject/vivado/ArmNet/ArmNet.gen/sources_1/bd/design_1/ipshared/a1ee/hdl/verilog/nn_inference.v:12]
+	Parameter ap_ST_fsm_state1 bound to: 80'b00000000000000000000000000000000000000000000000000000000000000000000000000000001 
+	Parameter ap_ST_fsm_pp0_stage0 bound to: 80'b00000000000000000000000000000000000000000000000000000000000000000000000000000010 
+	Parameter ap_ST_fsm_state6 bound to: 80'b00000000000000000000000000000000000000000000000000000000000000000000000000000100 
+	Parameter ap_ST_fsm_state7 bound to: 80'b00000000000000000000000000000000000000000000000000000000000000000000000000001000 
+	Parameter ap_ST_fsm_pp1_stage0 bound to: 80'b00000000000000000000000000000000000000000000000000000000000000000000000000010000 
+	Parameter ap_ST_fsm_state11 bound to: 80'b00000000000000000000000000000000000000000000000000000000000000000000000000100000 
+	Parameter ap_ST_fsm_pp2_stage0 bound to: 80'b00000000000000000000000000000000000000000000000000000000000000000000000001000000 
+	Parameter ap_ST_fsm_state16 bound to: 80'b00000000000000000000000000000000000000000000000000000000000000000000000010000000 
+	Parameter ap_ST_fsm_state17 bound to: 80'b00000000000000000000000000000000000000000000000000000000000000000000000100000000 
+	Parameter ap_ST_fsm_state18 bound to: 80'b00000000000000000000000000000000000000000000000000000000000000000000001000000000 
+	Parameter ap_ST_fsm_state19 bound to: 80'b00000000000000000000000000000000000000000000000000000000000000000000010000000000 
+	Parameter ap_ST_fsm_state20 bound to: 80'b00000000000000000000000000000000000000000000000000000000000000000000100000000000 
+	Parameter ap_ST_fsm_state21 bound to: 80'b00000000000000000000000000000000000000000000000000000000000000000001000000000000 
+	Parameter ap_ST_fsm_state22 bound to: 80'b00000000000000000000000000000000000000000000000000000000000000000010000000000000 
+	Parameter ap_ST_fsm_state23 bound to: 80'b00000000000000000000000000000000000000000000000000000000000000000100000000000000 
+	Parameter ap_ST_fsm_state24 bound to: 80'b00000000000000000000000000000000000000000000000000000000000000001000000000000000 
+	Parameter ap_ST_fsm_state25 bound to: 80'b00000000000000000000000000000000000000000000000000000000000000010000000000000000 
+	Parameter ap_ST_fsm_state26 bound to: 80'b00000000000000000000000000000000000000000000000000000000000000100000000000000000 
+	Parameter ap_ST_fsm_state27 bound to: 80'b00000000000000000000000000000000000000000000000000000000000001000000000000000000 
+	Parameter ap_ST_fsm_state28 bound to: 80'b00000000000000000000000000000000000000000000000000000000000010000000000000000000 
+	Parameter ap_ST_fsm_state29 bound to: 80'b00000000000000000000000000000000000000000000000000000000000100000000000000000000 
+	Parameter ap_ST_fsm_state30 bound to: 80'b00000000000000000000000000000000000000000000000000000000001000000000000000000000 
+	Parameter ap_ST_fsm_state31 bound to: 80'b00000000000000000000000000000000000000000000000000000000010000000000000000000000 
+	Parameter ap_ST_fsm_state32 bound to: 80'b00000000000000000000000000000000000000000000000000000000100000000000000000000000 
+	Parameter ap_ST_fsm_state33 bound to: 80'b00000000000000000000000000000000000000000000000000000001000000000000000000000000 
+	Parameter ap_ST_fsm_state34 bound to: 80'b00000000000000000000000000000000000000000000000000000010000000000000000000000000 
+	Parameter ap_ST_fsm_state35 bound to: 80'b00000000000000000000000000000000000000000000000000000100000000000000000000000000 
+	Parameter ap_ST_fsm_state36 bound to: 80'b00000000000000000000000000000000000000000000000000001000000000000000000000000000 
+	Parameter ap_ST_fsm_state37 bound to: 80'b00000000000000000000000000000000000000000000000000010000000000000000000000000000 
+	Parameter ap_ST_fsm_state38 bound to: 80'b00000000000000000000000000000000000000000000000000100000000000000000000000000000 
+	Parameter ap_ST_fsm_state39 bound to: 80'b00000000000000000000000000000000000000000000000001000000000000000000000000000000 
+	Parameter ap_ST_fsm_state40 bound to: 80'b00000000000000000000000000000000000000000000000010000000000000000000000000000000 
+	Parameter ap_ST_fsm_state41 bound to: 80'b00000000000000000000000000000000000000000000000100000000000000000000000000000000 
+	Parameter ap_ST_fsm_state42 bound to: 80'b00000000000000000000000000000000000000000000001000000000000000000000000000000000 
+	Parameter ap_ST_fsm_state43 bound to: 80'b00000000000000000000000000000000000000000000010000000000000000000000000000000000 
+	Parameter ap_ST_fsm_state44 bound to: 80'b00000000000000000000000000000000000000000000100000000000000000000000000000000000 
+	Parameter ap_ST_fsm_state45 bound to: 80'b00000000000000000000000000000000000000000001000000000000000000000000000000000000 
+	Parameter ap_ST_fsm_state46 bound to: 80'b00000000000000000000000000000000000000000010000000000000000000000000000000000000 
+	Parameter ap_ST_fsm_state47 bound to: 80'b00000000000000000000000000000000000000000100000000000000000000000000000000000000 
+	Parameter ap_ST_fsm_state48 bound to: 80'b00000000000000000000000000000000000000001000000000000000000000000000000000000000 
+	Parameter ap_ST_fsm_pp3_stage0 bound to: 80'b00000000000000000000000000000000000000010000000000000000000000000000000000000000 
+	Parameter ap_ST_fsm_state64 bound to: 80'b00000000000000000000000000000000000000100000000000000000000000000000000000000000 
+	Parameter ap_ST_fsm_pp4_stage0 bound to: 80'b00000000000000000000000000000000000001000000000000000000000000000000000000000000 
+	Parameter ap_ST_fsm_state69 bound to: 80'b00000000000000000000000000000000000010000000000000000000000000000000000000000000 
+	Parameter ap_ST_fsm_state70 bound to: 80'b00000000000000000000000000000000000100000000000000000000000000000000000000000000 
+	Parameter ap_ST_fsm_state71 bound to: 80'b00000000000000000000000000000000001000000000000000000000000000000000000000000000 
+	Parameter ap_ST_fsm_state72 bound to: 80'b00000000000000000000000000000000010000000000000000000000000000000000000000000000 
+	Parameter ap_ST_fsm_state73 bound to: 80'b00000000000000000000000000000000100000000000000000000000000000000000000000000000 
+	Parameter ap_ST_fsm_state74 bound to: 80'b00000000000000000000000000000001000000000000000000000000000000000000000000000000 
+	Parameter ap_ST_fsm_state75 bound to: 80'b00000000000000000000000000000010000000000000000000000000000000000000000000000000 
+	Parameter ap_ST_fsm_state76 bound to: 80'b00000000000000000000000000000100000000000000000000000000000000000000000000000000 
+	Parameter ap_ST_fsm_state77 bound to: 80'b00000000000000000000000000001000000000000000000000000000000000000000000000000000 
+	Parameter ap_ST_fsm_state78 bound to: 80'b00000000000000000000000000010000000000000000000000000000000000000000000000000000 
+	Parameter ap_ST_fsm_state79 bound to: 80'b00000000000000000000000000100000000000000000000000000000000000000000000000000000 
+	Parameter ap_ST_fsm_state80 bound to: 80'b00000000000000000000000001000000000000000000000000000000000000000000000000000000 
+	Parameter ap_ST_fsm_state81 bound to: 80'b00000000000000000000000010000000000000000000000000000000000000000000000000000000 
+	Parameter ap_ST_fsm_state82 bound to: 80'b00000000000000000000000100000000000000000000000000000000000000000000000000000000 
+	Parameter ap_ST_fsm_state83 bound to: 80'b00000000000000000000001000000000000000000000000000000000000000000000000000000000 
+	Parameter ap_ST_fsm_state84 bound to: 80'b00000000000000000000010000000000000000000000000000000000000000000000000000000000 
+	Parameter ap_ST_fsm_state85 bound to: 80'b00000000000000000000100000000000000000000000000000000000000000000000000000000000 
+	Parameter ap_ST_fsm_state86 bound to: 80'b00000000000000000001000000000000000000000000000000000000000000000000000000000000 
+	Parameter ap_ST_fsm_state87 bound to: 80'b00000000000000000010000000000000000000000000000000000000000000000000000000000000 
+	Parameter ap_ST_fsm_state88 bound to: 80'b00000000000000000100000000000000000000000000000000000000000000000000000000000000 
+	Parameter ap_ST_fsm_state89 bound to: 80'b00000000000000001000000000000000000000000000000000000000000000000000000000000000 
+	Parameter ap_ST_fsm_state90 bound to: 80'b00000000000000010000000000000000000000000000000000000000000000000000000000000000 
+	Parameter ap_ST_fsm_state91 bound to: 80'b00000000000000100000000000000000000000000000000000000000000000000000000000000000 
+	Parameter ap_ST_fsm_state92 bound to: 80'b00000000000001000000000000000000000000000000000000000000000000000000000000000000 
+	Parameter ap_ST_fsm_state93 bound to: 80'b00000000000010000000000000000000000000000000000000000000000000000000000000000000 
+	Parameter ap_ST_fsm_state94 bound to: 80'b00000000000100000000000000000000000000000000000000000000000000000000000000000000 
+	Parameter ap_ST_fsm_state95 bound to: 80'b00000000001000000000000000000000000000000000000000000000000000000000000000000000 
+	Parameter ap_ST_fsm_state96 bound to: 80'b00000000010000000000000000000000000000000000000000000000000000000000000000000000 
+	Parameter ap_ST_fsm_state97 bound to: 80'b00000000100000000000000000000000000000000000000000000000000000000000000000000000 
+	Parameter ap_ST_fsm_state98 bound to: 80'b00000001000000000000000000000000000000000000000000000000000000000000000000000000 
+	Parameter ap_ST_fsm_state99 bound to: 80'b00000010000000000000000000000000000000000000000000000000000000000000000000000000 
+	Parameter ap_ST_fsm_state100 bound to: 80'b00000100000000000000000000000000000000000000000000000000000000000000000000000000 
+	Parameter ap_ST_fsm_state101 bound to: 80'b00001000000000000000000000000000000000000000000000000000000000000000000000000000 
+	Parameter ap_ST_fsm_pp5_stage0 bound to: 80'b00010000000000000000000000000000000000000000000000000000000000000000000000000000 
+	Parameter ap_ST_fsm_state116 bound to: 80'b00100000000000000000000000000000000000000000000000000000000000000000000000000000 
+	Parameter ap_ST_fsm_state117 bound to: 80'b01000000000000000000000000000000000000000000000000000000000000000000000000000000 
+	Parameter ap_ST_fsm_state118 bound to: 80'b10000000000000000000000000000000000000000000000000000000000000000000000000000000 
+INFO: [Synth 8-6157] synthesizing module 'nn_inference_weights_layer1_weights_V' [/home/sdu/Documents/embeddedSystems/project/miniproject/vivado/ArmNet/ArmNet.gen/sources_1/bd/design_1/ipshared/a1ee/hdl/verilog/nn_inference_weights_layer1_weights_V.v:52]
+	Parameter DataWidth bound to: 8 - type: integer 
+	Parameter AddressRange bound to: 6400 - type: integer 
+	Parameter AddressWidth bound to: 13 - type: integer 
+INFO: [Synth 8-6157] synthesizing module 'nn_inference_weights_layer1_weights_V_rom' [/home/sdu/Documents/embeddedSystems/project/miniproject/vivado/ArmNet/ArmNet.gen/sources_1/bd/design_1/ipshared/a1ee/hdl/verilog/nn_inference_weights_layer1_weights_V.v:6]
+	Parameter DWIDTH bound to: 8 - type: integer 
+	Parameter AWIDTH bound to: 13 - type: integer 
+	Parameter MEM_SIZE bound to: 6400 - type: integer 
+INFO: [Synth 8-3876] $readmem data file './nn_inference_weights_layer1_weights_V_rom.dat' is read successfully [/home/sdu/Documents/embeddedSystems/project/miniproject/vivado/ArmNet/ArmNet.gen/sources_1/bd/design_1/ipshared/a1ee/hdl/verilog/nn_inference_weights_layer1_weights_V.v:24]
+INFO: [Synth 8-6155] done synthesizing module 'nn_inference_weights_layer1_weights_V_rom' (1#1) [/home/sdu/Documents/embeddedSystems/project/miniproject/vivado/ArmNet/ArmNet.gen/sources_1/bd/design_1/ipshared/a1ee/hdl/verilog/nn_inference_weights_layer1_weights_V.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'nn_inference_weights_layer1_weights_V' (2#1) [/home/sdu/Documents/embeddedSystems/project/miniproject/vivado/ArmNet/ArmNet.gen/sources_1/bd/design_1/ipshared/a1ee/hdl/verilog/nn_inference_weights_layer1_weights_V.v:52]
+INFO: [Synth 8-6157] synthesizing module 'nn_inference_layer2_weights_V_0' [/home/sdu/Documents/embeddedSystems/project/miniproject/vivado/ArmNet/ArmNet.gen/sources_1/bd/design_1/ipshared/a1ee/hdl/verilog/nn_inference_layer2_weights_V_0.v:39]
+	Parameter DataWidth bound to: 8 - type: integer 
+	Parameter AddressRange bound to: 64 - type: integer 
+	Parameter AddressWidth bound to: 6 - type: integer 
+INFO: [Synth 8-6157] synthesizing module 'nn_inference_layer2_weights_V_0_rom' [/home/sdu/Documents/embeddedSystems/project/miniproject/vivado/ArmNet/ArmNet.gen/sources_1/bd/design_1/ipshared/a1ee/hdl/verilog/nn_inference_layer2_weights_V_0.v:6]
+	Parameter DWIDTH bound to: 8 - type: integer 
+	Parameter AWIDTH bound to: 6 - type: integer 
+	Parameter MEM_SIZE bound to: 64 - type: integer 
+INFO: [Synth 8-3876] $readmem data file './nn_inference_layer2_weights_V_0_rom.dat' is read successfully [/home/sdu/Documents/embeddedSystems/project/miniproject/vivado/ArmNet/ArmNet.gen/sources_1/bd/design_1/ipshared/a1ee/hdl/verilog/nn_inference_layer2_weights_V_0.v:21]
+INFO: [Synth 8-6155] done synthesizing module 'nn_inference_layer2_weights_V_0_rom' (3#1) [/home/sdu/Documents/embeddedSystems/project/miniproject/vivado/ArmNet/ArmNet.gen/sources_1/bd/design_1/ipshared/a1ee/hdl/verilog/nn_inference_layer2_weights_V_0.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'nn_inference_layer2_weights_V_0' (4#1) [/home/sdu/Documents/embeddedSystems/project/miniproject/vivado/ArmNet/ArmNet.gen/sources_1/bd/design_1/ipshared/a1ee/hdl/verilog/nn_inference_layer2_weights_V_0.v:39]
+INFO: [Synth 8-6157] synthesizing module 'nn_inference_layer2_weights_V_1' [/home/sdu/Documents/embeddedSystems/project/miniproject/vivado/ArmNet/ArmNet.gen/sources_1/bd/design_1/ipshared/a1ee/hdl/verilog/nn_inference_layer2_weights_V_1.v:39]
+	Parameter DataWidth bound to: 8 - type: integer 
+	Parameter AddressRange bound to: 64 - type: integer 
+	Parameter AddressWidth bound to: 6 - type: integer 
+INFO: [Synth 8-6157] synthesizing module 'nn_inference_layer2_weights_V_1_rom' [/home/sdu/Documents/embeddedSystems/project/miniproject/vivado/ArmNet/ArmNet.gen/sources_1/bd/design_1/ipshared/a1ee/hdl/verilog/nn_inference_layer2_weights_V_1.v:6]
+	Parameter DWIDTH bound to: 8 - type: integer 
+	Parameter AWIDTH bound to: 6 - type: integer 
+	Parameter MEM_SIZE bound to: 64 - type: integer 
+INFO: [Synth 8-3876] $readmem data file './nn_inference_layer2_weights_V_1_rom.dat' is read successfully [/home/sdu/Documents/embeddedSystems/project/miniproject/vivado/ArmNet/ArmNet.gen/sources_1/bd/design_1/ipshared/a1ee/hdl/verilog/nn_inference_layer2_weights_V_1.v:21]
+INFO: [Synth 8-6155] done synthesizing module 'nn_inference_layer2_weights_V_1_rom' (5#1) [/home/sdu/Documents/embeddedSystems/project/miniproject/vivado/ArmNet/ArmNet.gen/sources_1/bd/design_1/ipshared/a1ee/hdl/verilog/nn_inference_layer2_weights_V_1.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'nn_inference_layer2_weights_V_1' (6#1) [/home/sdu/Documents/embeddedSystems/project/miniproject/vivado/ArmNet/ArmNet.gen/sources_1/bd/design_1/ipshared/a1ee/hdl/verilog/nn_inference_layer2_weights_V_1.v:39]
+INFO: [Synth 8-6157] synthesizing module 'nn_inference_layer2_weights_V_2' [/home/sdu/Documents/embeddedSystems/project/miniproject/vivado/ArmNet/ArmNet.gen/sources_1/bd/design_1/ipshared/a1ee/hdl/verilog/nn_inference_layer2_weights_V_2.v:39]
+	Parameter DataWidth bound to: 8 - type: integer 
+	Parameter AddressRange bound to: 64 - type: integer 
+	Parameter AddressWidth bound to: 6 - type: integer 
+INFO: [Synth 8-6157] synthesizing module 'nn_inference_layer2_weights_V_2_rom' [/home/sdu/Documents/embeddedSystems/project/miniproject/vivado/ArmNet/ArmNet.gen/sources_1/bd/design_1/ipshared/a1ee/hdl/verilog/nn_inference_layer2_weights_V_2.v:6]
+	Parameter DWIDTH bound to: 8 - type: integer 
+	Parameter AWIDTH bound to: 6 - type: integer 
+	Parameter MEM_SIZE bound to: 64 - type: integer 
+INFO: [Synth 8-3876] $readmem data file './nn_inference_layer2_weights_V_2_rom.dat' is read successfully [/home/sdu/Documents/embeddedSystems/project/miniproject/vivado/ArmNet/ArmNet.gen/sources_1/bd/design_1/ipshared/a1ee/hdl/verilog/nn_inference_layer2_weights_V_2.v:21]
+INFO: [Synth 8-6155] done synthesizing module 'nn_inference_layer2_weights_V_2_rom' (7#1) [/home/sdu/Documents/embeddedSystems/project/miniproject/vivado/ArmNet/ArmNet.gen/sources_1/bd/design_1/ipshared/a1ee/hdl/verilog/nn_inference_layer2_weights_V_2.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'nn_inference_layer2_weights_V_2' (8#1) [/home/sdu/Documents/embeddedSystems/project/miniproject/vivado/ArmNet/ArmNet.gen/sources_1/bd/design_1/ipshared/a1ee/hdl/verilog/nn_inference_layer2_weights_V_2.v:39]
+INFO: [Synth 8-6157] synthesizing module 'nn_inference_layer2_weights_V_3' [/home/sdu/Documents/embeddedSystems/project/miniproject/vivado/ArmNet/ArmNet.gen/sources_1/bd/design_1/ipshared/a1ee/hdl/verilog/nn_inference_layer2_weights_V_3.v:39]
+	Parameter DataWidth bound to: 8 - type: integer 
+	Parameter AddressRange bound to: 64 - type: integer 
+	Parameter AddressWidth bound to: 6 - type: integer 
+INFO: [Synth 8-6157] synthesizing module 'nn_inference_layer2_weights_V_3_rom' [/home/sdu/Documents/embeddedSystems/project/miniproject/vivado/ArmNet/ArmNet.gen/sources_1/bd/design_1/ipshared/a1ee/hdl/verilog/nn_inference_layer2_weights_V_3.v:6]
+	Parameter DWIDTH bound to: 8 - type: integer 
+	Parameter AWIDTH bound to: 6 - type: integer 
+	Parameter MEM_SIZE bound to: 64 - type: integer 
+INFO: [Synth 8-3876] $readmem data file './nn_inference_layer2_weights_V_3_rom.dat' is read successfully [/home/sdu/Documents/embeddedSystems/project/miniproject/vivado/ArmNet/ArmNet.gen/sources_1/bd/design_1/ipshared/a1ee/hdl/verilog/nn_inference_layer2_weights_V_3.v:21]
+INFO: [Synth 8-6155] done synthesizing module 'nn_inference_layer2_weights_V_3_rom' (9#1) [/home/sdu/Documents/embeddedSystems/project/miniproject/vivado/ArmNet/ArmNet.gen/sources_1/bd/design_1/ipshared/a1ee/hdl/verilog/nn_inference_layer2_weights_V_3.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'nn_inference_layer2_weights_V_3' (10#1) [/home/sdu/Documents/embeddedSystems/project/miniproject/vivado/ArmNet/ArmNet.gen/sources_1/bd/design_1/ipshared/a1ee/hdl/verilog/nn_inference_layer2_weights_V_3.v:39]
+INFO: [Synth 8-6157] synthesizing module 'nn_inference_layer2_weights_V_4' [/home/sdu/Documents/embeddedSystems/project/miniproject/vivado/ArmNet/ArmNet.gen/sources_1/bd/design_1/ipshared/a1ee/hdl/verilog/nn_inference_layer2_weights_V_4.v:39]
+	Parameter DataWidth bound to: 7 - type: integer 
+	Parameter AddressRange bound to: 64 - type: integer 
+	Parameter AddressWidth bound to: 6 - type: integer 
+INFO: [Synth 8-6157] synthesizing module 'nn_inference_layer2_weights_V_4_rom' [/home/sdu/Documents/embeddedSystems/project/miniproject/vivado/ArmNet/ArmNet.gen/sources_1/bd/design_1/ipshared/a1ee/hdl/verilog/nn_inference_layer2_weights_V_4.v:6]
+	Parameter DWIDTH bound to: 7 - type: integer 
+	Parameter AWIDTH bound to: 6 - type: integer 
+	Parameter MEM_SIZE bound to: 64 - type: integer 
+INFO: [Synth 8-3876] $readmem data file './nn_inference_layer2_weights_V_4_rom.dat' is read successfully [/home/sdu/Documents/embeddedSystems/project/miniproject/vivado/ArmNet/ArmNet.gen/sources_1/bd/design_1/ipshared/a1ee/hdl/verilog/nn_inference_layer2_weights_V_4.v:21]
+INFO: [Synth 8-6155] done synthesizing module 'nn_inference_layer2_weights_V_4_rom' (11#1) [/home/sdu/Documents/embeddedSystems/project/miniproject/vivado/ArmNet/ArmNet.gen/sources_1/bd/design_1/ipshared/a1ee/hdl/verilog/nn_inference_layer2_weights_V_4.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'nn_inference_layer2_weights_V_4' (12#1) [/home/sdu/Documents/embeddedSystems/project/miniproject/vivado/ArmNet/ArmNet.gen/sources_1/bd/design_1/ipshared/a1ee/hdl/verilog/nn_inference_layer2_weights_V_4.v:39]
+INFO: [Synth 8-6157] synthesizing module 'nn_inference_layer2_weights_V_5' [/home/sdu/Documents/embeddedSystems/project/miniproject/vivado/ArmNet/ArmNet.gen/sources_1/bd/design_1/ipshared/a1ee/hdl/verilog/nn_inference_layer2_weights_V_5.v:39]
+	Parameter DataWidth bound to: 8 - type: integer 
+	Parameter AddressRange bound to: 64 - type: integer 
+	Parameter AddressWidth bound to: 6 - type: integer 
+INFO: [Synth 8-6157] synthesizing module 'nn_inference_layer2_weights_V_5_rom' [/home/sdu/Documents/embeddedSystems/project/miniproject/vivado/ArmNet/ArmNet.gen/sources_1/bd/design_1/ipshared/a1ee/hdl/verilog/nn_inference_layer2_weights_V_5.v:6]
+	Parameter DWIDTH bound to: 8 - type: integer 
+	Parameter AWIDTH bound to: 6 - type: integer 
+	Parameter MEM_SIZE bound to: 64 - type: integer 
+INFO: [Synth 8-3876] $readmem data file './nn_inference_layer2_weights_V_5_rom.dat' is read successfully [/home/sdu/Documents/embeddedSystems/project/miniproject/vivado/ArmNet/ArmNet.gen/sources_1/bd/design_1/ipshared/a1ee/hdl/verilog/nn_inference_layer2_weights_V_5.v:21]
+INFO: [Synth 8-6155] done synthesizing module 'nn_inference_layer2_weights_V_5_rom' (13#1) [/home/sdu/Documents/embeddedSystems/project/miniproject/vivado/ArmNet/ArmNet.gen/sources_1/bd/design_1/ipshared/a1ee/hdl/verilog/nn_inference_layer2_weights_V_5.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'nn_inference_layer2_weights_V_5' (14#1) [/home/sdu/Documents/embeddedSystems/project/miniproject/vivado/ArmNet/ArmNet.gen/sources_1/bd/design_1/ipshared/a1ee/hdl/verilog/nn_inference_layer2_weights_V_5.v:39]
+INFO: [Synth 8-6157] synthesizing module 'nn_inference_layer2_weights_V_6' [/home/sdu/Documents/embeddedSystems/project/miniproject/vivado/ArmNet/ArmNet.gen/sources_1/bd/design_1/ipshared/a1ee/hdl/verilog/nn_inference_layer2_weights_V_6.v:39]
+	Parameter DataWidth bound to: 8 - type: integer 
+	Parameter AddressRange bound to: 64 - type: integer 
+	Parameter AddressWidth bound to: 6 - type: integer 
+INFO: [Synth 8-6157] synthesizing module 'nn_inference_layer2_weights_V_6_rom' [/home/sdu/Documents/embeddedSystems/project/miniproject/vivado/ArmNet/ArmNet.gen/sources_1/bd/design_1/ipshared/a1ee/hdl/verilog/nn_inference_layer2_weights_V_6.v:6]
+	Parameter DWIDTH bound to: 8 - type: integer 
+	Parameter AWIDTH bound to: 6 - type: integer 
+	Parameter MEM_SIZE bound to: 64 - type: integer 
+INFO: [Synth 8-3876] $readmem data file './nn_inference_layer2_weights_V_6_rom.dat' is read successfully [/home/sdu/Documents/embeddedSystems/project/miniproject/vivado/ArmNet/ArmNet.gen/sources_1/bd/design_1/ipshared/a1ee/hdl/verilog/nn_inference_layer2_weights_V_6.v:21]
+INFO: [Synth 8-6155] done synthesizing module 'nn_inference_layer2_weights_V_6_rom' (15#1) [/home/sdu/Documents/embeddedSystems/project/miniproject/vivado/ArmNet/ArmNet.gen/sources_1/bd/design_1/ipshared/a1ee/hdl/verilog/nn_inference_layer2_weights_V_6.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'nn_inference_layer2_weights_V_6' (16#1) [/home/sdu/Documents/embeddedSystems/project/miniproject/vivado/ArmNet/ArmNet.gen/sources_1/bd/design_1/ipshared/a1ee/hdl/verilog/nn_inference_layer2_weights_V_6.v:39]
+INFO: [Synth 8-6157] synthesizing module 'nn_inference_layer2_weights_V_7' [/home/sdu/Documents/embeddedSystems/project/miniproject/vivado/ArmNet/ArmNet.gen/sources_1/bd/design_1/ipshared/a1ee/hdl/verilog/nn_inference_layer2_weights_V_7.v:39]
+	Parameter DataWidth bound to: 8 - type: integer 
+	Parameter AddressRange bound to: 64 - type: integer 
+	Parameter AddressWidth bound to: 6 - type: integer 
+INFO: [Synth 8-6157] synthesizing module 'nn_inference_layer2_weights_V_7_rom' [/home/sdu/Documents/embeddedSystems/project/miniproject/vivado/ArmNet/ArmNet.gen/sources_1/bd/design_1/ipshared/a1ee/hdl/verilog/nn_inference_layer2_weights_V_7.v:6]
+	Parameter DWIDTH bound to: 8 - type: integer 
+	Parameter AWIDTH bound to: 6 - type: integer 
+	Parameter MEM_SIZE bound to: 64 - type: integer 
+INFO: [Synth 8-3876] $readmem data file './nn_inference_layer2_weights_V_7_rom.dat' is read successfully [/home/sdu/Documents/embeddedSystems/project/miniproject/vivado/ArmNet/ArmNet.gen/sources_1/bd/design_1/ipshared/a1ee/hdl/verilog/nn_inference_layer2_weights_V_7.v:21]
+INFO: [Synth 8-6155] done synthesizing module 'nn_inference_layer2_weights_V_7_rom' (17#1) [/home/sdu/Documents/embeddedSystems/project/miniproject/vivado/ArmNet/ArmNet.gen/sources_1/bd/design_1/ipshared/a1ee/hdl/verilog/nn_inference_layer2_weights_V_7.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'nn_inference_layer2_weights_V_7' (18#1) [/home/sdu/Documents/embeddedSystems/project/miniproject/vivado/ArmNet/ArmNet.gen/sources_1/bd/design_1/ipshared/a1ee/hdl/verilog/nn_inference_layer2_weights_V_7.v:39]
+INFO: [Synth 8-6157] synthesizing module 'nn_inference_layer2_weights_V_8' [/home/sdu/Documents/embeddedSystems/project/miniproject/vivado/ArmNet/ArmNet.gen/sources_1/bd/design_1/ipshared/a1ee/hdl/verilog/nn_inference_layer2_weights_V_8.v:39]
+	Parameter DataWidth bound to: 8 - type: integer 
+	Parameter AddressRange bound to: 64 - type: integer 
+	Parameter AddressWidth bound to: 6 - type: integer 
+INFO: [Synth 8-6157] synthesizing module 'nn_inference_layer2_weights_V_8_rom' [/home/sdu/Documents/embeddedSystems/project/miniproject/vivado/ArmNet/ArmNet.gen/sources_1/bd/design_1/ipshared/a1ee/hdl/verilog/nn_inference_layer2_weights_V_8.v:6]
+	Parameter DWIDTH bound to: 8 - type: integer 
+	Parameter AWIDTH bound to: 6 - type: integer 
+	Parameter MEM_SIZE bound to: 64 - type: integer 
+INFO: [Synth 8-3876] $readmem data file './nn_inference_layer2_weights_V_8_rom.dat' is read successfully [/home/sdu/Documents/embeddedSystems/project/miniproject/vivado/ArmNet/ArmNet.gen/sources_1/bd/design_1/ipshared/a1ee/hdl/verilog/nn_inference_layer2_weights_V_8.v:21]
+INFO: [Synth 8-6155] done synthesizing module 'nn_inference_layer2_weights_V_8_rom' (19#1) [/home/sdu/Documents/embeddedSystems/project/miniproject/vivado/ArmNet/ArmNet.gen/sources_1/bd/design_1/ipshared/a1ee/hdl/verilog/nn_inference_layer2_weights_V_8.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'nn_inference_layer2_weights_V_8' (20#1) [/home/sdu/Documents/embeddedSystems/project/miniproject/vivado/ArmNet/ArmNet.gen/sources_1/bd/design_1/ipshared/a1ee/hdl/verilog/nn_inference_layer2_weights_V_8.v:39]
+INFO: [Synth 8-6157] synthesizing module 'nn_inference_layer2_weights_V_9' [/home/sdu/Documents/embeddedSystems/project/miniproject/vivado/ArmNet/ArmNet.gen/sources_1/bd/design_1/ipshared/a1ee/hdl/verilog/nn_inference_layer2_weights_V_9.v:39]
+	Parameter DataWidth bound to: 8 - type: integer 
+	Parameter AddressRange bound to: 64 - type: integer 
+	Parameter AddressWidth bound to: 6 - type: integer 
+INFO: [Synth 8-6157] synthesizing module 'nn_inference_layer2_weights_V_9_rom' [/home/sdu/Documents/embeddedSystems/project/miniproject/vivado/ArmNet/ArmNet.gen/sources_1/bd/design_1/ipshared/a1ee/hdl/verilog/nn_inference_layer2_weights_V_9.v:6]
+	Parameter DWIDTH bound to: 8 - type: integer 
+	Parameter AWIDTH bound to: 6 - type: integer 
+	Parameter MEM_SIZE bound to: 64 - type: integer 
+INFO: [Synth 8-3876] $readmem data file './nn_inference_layer2_weights_V_9_rom.dat' is read successfully [/home/sdu/Documents/embeddedSystems/project/miniproject/vivado/ArmNet/ArmNet.gen/sources_1/bd/design_1/ipshared/a1ee/hdl/verilog/nn_inference_layer2_weights_V_9.v:21]
+INFO: [Synth 8-6155] done synthesizing module 'nn_inference_layer2_weights_V_9_rom' (21#1) [/home/sdu/Documents/embeddedSystems/project/miniproject/vivado/ArmNet/ArmNet.gen/sources_1/bd/design_1/ipshared/a1ee/hdl/verilog/nn_inference_layer2_weights_V_9.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'nn_inference_layer2_weights_V_9' (22#1) [/home/sdu/Documents/embeddedSystems/project/miniproject/vivado/ArmNet/ArmNet.gen/sources_1/bd/design_1/ipshared/a1ee/hdl/verilog/nn_inference_layer2_weights_V_9.v:39]
+INFO: [Synth 8-6157] synthesizing module 'nn_inference_layer2_weights_V_10' [/home/sdu/Documents/embeddedSystems/project/miniproject/vivado/ArmNet/ArmNet.gen/sources_1/bd/design_1/ipshared/a1ee/hdl/verilog/nn_inference_layer2_weights_V_10.v:39]
+	Parameter DataWidth bound to: 8 - type: integer 
+	Parameter AddressRange bound to: 64 - type: integer 
+	Parameter AddressWidth bound to: 6 - type: integer 
+INFO: [Synth 8-6157] synthesizing module 'nn_inference_layer2_weights_V_10_rom' [/home/sdu/Documents/embeddedSystems/project/miniproject/vivado/ArmNet/ArmNet.gen/sources_1/bd/design_1/ipshared/a1ee/hdl/verilog/nn_inference_layer2_weights_V_10.v:6]
+	Parameter DWIDTH bound to: 8 - type: integer 
+	Parameter AWIDTH bound to: 6 - type: integer 
+	Parameter MEM_SIZE bound to: 64 - type: integer 
+INFO: [Synth 8-3876] $readmem data file './nn_inference_layer2_weights_V_10_rom.dat' is read successfully [/home/sdu/Documents/embeddedSystems/project/miniproject/vivado/ArmNet/ArmNet.gen/sources_1/bd/design_1/ipshared/a1ee/hdl/verilog/nn_inference_layer2_weights_V_10.v:21]
+INFO: [Synth 8-6155] done synthesizing module 'nn_inference_layer2_weights_V_10_rom' (23#1) [/home/sdu/Documents/embeddedSystems/project/miniproject/vivado/ArmNet/ArmNet.gen/sources_1/bd/design_1/ipshared/a1ee/hdl/verilog/nn_inference_layer2_weights_V_10.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'nn_inference_layer2_weights_V_10' (24#1) [/home/sdu/Documents/embeddedSystems/project/miniproject/vivado/ArmNet/ArmNet.gen/sources_1/bd/design_1/ipshared/a1ee/hdl/verilog/nn_inference_layer2_weights_V_10.v:39]
+INFO: [Synth 8-6157] synthesizing module 'nn_inference_layer2_weights_V_11' [/home/sdu/Documents/embeddedSystems/project/miniproject/vivado/ArmNet/ArmNet.gen/sources_1/bd/design_1/ipshared/a1ee/hdl/verilog/nn_inference_layer2_weights_V_11.v:39]
+	Parameter DataWidth bound to: 8 - type: integer 
+	Parameter AddressRange bound to: 64 - type: integer 
+	Parameter AddressWidth bound to: 6 - type: integer 
+INFO: [Synth 8-6157] synthesizing module 'nn_inference_layer2_weights_V_11_rom' [/home/sdu/Documents/embeddedSystems/project/miniproject/vivado/ArmNet/ArmNet.gen/sources_1/bd/design_1/ipshared/a1ee/hdl/verilog/nn_inference_layer2_weights_V_11.v:6]
+	Parameter DWIDTH bound to: 8 - type: integer 
+	Parameter AWIDTH bound to: 6 - type: integer 
+	Parameter MEM_SIZE bound to: 64 - type: integer 
+INFO: [Synth 8-3876] $readmem data file './nn_inference_layer2_weights_V_11_rom.dat' is read successfully [/home/sdu/Documents/embeddedSystems/project/miniproject/vivado/ArmNet/ArmNet.gen/sources_1/bd/design_1/ipshared/a1ee/hdl/verilog/nn_inference_layer2_weights_V_11.v:21]
+INFO: [Synth 8-6155] done synthesizing module 'nn_inference_layer2_weights_V_11_rom' (25#1) [/home/sdu/Documents/embeddedSystems/project/miniproject/vivado/ArmNet/ArmNet.gen/sources_1/bd/design_1/ipshared/a1ee/hdl/verilog/nn_inference_layer2_weights_V_11.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'nn_inference_layer2_weights_V_11' (26#1) [/home/sdu/Documents/embeddedSystems/project/miniproject/vivado/ArmNet/ArmNet.gen/sources_1/bd/design_1/ipshared/a1ee/hdl/verilog/nn_inference_layer2_weights_V_11.v:39]
+INFO: [Synth 8-6157] synthesizing module 'nn_inference_layer2_weights_V_12' [/home/sdu/Documents/embeddedSystems/project/miniproject/vivado/ArmNet/ArmNet.gen/sources_1/bd/design_1/ipshared/a1ee/hdl/verilog/nn_inference_layer2_weights_V_12.v:39]
+	Parameter DataWidth bound to: 8 - type: integer 
+	Parameter AddressRange bound to: 64 - type: integer 
+	Parameter AddressWidth bound to: 6 - type: integer 
+INFO: [Synth 8-6157] synthesizing module 'nn_inference_layer2_weights_V_12_rom' [/home/sdu/Documents/embeddedSystems/project/miniproject/vivado/ArmNet/ArmNet.gen/sources_1/bd/design_1/ipshared/a1ee/hdl/verilog/nn_inference_layer2_weights_V_12.v:6]
+	Parameter DWIDTH bound to: 8 - type: integer 
+	Parameter AWIDTH bound to: 6 - type: integer 
+	Parameter MEM_SIZE bound to: 64 - type: integer 
+INFO: [Synth 8-3876] $readmem data file './nn_inference_layer2_weights_V_12_rom.dat' is read successfully [/home/sdu/Documents/embeddedSystems/project/miniproject/vivado/ArmNet/ArmNet.gen/sources_1/bd/design_1/ipshared/a1ee/hdl/verilog/nn_inference_layer2_weights_V_12.v:21]
+INFO: [Synth 8-6155] done synthesizing module 'nn_inference_layer2_weights_V_12_rom' (27#1) [/home/sdu/Documents/embeddedSystems/project/miniproject/vivado/ArmNet/ArmNet.gen/sources_1/bd/design_1/ipshared/a1ee/hdl/verilog/nn_inference_layer2_weights_V_12.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'nn_inference_layer2_weights_V_12' (28#1) [/home/sdu/Documents/embeddedSystems/project/miniproject/vivado/ArmNet/ArmNet.gen/sources_1/bd/design_1/ipshared/a1ee/hdl/verilog/nn_inference_layer2_weights_V_12.v:39]
+INFO: [Synth 8-6157] synthesizing module 'nn_inference_layer2_weights_V_13' [/home/sdu/Documents/embeddedSystems/project/miniproject/vivado/ArmNet/ArmNet.gen/sources_1/bd/design_1/ipshared/a1ee/hdl/verilog/nn_inference_layer2_weights_V_13.v:39]
+	Parameter DataWidth bound to: 8 - type: integer 
+	Parameter AddressRange bound to: 64 - type: integer 
+	Parameter AddressWidth bound to: 6 - type: integer 
+INFO: [Synth 8-6157] synthesizing module 'nn_inference_layer2_weights_V_13_rom' [/home/sdu/Documents/embeddedSystems/project/miniproject/vivado/ArmNet/ArmNet.gen/sources_1/bd/design_1/ipshared/a1ee/hdl/verilog/nn_inference_layer2_weights_V_13.v:6]
+	Parameter DWIDTH bound to: 8 - type: integer 
+	Parameter AWIDTH bound to: 6 - type: integer 
+	Parameter MEM_SIZE bound to: 64 - type: integer 
+INFO: [Synth 8-3876] $readmem data file './nn_inference_layer2_weights_V_13_rom.dat' is read successfully [/home/sdu/Documents/embeddedSystems/project/miniproject/vivado/ArmNet/ArmNet.gen/sources_1/bd/design_1/ipshared/a1ee/hdl/verilog/nn_inference_layer2_weights_V_13.v:21]
+INFO: [Synth 8-6155] done synthesizing module 'nn_inference_layer2_weights_V_13_rom' (29#1) [/home/sdu/Documents/embeddedSystems/project/miniproject/vivado/ArmNet/ArmNet.gen/sources_1/bd/design_1/ipshared/a1ee/hdl/verilog/nn_inference_layer2_weights_V_13.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'nn_inference_layer2_weights_V_13' (30#1) [/home/sdu/Documents/embeddedSystems/project/miniproject/vivado/ArmNet/ArmNet.gen/sources_1/bd/design_1/ipshared/a1ee/hdl/verilog/nn_inference_layer2_weights_V_13.v:39]
+INFO: [Synth 8-6157] synthesizing module 'nn_inference_layer2_weights_V_14' [/home/sdu/Documents/embeddedSystems/project/miniproject/vivado/ArmNet/ArmNet.gen/sources_1/bd/design_1/ipshared/a1ee/hdl/verilog/nn_inference_layer2_weights_V_14.v:39]
+	Parameter DataWidth bound to: 8 - type: integer 
+	Parameter AddressRange bound to: 64 - type: integer 
+	Parameter AddressWidth bound to: 6 - type: integer 
+INFO: [Synth 8-6157] synthesizing module 'nn_inference_layer2_weights_V_14_rom' [/home/sdu/Documents/embeddedSystems/project/miniproject/vivado/ArmNet/ArmNet.gen/sources_1/bd/design_1/ipshared/a1ee/hdl/verilog/nn_inference_layer2_weights_V_14.v:6]
+	Parameter DWIDTH bound to: 8 - type: integer 
+	Parameter AWIDTH bound to: 6 - type: integer 
+	Parameter MEM_SIZE bound to: 64 - type: integer 
+INFO: [Synth 8-3876] $readmem data file './nn_inference_layer2_weights_V_14_rom.dat' is read successfully [/home/sdu/Documents/embeddedSystems/project/miniproject/vivado/ArmNet/ArmNet.gen/sources_1/bd/design_1/ipshared/a1ee/hdl/verilog/nn_inference_layer2_weights_V_14.v:21]
+INFO: [Synth 8-6155] done synthesizing module 'nn_inference_layer2_weights_V_14_rom' (31#1) [/home/sdu/Documents/embeddedSystems/project/miniproject/vivado/ArmNet/ArmNet.gen/sources_1/bd/design_1/ipshared/a1ee/hdl/verilog/nn_inference_layer2_weights_V_14.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'nn_inference_layer2_weights_V_14' (32#1) [/home/sdu/Documents/embeddedSystems/project/miniproject/vivado/ArmNet/ArmNet.gen/sources_1/bd/design_1/ipshared/a1ee/hdl/verilog/nn_inference_layer2_weights_V_14.v:39]
+INFO: [Synth 8-6157] synthesizing module 'nn_inference_layer2_weights_V_15' [/home/sdu/Documents/embeddedSystems/project/miniproject/vivado/ArmNet/ArmNet.gen/sources_1/bd/design_1/ipshared/a1ee/hdl/verilog/nn_inference_layer2_weights_V_15.v:39]
+	Parameter DataWidth bound to: 8 - type: integer 
+	Parameter AddressRange bound to: 64 - type: integer 
+	Parameter AddressWidth bound to: 6 - type: integer 
+INFO: [Synth 8-6157] synthesizing module 'nn_inference_layer2_weights_V_15_rom' [/home/sdu/Documents/embeddedSystems/project/miniproject/vivado/ArmNet/ArmNet.gen/sources_1/bd/design_1/ipshared/a1ee/hdl/verilog/nn_inference_layer2_weights_V_15.v:6]
+	Parameter DWIDTH bound to: 8 - type: integer 
+	Parameter AWIDTH bound to: 6 - type: integer 
+	Parameter MEM_SIZE bound to: 64 - type: integer 
+INFO: [Synth 8-3876] $readmem data file './nn_inference_layer2_weights_V_15_rom.dat' is read successfully [/home/sdu/Documents/embeddedSystems/project/miniproject/vivado/ArmNet/ArmNet.gen/sources_1/bd/design_1/ipshared/a1ee/hdl/verilog/nn_inference_layer2_weights_V_15.v:21]
+INFO: [Synth 8-6155] done synthesizing module 'nn_inference_layer2_weights_V_15_rom' (33#1) [/home/sdu/Documents/embeddedSystems/project/miniproject/vivado/ArmNet/ArmNet.gen/sources_1/bd/design_1/ipshared/a1ee/hdl/verilog/nn_inference_layer2_weights_V_15.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'nn_inference_layer2_weights_V_15' (34#1) [/home/sdu/Documents/embeddedSystems/project/miniproject/vivado/ArmNet/ArmNet.gen/sources_1/bd/design_1/ipshared/a1ee/hdl/verilog/nn_inference_layer2_weights_V_15.v:39]
+INFO: [Synth 8-6157] synthesizing module 'nn_inference_layer2_weights_V_16' [/home/sdu/Documents/embeddedSystems/project/miniproject/vivado/ArmNet/ArmNet.gen/sources_1/bd/design_1/ipshared/a1ee/hdl/verilog/nn_inference_layer2_weights_V_16.v:39]
+	Parameter DataWidth bound to: 8 - type: integer 
+	Parameter AddressRange bound to: 64 - type: integer 
+	Parameter AddressWidth bound to: 6 - type: integer 
+INFO: [Synth 8-6157] synthesizing module 'nn_inference_layer2_weights_V_16_rom' [/home/sdu/Documents/embeddedSystems/project/miniproject/vivado/ArmNet/ArmNet.gen/sources_1/bd/design_1/ipshared/a1ee/hdl/verilog/nn_inference_layer2_weights_V_16.v:6]
+	Parameter DWIDTH bound to: 8 - type: integer 
+	Parameter AWIDTH bound to: 6 - type: integer 
+	Parameter MEM_SIZE bound to: 64 - type: integer 
+INFO: [Synth 8-3876] $readmem data file './nn_inference_layer2_weights_V_16_rom.dat' is read successfully [/home/sdu/Documents/embeddedSystems/project/miniproject/vivado/ArmNet/ArmNet.gen/sources_1/bd/design_1/ipshared/a1ee/hdl/verilog/nn_inference_layer2_weights_V_16.v:21]
+INFO: [Synth 8-6155] done synthesizing module 'nn_inference_layer2_weights_V_16_rom' (35#1) [/home/sdu/Documents/embeddedSystems/project/miniproject/vivado/ArmNet/ArmNet.gen/sources_1/bd/design_1/ipshared/a1ee/hdl/verilog/nn_inference_layer2_weights_V_16.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'nn_inference_layer2_weights_V_16' (36#1) [/home/sdu/Documents/embeddedSystems/project/miniproject/vivado/ArmNet/ArmNet.gen/sources_1/bd/design_1/ipshared/a1ee/hdl/verilog/nn_inference_layer2_weights_V_16.v:39]
+INFO: [Synth 8-6157] synthesizing module 'nn_inference_layer2_weights_V_17' [/home/sdu/Documents/embeddedSystems/project/miniproject/vivado/ArmNet/ArmNet.gen/sources_1/bd/design_1/ipshared/a1ee/hdl/verilog/nn_inference_layer2_weights_V_17.v:39]
+	Parameter DataWidth bound to: 8 - type: integer 
+	Parameter AddressRange bound to: 64 - type: integer 
+	Parameter AddressWidth bound to: 6 - type: integer 
+INFO: [Synth 8-6157] synthesizing module 'nn_inference_layer2_weights_V_17_rom' [/home/sdu/Documents/embeddedSystems/project/miniproject/vivado/ArmNet/ArmNet.gen/sources_1/bd/design_1/ipshared/a1ee/hdl/verilog/nn_inference_layer2_weights_V_17.v:6]
+	Parameter DWIDTH bound to: 8 - type: integer 
+	Parameter AWIDTH bound to: 6 - type: integer 
+	Parameter MEM_SIZE bound to: 64 - type: integer 
+INFO: [Synth 8-3876] $readmem data file './nn_inference_layer2_weights_V_17_rom.dat' is read successfully [/home/sdu/Documents/embeddedSystems/project/miniproject/vivado/ArmNet/ArmNet.gen/sources_1/bd/design_1/ipshared/a1ee/hdl/verilog/nn_inference_layer2_weights_V_17.v:21]
+INFO: [Synth 8-6155] done synthesizing module 'nn_inference_layer2_weights_V_17_rom' (37#1) [/home/sdu/Documents/embeddedSystems/project/miniproject/vivado/ArmNet/ArmNet.gen/sources_1/bd/design_1/ipshared/a1ee/hdl/verilog/nn_inference_layer2_weights_V_17.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'nn_inference_layer2_weights_V_17' (38#1) [/home/sdu/Documents/embeddedSystems/project/miniproject/vivado/ArmNet/ArmNet.gen/sources_1/bd/design_1/ipshared/a1ee/hdl/verilog/nn_inference_layer2_weights_V_17.v:39]
+INFO: [Synth 8-6157] synthesizing module 'nn_inference_layer2_weights_V_18' [/home/sdu/Documents/embeddedSystems/project/miniproject/vivado/ArmNet/ArmNet.gen/sources_1/bd/design_1/ipshared/a1ee/hdl/verilog/nn_inference_layer2_weights_V_18.v:39]
+	Parameter DataWidth bound to: 7 - type: integer 
+	Parameter AddressRange bound to: 64 - type: integer 
+	Parameter AddressWidth bound to: 6 - type: integer 
+INFO: [Synth 8-6157] synthesizing module 'nn_inference_layer2_weights_V_18_rom' [/home/sdu/Documents/embeddedSystems/project/miniproject/vivado/ArmNet/ArmNet.gen/sources_1/bd/design_1/ipshared/a1ee/hdl/verilog/nn_inference_layer2_weights_V_18.v:6]
+	Parameter DWIDTH bound to: 7 - type: integer 
+	Parameter AWIDTH bound to: 6 - type: integer 
+	Parameter MEM_SIZE bound to: 64 - type: integer 
+INFO: [Synth 8-3876] $readmem data file './nn_inference_layer2_weights_V_18_rom.dat' is read successfully [/home/sdu/Documents/embeddedSystems/project/miniproject/vivado/ArmNet/ArmNet.gen/sources_1/bd/design_1/ipshared/a1ee/hdl/verilog/nn_inference_layer2_weights_V_18.v:21]
+INFO: [Synth 8-6155] done synthesizing module 'nn_inference_layer2_weights_V_18_rom' (39#1) [/home/sdu/Documents/embeddedSystems/project/miniproject/vivado/ArmNet/ArmNet.gen/sources_1/bd/design_1/ipshared/a1ee/hdl/verilog/nn_inference_layer2_weights_V_18.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'nn_inference_layer2_weights_V_18' (40#1) [/home/sdu/Documents/embeddedSystems/project/miniproject/vivado/ArmNet/ArmNet.gen/sources_1/bd/design_1/ipshared/a1ee/hdl/verilog/nn_inference_layer2_weights_V_18.v:39]
+INFO: [Synth 8-6157] synthesizing module 'nn_inference_layer2_weights_V_19' [/home/sdu/Documents/embeddedSystems/project/miniproject/vivado/ArmNet/ArmNet.gen/sources_1/bd/design_1/ipshared/a1ee/hdl/verilog/nn_inference_layer2_weights_V_19.v:39]
+	Parameter DataWidth bound to: 8 - type: integer 
+	Parameter AddressRange bound to: 64 - type: integer 
+	Parameter AddressWidth bound to: 6 - type: integer 
+INFO: [Synth 8-6157] synthesizing module 'nn_inference_layer2_weights_V_19_rom' [/home/sdu/Documents/embeddedSystems/project/miniproject/vivado/ArmNet/ArmNet.gen/sources_1/bd/design_1/ipshared/a1ee/hdl/verilog/nn_inference_layer2_weights_V_19.v:6]
+	Parameter DWIDTH bound to: 8 - type: integer 
+	Parameter AWIDTH bound to: 6 - type: integer 
+	Parameter MEM_SIZE bound to: 64 - type: integer 
+INFO: [Synth 8-3876] $readmem data file './nn_inference_layer2_weights_V_19_rom.dat' is read successfully [/home/sdu/Documents/embeddedSystems/project/miniproject/vivado/ArmNet/ArmNet.gen/sources_1/bd/design_1/ipshared/a1ee/hdl/verilog/nn_inference_layer2_weights_V_19.v:21]
+INFO: [Synth 8-6155] done synthesizing module 'nn_inference_layer2_weights_V_19_rom' (41#1) [/home/sdu/Documents/embeddedSystems/project/miniproject/vivado/ArmNet/ArmNet.gen/sources_1/bd/design_1/ipshared/a1ee/hdl/verilog/nn_inference_layer2_weights_V_19.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'nn_inference_layer2_weights_V_19' (42#1) [/home/sdu/Documents/embeddedSystems/project/miniproject/vivado/ArmNet/ArmNet.gen/sources_1/bd/design_1/ipshared/a1ee/hdl/verilog/nn_inference_layer2_weights_V_19.v:39]
+INFO: [Synth 8-6157] synthesizing module 'nn_inference_layer2_weights_V_20' [/home/sdu/Documents/embeddedSystems/project/miniproject/vivado/ArmNet/ArmNet.gen/sources_1/bd/design_1/ipshared/a1ee/hdl/verilog/nn_inference_layer2_weights_V_20.v:39]
+	Parameter DataWidth bound to: 8 - type: integer 
+	Parameter AddressRange bound to: 64 - type: integer 
+	Parameter AddressWidth bound to: 6 - type: integer 
+INFO: [Synth 8-6157] synthesizing module 'nn_inference_layer2_weights_V_20_rom' [/home/sdu/Documents/embeddedSystems/project/miniproject/vivado/ArmNet/ArmNet.gen/sources_1/bd/design_1/ipshared/a1ee/hdl/verilog/nn_inference_layer2_weights_V_20.v:6]
+	Parameter DWIDTH bound to: 8 - type: integer 
+	Parameter AWIDTH bound to: 6 - type: integer 
+	Parameter MEM_SIZE bound to: 64 - type: integer 
+INFO: [Synth 8-3876] $readmem data file './nn_inference_layer2_weights_V_20_rom.dat' is read successfully [/home/sdu/Documents/embeddedSystems/project/miniproject/vivado/ArmNet/ArmNet.gen/sources_1/bd/design_1/ipshared/a1ee/hdl/verilog/nn_inference_layer2_weights_V_20.v:21]
+INFO: [Synth 8-6155] done synthesizing module 'nn_inference_layer2_weights_V_20_rom' (43#1) [/home/sdu/Documents/embeddedSystems/project/miniproject/vivado/ArmNet/ArmNet.gen/sources_1/bd/design_1/ipshared/a1ee/hdl/verilog/nn_inference_layer2_weights_V_20.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'nn_inference_layer2_weights_V_20' (44#1) [/home/sdu/Documents/embeddedSystems/project/miniproject/vivado/ArmNet/ArmNet.gen/sources_1/bd/design_1/ipshared/a1ee/hdl/verilog/nn_inference_layer2_weights_V_20.v:39]
+INFO: [Synth 8-6157] synthesizing module 'nn_inference_layer2_weights_V_21' [/home/sdu/Documents/embeddedSystems/project/miniproject/vivado/ArmNet/ArmNet.gen/sources_1/bd/design_1/ipshared/a1ee/hdl/verilog/nn_inference_layer2_weights_V_21.v:39]
+	Parameter DataWidth bound to: 8 - type: integer 
+	Parameter AddressRange bound to: 64 - type: integer 
+	Parameter AddressWidth bound to: 6 - type: integer 
+INFO: [Synth 8-6157] synthesizing module 'nn_inference_layer2_weights_V_21_rom' [/home/sdu/Documents/embeddedSystems/project/miniproject/vivado/ArmNet/ArmNet.gen/sources_1/bd/design_1/ipshared/a1ee/hdl/verilog/nn_inference_layer2_weights_V_21.v:6]
+	Parameter DWIDTH bound to: 8 - type: integer 
+	Parameter AWIDTH bound to: 6 - type: integer 
+	Parameter MEM_SIZE bound to: 64 - type: integer 
+INFO: [Synth 8-3876] $readmem data file './nn_inference_layer2_weights_V_21_rom.dat' is read successfully [/home/sdu/Documents/embeddedSystems/project/miniproject/vivado/ArmNet/ArmNet.gen/sources_1/bd/design_1/ipshared/a1ee/hdl/verilog/nn_inference_layer2_weights_V_21.v:21]
+INFO: [Synth 8-6155] done synthesizing module 'nn_inference_layer2_weights_V_21_rom' (45#1) [/home/sdu/Documents/embeddedSystems/project/miniproject/vivado/ArmNet/ArmNet.gen/sources_1/bd/design_1/ipshared/a1ee/hdl/verilog/nn_inference_layer2_weights_V_21.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'nn_inference_layer2_weights_V_21' (46#1) [/home/sdu/Documents/embeddedSystems/project/miniproject/vivado/ArmNet/ArmNet.gen/sources_1/bd/design_1/ipshared/a1ee/hdl/verilog/nn_inference_layer2_weights_V_21.v:39]
+INFO: [Synth 8-6157] synthesizing module 'nn_inference_layer2_weights_V_22' [/home/sdu/Documents/embeddedSystems/project/miniproject/vivado/ArmNet/ArmNet.gen/sources_1/bd/design_1/ipshared/a1ee/hdl/verilog/nn_inference_layer2_weights_V_22.v:39]
+	Parameter DataWidth bound to: 9 - type: integer 
+	Parameter AddressRange bound to: 64 - type: integer 
+	Parameter AddressWidth bound to: 6 - type: integer 
+INFO: [Synth 8-6157] synthesizing module 'nn_inference_layer2_weights_V_22_rom' [/home/sdu/Documents/embeddedSystems/project/miniproject/vivado/ArmNet/ArmNet.gen/sources_1/bd/design_1/ipshared/a1ee/hdl/verilog/nn_inference_layer2_weights_V_22.v:6]
+	Parameter DWIDTH bound to: 9 - type: integer 
+	Parameter AWIDTH bound to: 6 - type: integer 
+	Parameter MEM_SIZE bound to: 64 - type: integer 
+INFO: [Synth 8-3876] $readmem data file './nn_inference_layer2_weights_V_22_rom.dat' is read successfully [/home/sdu/Documents/embeddedSystems/project/miniproject/vivado/ArmNet/ArmNet.gen/sources_1/bd/design_1/ipshared/a1ee/hdl/verilog/nn_inference_layer2_weights_V_22.v:21]
+INFO: [Synth 8-6155] done synthesizing module 'nn_inference_layer2_weights_V_22_rom' (47#1) [/home/sdu/Documents/embeddedSystems/project/miniproject/vivado/ArmNet/ArmNet.gen/sources_1/bd/design_1/ipshared/a1ee/hdl/verilog/nn_inference_layer2_weights_V_22.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'nn_inference_layer2_weights_V_22' (48#1) [/home/sdu/Documents/embeddedSystems/project/miniproject/vivado/ArmNet/ArmNet.gen/sources_1/bd/design_1/ipshared/a1ee/hdl/verilog/nn_inference_layer2_weights_V_22.v:39]
+INFO: [Synth 8-6157] synthesizing module 'nn_inference_layer2_weights_V_23' [/home/sdu/Documents/embeddedSystems/project/miniproject/vivado/ArmNet/ArmNet.gen/sources_1/bd/design_1/ipshared/a1ee/hdl/verilog/nn_inference_layer2_weights_V_23.v:39]
+	Parameter DataWidth bound to: 8 - type: integer 
+	Parameter AddressRange bound to: 64 - type: integer 
+	Parameter AddressWidth bound to: 6 - type: integer 
+INFO: [Synth 8-6157] synthesizing module 'nn_inference_layer2_weights_V_23_rom' [/home/sdu/Documents/embeddedSystems/project/miniproject/vivado/ArmNet/ArmNet.gen/sources_1/bd/design_1/ipshared/a1ee/hdl/verilog/nn_inference_layer2_weights_V_23.v:6]
+	Parameter DWIDTH bound to: 8 - type: integer 
+	Parameter AWIDTH bound to: 6 - type: integer 
+	Parameter MEM_SIZE bound to: 64 - type: integer 
+INFO: [Synth 8-3876] $readmem data file './nn_inference_layer2_weights_V_23_rom.dat' is read successfully [/home/sdu/Documents/embeddedSystems/project/miniproject/vivado/ArmNet/ArmNet.gen/sources_1/bd/design_1/ipshared/a1ee/hdl/verilog/nn_inference_layer2_weights_V_23.v:21]
+INFO: [Synth 8-6155] done synthesizing module 'nn_inference_layer2_weights_V_23_rom' (49#1) [/home/sdu/Documents/embeddedSystems/project/miniproject/vivado/ArmNet/ArmNet.gen/sources_1/bd/design_1/ipshared/a1ee/hdl/verilog/nn_inference_layer2_weights_V_23.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'nn_inference_layer2_weights_V_23' (50#1) [/home/sdu/Documents/embeddedSystems/project/miniproject/vivado/ArmNet/ArmNet.gen/sources_1/bd/design_1/ipshared/a1ee/hdl/verilog/nn_inference_layer2_weights_V_23.v:39]
+INFO: [Synth 8-6157] synthesizing module 'nn_inference_layer2_weights_V_24' [/home/sdu/Documents/embeddedSystems/project/miniproject/vivado/ArmNet/ArmNet.gen/sources_1/bd/design_1/ipshared/a1ee/hdl/verilog/nn_inference_layer2_weights_V_24.v:39]
+	Parameter DataWidth bound to: 8 - type: integer 
+	Parameter AddressRange bound to: 64 - type: integer 
+	Parameter AddressWidth bound to: 6 - type: integer 
+INFO: [Synth 8-6157] synthesizing module 'nn_inference_layer2_weights_V_24_rom' [/home/sdu/Documents/embeddedSystems/project/miniproject/vivado/ArmNet/ArmNet.gen/sources_1/bd/design_1/ipshared/a1ee/hdl/verilog/nn_inference_layer2_weights_V_24.v:6]
+	Parameter DWIDTH bound to: 8 - type: integer 
+	Parameter AWIDTH bound to: 6 - type: integer 
+	Parameter MEM_SIZE bound to: 64 - type: integer 
+INFO: [Synth 8-3876] $readmem data file './nn_inference_layer2_weights_V_24_rom.dat' is read successfully [/home/sdu/Documents/embeddedSystems/project/miniproject/vivado/ArmNet/ArmNet.gen/sources_1/bd/design_1/ipshared/a1ee/hdl/verilog/nn_inference_layer2_weights_V_24.v:21]
+INFO: [Synth 8-6155] done synthesizing module 'nn_inference_layer2_weights_V_24_rom' (51#1) [/home/sdu/Documents/embeddedSystems/project/miniproject/vivado/ArmNet/ArmNet.gen/sources_1/bd/design_1/ipshared/a1ee/hdl/verilog/nn_inference_layer2_weights_V_24.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'nn_inference_layer2_weights_V_24' (52#1) [/home/sdu/Documents/embeddedSystems/project/miniproject/vivado/ArmNet/ArmNet.gen/sources_1/bd/design_1/ipshared/a1ee/hdl/verilog/nn_inference_layer2_weights_V_24.v:39]
+INFO: [Synth 8-6157] synthesizing module 'nn_inference_layer2_weights_V_25' [/home/sdu/Documents/embeddedSystems/project/miniproject/vivado/ArmNet/ArmNet.gen/sources_1/bd/design_1/ipshared/a1ee/hdl/verilog/nn_inference_layer2_weights_V_25.v:39]
+	Parameter DataWidth bound to: 8 - type: integer 
+	Parameter AddressRange bound to: 64 - type: integer 
+	Parameter AddressWidth bound to: 6 - type: integer 
+INFO: [Synth 8-6157] synthesizing module 'nn_inference_layer2_weights_V_25_rom' [/home/sdu/Documents/embeddedSystems/project/miniproject/vivado/ArmNet/ArmNet.gen/sources_1/bd/design_1/ipshared/a1ee/hdl/verilog/nn_inference_layer2_weights_V_25.v:6]
+	Parameter DWIDTH bound to: 8 - type: integer 
+	Parameter AWIDTH bound to: 6 - type: integer 
+	Parameter MEM_SIZE bound to: 64 - type: integer 
+INFO: [Synth 8-3876] $readmem data file './nn_inference_layer2_weights_V_25_rom.dat' is read successfully [/home/sdu/Documents/embeddedSystems/project/miniproject/vivado/ArmNet/ArmNet.gen/sources_1/bd/design_1/ipshared/a1ee/hdl/verilog/nn_inference_layer2_weights_V_25.v:21]
+INFO: [Synth 8-6155] done synthesizing module 'nn_inference_layer2_weights_V_25_rom' (53#1) [/home/sdu/Documents/embeddedSystems/project/miniproject/vivado/ArmNet/ArmNet.gen/sources_1/bd/design_1/ipshared/a1ee/hdl/verilog/nn_inference_layer2_weights_V_25.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'nn_inference_layer2_weights_V_25' (54#1) [/home/sdu/Documents/embeddedSystems/project/miniproject/vivado/ArmNet/ArmNet.gen/sources_1/bd/design_1/ipshared/a1ee/hdl/verilog/nn_inference_layer2_weights_V_25.v:39]
+INFO: [Synth 8-6157] synthesizing module 'nn_inference_layer2_weights_V_26' [/home/sdu/Documents/embeddedSystems/project/miniproject/vivado/ArmNet/ArmNet.gen/sources_1/bd/design_1/ipshared/a1ee/hdl/verilog/nn_inference_layer2_weights_V_26.v:39]
+	Parameter DataWidth bound to: 8 - type: integer 
+	Parameter AddressRange bound to: 64 - type: integer 
+	Parameter AddressWidth bound to: 6 - type: integer 
+INFO: [Synth 8-6157] synthesizing module 'nn_inference_layer2_weights_V_26_rom' [/home/sdu/Documents/embeddedSystems/project/miniproject/vivado/ArmNet/ArmNet.gen/sources_1/bd/design_1/ipshared/a1ee/hdl/verilog/nn_inference_layer2_weights_V_26.v:6]
+	Parameter DWIDTH bound to: 8 - type: integer 
+	Parameter AWIDTH bound to: 6 - type: integer 
+	Parameter MEM_SIZE bound to: 64 - type: integer 
+INFO: [Synth 8-3876] $readmem data file './nn_inference_layer2_weights_V_26_rom.dat' is read successfully [/home/sdu/Documents/embeddedSystems/project/miniproject/vivado/ArmNet/ArmNet.gen/sources_1/bd/design_1/ipshared/a1ee/hdl/verilog/nn_inference_layer2_weights_V_26.v:21]
+INFO: [Synth 8-6155] done synthesizing module 'nn_inference_layer2_weights_V_26_rom' (55#1) [/home/sdu/Documents/embeddedSystems/project/miniproject/vivado/ArmNet/ArmNet.gen/sources_1/bd/design_1/ipshared/a1ee/hdl/verilog/nn_inference_layer2_weights_V_26.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'nn_inference_layer2_weights_V_26' (56#1) [/home/sdu/Documents/embeddedSystems/project/miniproject/vivado/ArmNet/ArmNet.gen/sources_1/bd/design_1/ipshared/a1ee/hdl/verilog/nn_inference_layer2_weights_V_26.v:39]
+INFO: [Synth 8-6157] synthesizing module 'nn_inference_layer2_weights_V_27' [/home/sdu/Documents/embeddedSystems/project/miniproject/vivado/ArmNet/ArmNet.gen/sources_1/bd/design_1/ipshared/a1ee/hdl/verilog/nn_inference_layer2_weights_V_27.v:39]
+	Parameter DataWidth bound to: 8 - type: integer 
+	Parameter AddressRange bound to: 64 - type: integer 
+	Parameter AddressWidth bound to: 6 - type: integer 
+INFO: [Synth 8-6157] synthesizing module 'nn_inference_layer2_weights_V_27_rom' [/home/sdu/Documents/embeddedSystems/project/miniproject/vivado/ArmNet/ArmNet.gen/sources_1/bd/design_1/ipshared/a1ee/hdl/verilog/nn_inference_layer2_weights_V_27.v:6]
+	Parameter DWIDTH bound to: 8 - type: integer 
+	Parameter AWIDTH bound to: 6 - type: integer 
+	Parameter MEM_SIZE bound to: 64 - type: integer 
+INFO: [Synth 8-3876] $readmem data file './nn_inference_layer2_weights_V_27_rom.dat' is read successfully [/home/sdu/Documents/embeddedSystems/project/miniproject/vivado/ArmNet/ArmNet.gen/sources_1/bd/design_1/ipshared/a1ee/hdl/verilog/nn_inference_layer2_weights_V_27.v:21]
+INFO: [Synth 8-6155] done synthesizing module 'nn_inference_layer2_weights_V_27_rom' (57#1) [/home/sdu/Documents/embeddedSystems/project/miniproject/vivado/ArmNet/ArmNet.gen/sources_1/bd/design_1/ipshared/a1ee/hdl/verilog/nn_inference_layer2_weights_V_27.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'nn_inference_layer2_weights_V_27' (58#1) [/home/sdu/Documents/embeddedSystems/project/miniproject/vivado/ArmNet/ArmNet.gen/sources_1/bd/design_1/ipshared/a1ee/hdl/verilog/nn_inference_layer2_weights_V_27.v:39]
+INFO: [Synth 8-6157] synthesizing module 'nn_inference_layer2_weights_V_28' [/home/sdu/Documents/embeddedSystems/project/miniproject/vivado/ArmNet/ArmNet.gen/sources_1/bd/design_1/ipshared/a1ee/hdl/verilog/nn_inference_layer2_weights_V_28.v:39]
+	Parameter DataWidth bound to: 8 - type: integer 
+	Parameter AddressRange bound to: 64 - type: integer 
+	Parameter AddressWidth bound to: 6 - type: integer 
+INFO: [Synth 8-6157] synthesizing module 'nn_inference_layer2_weights_V_28_rom' [/home/sdu/Documents/embeddedSystems/project/miniproject/vivado/ArmNet/ArmNet.gen/sources_1/bd/design_1/ipshared/a1ee/hdl/verilog/nn_inference_layer2_weights_V_28.v:6]
+	Parameter DWIDTH bound to: 8 - type: integer 
+	Parameter AWIDTH bound to: 6 - type: integer 
+	Parameter MEM_SIZE bound to: 64 - type: integer 
+INFO: [Synth 8-3876] $readmem data file './nn_inference_layer2_weights_V_28_rom.dat' is read successfully [/home/sdu/Documents/embeddedSystems/project/miniproject/vivado/ArmNet/ArmNet.gen/sources_1/bd/design_1/ipshared/a1ee/hdl/verilog/nn_inference_layer2_weights_V_28.v:21]
+INFO: [Synth 8-6155] done synthesizing module 'nn_inference_layer2_weights_V_28_rom' (59#1) [/home/sdu/Documents/embeddedSystems/project/miniproject/vivado/ArmNet/ArmNet.gen/sources_1/bd/design_1/ipshared/a1ee/hdl/verilog/nn_inference_layer2_weights_V_28.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'nn_inference_layer2_weights_V_28' (60#1) [/home/sdu/Documents/embeddedSystems/project/miniproject/vivado/ArmNet/ArmNet.gen/sources_1/bd/design_1/ipshared/a1ee/hdl/verilog/nn_inference_layer2_weights_V_28.v:39]
+INFO: [Synth 8-6157] synthesizing module 'nn_inference_layer2_weights_V_29' [/home/sdu/Documents/embeddedSystems/project/miniproject/vivado/ArmNet/ArmNet.gen/sources_1/bd/design_1/ipshared/a1ee/hdl/verilog/nn_inference_layer2_weights_V_29.v:39]
+	Parameter DataWidth bound to: 8 - type: integer 
+	Parameter AddressRange bound to: 64 - type: integer 
+	Parameter AddressWidth bound to: 6 - type: integer 
+INFO: [Synth 8-6157] synthesizing module 'nn_inference_layer2_weights_V_29_rom' [/home/sdu/Documents/embeddedSystems/project/miniproject/vivado/ArmNet/ArmNet.gen/sources_1/bd/design_1/ipshared/a1ee/hdl/verilog/nn_inference_layer2_weights_V_29.v:6]
+	Parameter DWIDTH bound to: 8 - type: integer 
+	Parameter AWIDTH bound to: 6 - type: integer 
+	Parameter MEM_SIZE bound to: 64 - type: integer 
+INFO: [Synth 8-3876] $readmem data file './nn_inference_layer2_weights_V_29_rom.dat' is read successfully [/home/sdu/Documents/embeddedSystems/project/miniproject/vivado/ArmNet/ArmNet.gen/sources_1/bd/design_1/ipshared/a1ee/hdl/verilog/nn_inference_layer2_weights_V_29.v:21]
+INFO: [Synth 8-6155] done synthesizing module 'nn_inference_layer2_weights_V_29_rom' (61#1) [/home/sdu/Documents/embeddedSystems/project/miniproject/vivado/ArmNet/ArmNet.gen/sources_1/bd/design_1/ipshared/a1ee/hdl/verilog/nn_inference_layer2_weights_V_29.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'nn_inference_layer2_weights_V_29' (62#1) [/home/sdu/Documents/embeddedSystems/project/miniproject/vivado/ArmNet/ArmNet.gen/sources_1/bd/design_1/ipshared/a1ee/hdl/verilog/nn_inference_layer2_weights_V_29.v:39]
+INFO: [Synth 8-6157] synthesizing module 'nn_inference_layer2_weights_V_30' [/home/sdu/Documents/embeddedSystems/project/miniproject/vivado/ArmNet/ArmNet.gen/sources_1/bd/design_1/ipshared/a1ee/hdl/verilog/nn_inference_layer2_weights_V_30.v:39]
+	Parameter DataWidth bound to: 8 - type: integer 
+	Parameter AddressRange bound to: 64 - type: integer 
+	Parameter AddressWidth bound to: 6 - type: integer 
+INFO: [Synth 8-6157] synthesizing module 'nn_inference_layer2_weights_V_30_rom' [/home/sdu/Documents/embeddedSystems/project/miniproject/vivado/ArmNet/ArmNet.gen/sources_1/bd/design_1/ipshared/a1ee/hdl/verilog/nn_inference_layer2_weights_V_30.v:6]
+	Parameter DWIDTH bound to: 8 - type: integer 
+	Parameter AWIDTH bound to: 6 - type: integer 
+	Parameter MEM_SIZE bound to: 64 - type: integer 
+INFO: [Synth 8-3876] $readmem data file './nn_inference_layer2_weights_V_30_rom.dat' is read successfully [/home/sdu/Documents/embeddedSystems/project/miniproject/vivado/ArmNet/ArmNet.gen/sources_1/bd/design_1/ipshared/a1ee/hdl/verilog/nn_inference_layer2_weights_V_30.v:21]
+INFO: [Synth 8-6155] done synthesizing module 'nn_inference_layer2_weights_V_30_rom' (63#1) [/home/sdu/Documents/embeddedSystems/project/miniproject/vivado/ArmNet/ArmNet.gen/sources_1/bd/design_1/ipshared/a1ee/hdl/verilog/nn_inference_layer2_weights_V_30.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'nn_inference_layer2_weights_V_30' (64#1) [/home/sdu/Documents/embeddedSystems/project/miniproject/vivado/ArmNet/ArmNet.gen/sources_1/bd/design_1/ipshared/a1ee/hdl/verilog/nn_inference_layer2_weights_V_30.v:39]
+INFO: [Synth 8-6157] synthesizing module 'nn_inference_layer2_weights_V_31' [/home/sdu/Documents/embeddedSystems/project/miniproject/vivado/ArmNet/ArmNet.gen/sources_1/bd/design_1/ipshared/a1ee/hdl/verilog/nn_inference_layer2_weights_V_31.v:39]
+	Parameter DataWidth bound to: 7 - type: integer 
+	Parameter AddressRange bound to: 64 - type: integer 
+	Parameter AddressWidth bound to: 6 - type: integer 
+INFO: [Synth 8-6157] synthesizing module 'nn_inference_layer2_weights_V_31_rom' [/home/sdu/Documents/embeddedSystems/project/miniproject/vivado/ArmNet/ArmNet.gen/sources_1/bd/design_1/ipshared/a1ee/hdl/verilog/nn_inference_layer2_weights_V_31.v:6]
+	Parameter DWIDTH bound to: 7 - type: integer 
+	Parameter AWIDTH bound to: 6 - type: integer 
+	Parameter MEM_SIZE bound to: 64 - type: integer 
+INFO: [Synth 8-3876] $readmem data file './nn_inference_layer2_weights_V_31_rom.dat' is read successfully [/home/sdu/Documents/embeddedSystems/project/miniproject/vivado/ArmNet/ArmNet.gen/sources_1/bd/design_1/ipshared/a1ee/hdl/verilog/nn_inference_layer2_weights_V_31.v:21]
+INFO: [Synth 8-6155] done synthesizing module 'nn_inference_layer2_weights_V_31_rom' (65#1) [/home/sdu/Documents/embeddedSystems/project/miniproject/vivado/ArmNet/ArmNet.gen/sources_1/bd/design_1/ipshared/a1ee/hdl/verilog/nn_inference_layer2_weights_V_31.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'nn_inference_layer2_weights_V_31' (66#1) [/home/sdu/Documents/embeddedSystems/project/miniproject/vivado/ArmNet/ArmNet.gen/sources_1/bd/design_1/ipshared/a1ee/hdl/verilog/nn_inference_layer2_weights_V_31.v:39]
+INFO: [Synth 8-6157] synthesizing module 'nn_inference_layer2_weights_V_32' [/home/sdu/Documents/embeddedSystems/project/miniproject/vivado/ArmNet/ArmNet.gen/sources_1/bd/design_1/ipshared/a1ee/hdl/verilog/nn_inference_layer2_weights_V_32.v:39]
+	Parameter DataWidth bound to: 8 - type: integer 
+	Parameter AddressRange bound to: 64 - type: integer 
+	Parameter AddressWidth bound to: 6 - type: integer 
+INFO: [Synth 8-6157] synthesizing module 'nn_inference_layer2_weights_V_32_rom' [/home/sdu/Documents/embeddedSystems/project/miniproject/vivado/ArmNet/ArmNet.gen/sources_1/bd/design_1/ipshared/a1ee/hdl/verilog/nn_inference_layer2_weights_V_32.v:6]
+	Parameter DWIDTH bound to: 8 - type: integer 
+	Parameter AWIDTH bound to: 6 - type: integer 
+	Parameter MEM_SIZE bound to: 64 - type: integer 
+INFO: [Synth 8-3876] $readmem data file './nn_inference_layer2_weights_V_32_rom.dat' is read successfully [/home/sdu/Documents/embeddedSystems/project/miniproject/vivado/ArmNet/ArmNet.gen/sources_1/bd/design_1/ipshared/a1ee/hdl/verilog/nn_inference_layer2_weights_V_32.v:21]
+INFO: [Synth 8-6155] done synthesizing module 'nn_inference_layer2_weights_V_32_rom' (67#1) [/home/sdu/Documents/embeddedSystems/project/miniproject/vivado/ArmNet/ArmNet.gen/sources_1/bd/design_1/ipshared/a1ee/hdl/verilog/nn_inference_layer2_weights_V_32.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'nn_inference_layer2_weights_V_32' (68#1) [/home/sdu/Documents/embeddedSystems/project/miniproject/vivado/ArmNet/ArmNet.gen/sources_1/bd/design_1/ipshared/a1ee/hdl/verilog/nn_inference_layer2_weights_V_32.v:39]
+INFO: [Synth 8-6157] synthesizing module 'nn_inference_layer2_weights_V_33' [/home/sdu/Documents/embeddedSystems/project/miniproject/vivado/ArmNet/ArmNet.gen/sources_1/bd/design_1/ipshared/a1ee/hdl/verilog/nn_inference_layer2_weights_V_33.v:39]
+	Parameter DataWidth bound to: 8 - type: integer 
+	Parameter AddressRange bound to: 64 - type: integer 
+	Parameter AddressWidth bound to: 6 - type: integer 
+INFO: [Synth 8-6157] synthesizing module 'nn_inference_layer2_weights_V_33_rom' [/home/sdu/Documents/embeddedSystems/project/miniproject/vivado/ArmNet/ArmNet.gen/sources_1/bd/design_1/ipshared/a1ee/hdl/verilog/nn_inference_layer2_weights_V_33.v:6]
+	Parameter DWIDTH bound to: 8 - type: integer 
+	Parameter AWIDTH bound to: 6 - type: integer 
+	Parameter MEM_SIZE bound to: 64 - type: integer 
+INFO: [Synth 8-3876] $readmem data file './nn_inference_layer2_weights_V_33_rom.dat' is read successfully [/home/sdu/Documents/embeddedSystems/project/miniproject/vivado/ArmNet/ArmNet.gen/sources_1/bd/design_1/ipshared/a1ee/hdl/verilog/nn_inference_layer2_weights_V_33.v:21]
+INFO: [Synth 8-6155] done synthesizing module 'nn_inference_layer2_weights_V_33_rom' (69#1) [/home/sdu/Documents/embeddedSystems/project/miniproject/vivado/ArmNet/ArmNet.gen/sources_1/bd/design_1/ipshared/a1ee/hdl/verilog/nn_inference_layer2_weights_V_33.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'nn_inference_layer2_weights_V_33' (70#1) [/home/sdu/Documents/embeddedSystems/project/miniproject/vivado/ArmNet/ArmNet.gen/sources_1/bd/design_1/ipshared/a1ee/hdl/verilog/nn_inference_layer2_weights_V_33.v:39]
+INFO: [Synth 8-6157] synthesizing module 'nn_inference_layer2_weights_V_34' [/home/sdu/Documents/embeddedSystems/project/miniproject/vivado/ArmNet/ArmNet.gen/sources_1/bd/design_1/ipshared/a1ee/hdl/verilog/nn_inference_layer2_weights_V_34.v:39]
+	Parameter DataWidth bound to: 8 - type: integer 
+	Parameter AddressRange bound to: 64 - type: integer 
+	Parameter AddressWidth bound to: 6 - type: integer 
+INFO: [Synth 8-6157] synthesizing module 'nn_inference_layer2_weights_V_34_rom' [/home/sdu/Documents/embeddedSystems/project/miniproject/vivado/ArmNet/ArmNet.gen/sources_1/bd/design_1/ipshared/a1ee/hdl/verilog/nn_inference_layer2_weights_V_34.v:6]
+	Parameter DWIDTH bound to: 8 - type: integer 
+	Parameter AWIDTH bound to: 6 - type: integer 
+	Parameter MEM_SIZE bound to: 64 - type: integer 
+INFO: [Synth 8-3876] $readmem data file './nn_inference_layer2_weights_V_34_rom.dat' is read successfully [/home/sdu/Documents/embeddedSystems/project/miniproject/vivado/ArmNet/ArmNet.gen/sources_1/bd/design_1/ipshared/a1ee/hdl/verilog/nn_inference_layer2_weights_V_34.v:21]
+INFO: [Synth 8-6155] done synthesizing module 'nn_inference_layer2_weights_V_34_rom' (71#1) [/home/sdu/Documents/embeddedSystems/project/miniproject/vivado/ArmNet/ArmNet.gen/sources_1/bd/design_1/ipshared/a1ee/hdl/verilog/nn_inference_layer2_weights_V_34.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'nn_inference_layer2_weights_V_34' (72#1) [/home/sdu/Documents/embeddedSystems/project/miniproject/vivado/ArmNet/ArmNet.gen/sources_1/bd/design_1/ipshared/a1ee/hdl/verilog/nn_inference_layer2_weights_V_34.v:39]
+INFO: [Synth 8-6157] synthesizing module 'nn_inference_layer2_weights_V_35' [/home/sdu/Documents/embeddedSystems/project/miniproject/vivado/ArmNet/ArmNet.gen/sources_1/bd/design_1/ipshared/a1ee/hdl/verilog/nn_inference_layer2_weights_V_35.v:39]
+	Parameter DataWidth bound to: 8 - type: integer 
+	Parameter AddressRange bound to: 64 - type: integer 
+	Parameter AddressWidth bound to: 6 - type: integer 
+INFO: [Synth 8-6157] synthesizing module 'nn_inference_layer2_weights_V_35_rom' [/home/sdu/Documents/embeddedSystems/project/miniproject/vivado/ArmNet/ArmNet.gen/sources_1/bd/design_1/ipshared/a1ee/hdl/verilog/nn_inference_layer2_weights_V_35.v:6]
+	Parameter DWIDTH bound to: 8 - type: integer 
+	Parameter AWIDTH bound to: 6 - type: integer 
+	Parameter MEM_SIZE bound to: 64 - type: integer 
+INFO: [Synth 8-3876] $readmem data file './nn_inference_layer2_weights_V_35_rom.dat' is read successfully [/home/sdu/Documents/embeddedSystems/project/miniproject/vivado/ArmNet/ArmNet.gen/sources_1/bd/design_1/ipshared/a1ee/hdl/verilog/nn_inference_layer2_weights_V_35.v:21]
+INFO: [Synth 8-6155] done synthesizing module 'nn_inference_layer2_weights_V_35_rom' (73#1) [/home/sdu/Documents/embeddedSystems/project/miniproject/vivado/ArmNet/ArmNet.gen/sources_1/bd/design_1/ipshared/a1ee/hdl/verilog/nn_inference_layer2_weights_V_35.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'nn_inference_layer2_weights_V_35' (74#1) [/home/sdu/Documents/embeddedSystems/project/miniproject/vivado/ArmNet/ArmNet.gen/sources_1/bd/design_1/ipshared/a1ee/hdl/verilog/nn_inference_layer2_weights_V_35.v:39]
+INFO: [Synth 8-6157] synthesizing module 'nn_inference_layer2_weights_V_36' [/home/sdu/Documents/embeddedSystems/project/miniproject/vivado/ArmNet/ArmNet.gen/sources_1/bd/design_1/ipshared/a1ee/hdl/verilog/nn_inference_layer2_weights_V_36.v:39]
+	Parameter DataWidth bound to: 8 - type: integer 
+	Parameter AddressRange bound to: 64 - type: integer 
+	Parameter AddressWidth bound to: 6 - type: integer 
+INFO: [Synth 8-6157] synthesizing module 'nn_inference_layer2_weights_V_36_rom' [/home/sdu/Documents/embeddedSystems/project/miniproject/vivado/ArmNet/ArmNet.gen/sources_1/bd/design_1/ipshared/a1ee/hdl/verilog/nn_inference_layer2_weights_V_36.v:6]
+	Parameter DWIDTH bound to: 8 - type: integer 
+	Parameter AWIDTH bound to: 6 - type: integer 
+	Parameter MEM_SIZE bound to: 64 - type: integer 
+INFO: [Synth 8-3876] $readmem data file './nn_inference_layer2_weights_V_36_rom.dat' is read successfully [/home/sdu/Documents/embeddedSystems/project/miniproject/vivado/ArmNet/ArmNet.gen/sources_1/bd/design_1/ipshared/a1ee/hdl/verilog/nn_inference_layer2_weights_V_36.v:21]
+INFO: [Synth 8-6155] done synthesizing module 'nn_inference_layer2_weights_V_36_rom' (75#1) [/home/sdu/Documents/embeddedSystems/project/miniproject/vivado/ArmNet/ArmNet.gen/sources_1/bd/design_1/ipshared/a1ee/hdl/verilog/nn_inference_layer2_weights_V_36.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'nn_inference_layer2_weights_V_36' (76#1) [/home/sdu/Documents/embeddedSystems/project/miniproject/vivado/ArmNet/ArmNet.gen/sources_1/bd/design_1/ipshared/a1ee/hdl/verilog/nn_inference_layer2_weights_V_36.v:39]
+INFO: [Synth 8-6157] synthesizing module 'nn_inference_layer2_weights_V_37' [/home/sdu/Documents/embeddedSystems/project/miniproject/vivado/ArmNet/ArmNet.gen/sources_1/bd/design_1/ipshared/a1ee/hdl/verilog/nn_inference_layer2_weights_V_37.v:39]
+	Parameter DataWidth bound to: 9 - type: integer 
+	Parameter AddressRange bound to: 64 - type: integer 
+	Parameter AddressWidth bound to: 6 - type: integer 
+INFO: [Synth 8-6157] synthesizing module 'nn_inference_layer2_weights_V_37_rom' [/home/sdu/Documents/embeddedSystems/project/miniproject/vivado/ArmNet/ArmNet.gen/sources_1/bd/design_1/ipshared/a1ee/hdl/verilog/nn_inference_layer2_weights_V_37.v:6]
+	Parameter DWIDTH bound to: 9 - type: integer 
+	Parameter AWIDTH bound to: 6 - type: integer 
+	Parameter MEM_SIZE bound to: 64 - type: integer 
+INFO: [Synth 8-3876] $readmem data file './nn_inference_layer2_weights_V_37_rom.dat' is read successfully [/home/sdu/Documents/embeddedSystems/project/miniproject/vivado/ArmNet/ArmNet.gen/sources_1/bd/design_1/ipshared/a1ee/hdl/verilog/nn_inference_layer2_weights_V_37.v:21]
+INFO: [Synth 8-6155] done synthesizing module 'nn_inference_layer2_weights_V_37_rom' (77#1) [/home/sdu/Documents/embeddedSystems/project/miniproject/vivado/ArmNet/ArmNet.gen/sources_1/bd/design_1/ipshared/a1ee/hdl/verilog/nn_inference_layer2_weights_V_37.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'nn_inference_layer2_weights_V_37' (78#1) [/home/sdu/Documents/embeddedSystems/project/miniproject/vivado/ArmNet/ArmNet.gen/sources_1/bd/design_1/ipshared/a1ee/hdl/verilog/nn_inference_layer2_weights_V_37.v:39]
+INFO: [Synth 8-6157] synthesizing module 'nn_inference_layer2_weights_V_38' [/home/sdu/Documents/embeddedSystems/project/miniproject/vivado/ArmNet/ArmNet.gen/sources_1/bd/design_1/ipshared/a1ee/hdl/verilog/nn_inference_layer2_weights_V_38.v:39]
+	Parameter DataWidth bound to: 8 - type: integer 
+	Parameter AddressRange bound to: 64 - type: integer 
+	Parameter AddressWidth bound to: 6 - type: integer 
+INFO: [Synth 8-6157] synthesizing module 'nn_inference_layer2_weights_V_38_rom' [/home/sdu/Documents/embeddedSystems/project/miniproject/vivado/ArmNet/ArmNet.gen/sources_1/bd/design_1/ipshared/a1ee/hdl/verilog/nn_inference_layer2_weights_V_38.v:6]
+	Parameter DWIDTH bound to: 8 - type: integer 
+	Parameter AWIDTH bound to: 6 - type: integer 
+	Parameter MEM_SIZE bound to: 64 - type: integer 
+INFO: [Synth 8-3876] $readmem data file './nn_inference_layer2_weights_V_38_rom.dat' is read successfully [/home/sdu/Documents/embeddedSystems/project/miniproject/vivado/ArmNet/ArmNet.gen/sources_1/bd/design_1/ipshared/a1ee/hdl/verilog/nn_inference_layer2_weights_V_38.v:21]
+INFO: [Synth 8-6155] done synthesizing module 'nn_inference_layer2_weights_V_38_rom' (79#1) [/home/sdu/Documents/embeddedSystems/project/miniproject/vivado/ArmNet/ArmNet.gen/sources_1/bd/design_1/ipshared/a1ee/hdl/verilog/nn_inference_layer2_weights_V_38.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'nn_inference_layer2_weights_V_38' (80#1) [/home/sdu/Documents/embeddedSystems/project/miniproject/vivado/ArmNet/ArmNet.gen/sources_1/bd/design_1/ipshared/a1ee/hdl/verilog/nn_inference_layer2_weights_V_38.v:39]
+INFO: [Synth 8-6157] synthesizing module 'nn_inference_layer2_weights_V_39' [/home/sdu/Documents/embeddedSystems/project/miniproject/vivado/ArmNet/ArmNet.gen/sources_1/bd/design_1/ipshared/a1ee/hdl/verilog/nn_inference_layer2_weights_V_39.v:39]
+	Parameter DataWidth bound to: 8 - type: integer 
+	Parameter AddressRange bound to: 64 - type: integer 
+	Parameter AddressWidth bound to: 6 - type: integer 
+INFO: [Synth 8-6157] synthesizing module 'nn_inference_layer2_weights_V_39_rom' [/home/sdu/Documents/embeddedSystems/project/miniproject/vivado/ArmNet/ArmNet.gen/sources_1/bd/design_1/ipshared/a1ee/hdl/verilog/nn_inference_layer2_weights_V_39.v:6]
+	Parameter DWIDTH bound to: 8 - type: integer 
+	Parameter AWIDTH bound to: 6 - type: integer 
+	Parameter MEM_SIZE bound to: 64 - type: integer 
+INFO: [Synth 8-3876] $readmem data file './nn_inference_layer2_weights_V_39_rom.dat' is read successfully [/home/sdu/Documents/embeddedSystems/project/miniproject/vivado/ArmNet/ArmNet.gen/sources_1/bd/design_1/ipshared/a1ee/hdl/verilog/nn_inference_layer2_weights_V_39.v:21]
+INFO: [Synth 8-6155] done synthesizing module 'nn_inference_layer2_weights_V_39_rom' (81#1) [/home/sdu/Documents/embeddedSystems/project/miniproject/vivado/ArmNet/ArmNet.gen/sources_1/bd/design_1/ipshared/a1ee/hdl/verilog/nn_inference_layer2_weights_V_39.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'nn_inference_layer2_weights_V_39' (82#1) [/home/sdu/Documents/embeddedSystems/project/miniproject/vivado/ArmNet/ArmNet.gen/sources_1/bd/design_1/ipshared/a1ee/hdl/verilog/nn_inference_layer2_weights_V_39.v:39]
+INFO: [Synth 8-6157] synthesizing module 'nn_inference_layer2_weights_V_40' [/home/sdu/Documents/embeddedSystems/project/miniproject/vivado/ArmNet/ArmNet.gen/sources_1/bd/design_1/ipshared/a1ee/hdl/verilog/nn_inference_layer2_weights_V_40.v:39]
+	Parameter DataWidth bound to: 8 - type: integer 
+	Parameter AddressRange bound to: 64 - type: integer 
+	Parameter AddressWidth bound to: 6 - type: integer 
+INFO: [Synth 8-6157] synthesizing module 'nn_inference_layer2_weights_V_40_rom' [/home/sdu/Documents/embeddedSystems/project/miniproject/vivado/ArmNet/ArmNet.gen/sources_1/bd/design_1/ipshared/a1ee/hdl/verilog/nn_inference_layer2_weights_V_40.v:6]
+	Parameter DWIDTH bound to: 8 - type: integer 
+	Parameter AWIDTH bound to: 6 - type: integer 
+	Parameter MEM_SIZE bound to: 64 - type: integer 
+INFO: [Synth 8-3876] $readmem data file './nn_inference_layer2_weights_V_40_rom.dat' is read successfully [/home/sdu/Documents/embeddedSystems/project/miniproject/vivado/ArmNet/ArmNet.gen/sources_1/bd/design_1/ipshared/a1ee/hdl/verilog/nn_inference_layer2_weights_V_40.v:21]
+INFO: [Synth 8-6155] done synthesizing module 'nn_inference_layer2_weights_V_40_rom' (83#1) [/home/sdu/Documents/embeddedSystems/project/miniproject/vivado/ArmNet/ArmNet.gen/sources_1/bd/design_1/ipshared/a1ee/hdl/verilog/nn_inference_layer2_weights_V_40.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'nn_inference_layer2_weights_V_40' (84#1) [/home/sdu/Documents/embeddedSystems/project/miniproject/vivado/ArmNet/ArmNet.gen/sources_1/bd/design_1/ipshared/a1ee/hdl/verilog/nn_inference_layer2_weights_V_40.v:39]
+INFO: [Synth 8-6157] synthesizing module 'nn_inference_layer2_weights_V_41' [/home/sdu/Documents/embeddedSystems/project/miniproject/vivado/ArmNet/ArmNet.gen/sources_1/bd/design_1/ipshared/a1ee/hdl/verilog/nn_inference_layer2_weights_V_41.v:39]
+	Parameter DataWidth bound to: 8 - type: integer 
+	Parameter AddressRange bound to: 64 - type: integer 
+	Parameter AddressWidth bound to: 6 - type: integer 
+INFO: [Synth 8-6157] synthesizing module 'nn_inference_layer2_weights_V_41_rom' [/home/sdu/Documents/embeddedSystems/project/miniproject/vivado/ArmNet/ArmNet.gen/sources_1/bd/design_1/ipshared/a1ee/hdl/verilog/nn_inference_layer2_weights_V_41.v:6]
+	Parameter DWIDTH bound to: 8 - type: integer 
+	Parameter AWIDTH bound to: 6 - type: integer 
+	Parameter MEM_SIZE bound to: 64 - type: integer 
+INFO: [Synth 8-3876] $readmem data file './nn_inference_layer2_weights_V_41_rom.dat' is read successfully [/home/sdu/Documents/embeddedSystems/project/miniproject/vivado/ArmNet/ArmNet.gen/sources_1/bd/design_1/ipshared/a1ee/hdl/verilog/nn_inference_layer2_weights_V_41.v:21]
+INFO: [Synth 8-6155] done synthesizing module 'nn_inference_layer2_weights_V_41_rom' (85#1) [/home/sdu/Documents/embeddedSystems/project/miniproject/vivado/ArmNet/ArmNet.gen/sources_1/bd/design_1/ipshared/a1ee/hdl/verilog/nn_inference_layer2_weights_V_41.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'nn_inference_layer2_weights_V_41' (86#1) [/home/sdu/Documents/embeddedSystems/project/miniproject/vivado/ArmNet/ArmNet.gen/sources_1/bd/design_1/ipshared/a1ee/hdl/verilog/nn_inference_layer2_weights_V_41.v:39]
+INFO: [Synth 8-6157] synthesizing module 'nn_inference_layer2_weights_V_42' [/home/sdu/Documents/embeddedSystems/project/miniproject/vivado/ArmNet/ArmNet.gen/sources_1/bd/design_1/ipshared/a1ee/hdl/verilog/nn_inference_layer2_weights_V_42.v:39]
+	Parameter DataWidth bound to: 8 - type: integer 
+	Parameter AddressRange bound to: 64 - type: integer 
+	Parameter AddressWidth bound to: 6 - type: integer 
+INFO: [Synth 8-6157] synthesizing module 'nn_inference_layer2_weights_V_42_rom' [/home/sdu/Documents/embeddedSystems/project/miniproject/vivado/ArmNet/ArmNet.gen/sources_1/bd/design_1/ipshared/a1ee/hdl/verilog/nn_inference_layer2_weights_V_42.v:6]
+	Parameter DWIDTH bound to: 8 - type: integer 
+	Parameter AWIDTH bound to: 6 - type: integer 
+	Parameter MEM_SIZE bound to: 64 - type: integer 
+INFO: [Synth 8-3876] $readmem data file './nn_inference_layer2_weights_V_42_rom.dat' is read successfully [/home/sdu/Documents/embeddedSystems/project/miniproject/vivado/ArmNet/ArmNet.gen/sources_1/bd/design_1/ipshared/a1ee/hdl/verilog/nn_inference_layer2_weights_V_42.v:21]
+INFO: [Synth 8-6155] done synthesizing module 'nn_inference_layer2_weights_V_42_rom' (87#1) [/home/sdu/Documents/embeddedSystems/project/miniproject/vivado/ArmNet/ArmNet.gen/sources_1/bd/design_1/ipshared/a1ee/hdl/verilog/nn_inference_layer2_weights_V_42.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'nn_inference_layer2_weights_V_42' (88#1) [/home/sdu/Documents/embeddedSystems/project/miniproject/vivado/ArmNet/ArmNet.gen/sources_1/bd/design_1/ipshared/a1ee/hdl/verilog/nn_inference_layer2_weights_V_42.v:39]
+INFO: [Synth 8-6157] synthesizing module 'nn_inference_layer2_weights_V_43' [/home/sdu/Documents/embeddedSystems/project/miniproject/vivado/ArmNet/ArmNet.gen/sources_1/bd/design_1/ipshared/a1ee/hdl/verilog/nn_inference_layer2_weights_V_43.v:39]
+	Parameter DataWidth bound to: 7 - type: integer 
+	Parameter AddressRange bound to: 64 - type: integer 
+	Parameter AddressWidth bound to: 6 - type: integer 
+INFO: [Synth 8-6157] synthesizing module 'nn_inference_layer2_weights_V_43_rom' [/home/sdu/Documents/embeddedSystems/project/miniproject/vivado/ArmNet/ArmNet.gen/sources_1/bd/design_1/ipshared/a1ee/hdl/verilog/nn_inference_layer2_weights_V_43.v:6]
+	Parameter DWIDTH bound to: 7 - type: integer 
+	Parameter AWIDTH bound to: 6 - type: integer 
+	Parameter MEM_SIZE bound to: 64 - type: integer 
+INFO: [Synth 8-3876] $readmem data file './nn_inference_layer2_weights_V_43_rom.dat' is read successfully [/home/sdu/Documents/embeddedSystems/project/miniproject/vivado/ArmNet/ArmNet.gen/sources_1/bd/design_1/ipshared/a1ee/hdl/verilog/nn_inference_layer2_weights_V_43.v:21]
+INFO: [Synth 8-6155] done synthesizing module 'nn_inference_layer2_weights_V_43_rom' (89#1) [/home/sdu/Documents/embeddedSystems/project/miniproject/vivado/ArmNet/ArmNet.gen/sources_1/bd/design_1/ipshared/a1ee/hdl/verilog/nn_inference_layer2_weights_V_43.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'nn_inference_layer2_weights_V_43' (90#1) [/home/sdu/Documents/embeddedSystems/project/miniproject/vivado/ArmNet/ArmNet.gen/sources_1/bd/design_1/ipshared/a1ee/hdl/verilog/nn_inference_layer2_weights_V_43.v:39]
+INFO: [Synth 8-6157] synthesizing module 'nn_inference_layer2_weights_V_44' [/home/sdu/Documents/embeddedSystems/project/miniproject/vivado/ArmNet/ArmNet.gen/sources_1/bd/design_1/ipshared/a1ee/hdl/verilog/nn_inference_layer2_weights_V_44.v:39]
+	Parameter DataWidth bound to: 8 - type: integer 
+	Parameter AddressRange bound to: 64 - type: integer 
+	Parameter AddressWidth bound to: 6 - type: integer 
+INFO: [Synth 8-6157] synthesizing module 'nn_inference_layer2_weights_V_44_rom' [/home/sdu/Documents/embeddedSystems/project/miniproject/vivado/ArmNet/ArmNet.gen/sources_1/bd/design_1/ipshared/a1ee/hdl/verilog/nn_inference_layer2_weights_V_44.v:6]
+	Parameter DWIDTH bound to: 8 - type: integer 
+	Parameter AWIDTH bound to: 6 - type: integer 
+	Parameter MEM_SIZE bound to: 64 - type: integer 
+INFO: [Synth 8-3876] $readmem data file './nn_inference_layer2_weights_V_44_rom.dat' is read successfully [/home/sdu/Documents/embeddedSystems/project/miniproject/vivado/ArmNet/ArmNet.gen/sources_1/bd/design_1/ipshared/a1ee/hdl/verilog/nn_inference_layer2_weights_V_44.v:21]
+INFO: [Synth 8-6155] done synthesizing module 'nn_inference_layer2_weights_V_44_rom' (91#1) [/home/sdu/Documents/embeddedSystems/project/miniproject/vivado/ArmNet/ArmNet.gen/sources_1/bd/design_1/ipshared/a1ee/hdl/verilog/nn_inference_layer2_weights_V_44.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'nn_inference_layer2_weights_V_44' (92#1) [/home/sdu/Documents/embeddedSystems/project/miniproject/vivado/ArmNet/ArmNet.gen/sources_1/bd/design_1/ipshared/a1ee/hdl/verilog/nn_inference_layer2_weights_V_44.v:39]
+INFO: [Synth 8-6157] synthesizing module 'nn_inference_layer2_weights_V_45' [/home/sdu/Documents/embeddedSystems/project/miniproject/vivado/ArmNet/ArmNet.gen/sources_1/bd/design_1/ipshared/a1ee/hdl/verilog/nn_inference_layer2_weights_V_45.v:39]
+	Parameter DataWidth bound to: 7 - type: integer 
+	Parameter AddressRange bound to: 64 - type: integer 
+	Parameter AddressWidth bound to: 6 - type: integer 
+INFO: [Synth 8-6157] synthesizing module 'nn_inference_layer2_weights_V_45_rom' [/home/sdu/Documents/embeddedSystems/project/miniproject/vivado/ArmNet/ArmNet.gen/sources_1/bd/design_1/ipshared/a1ee/hdl/verilog/nn_inference_layer2_weights_V_45.v:6]
+	Parameter DWIDTH bound to: 7 - type: integer 
+	Parameter AWIDTH bound to: 6 - type: integer 
+	Parameter MEM_SIZE bound to: 64 - type: integer 
+INFO: [Synth 8-3876] $readmem data file './nn_inference_layer2_weights_V_45_rom.dat' is read successfully [/home/sdu/Documents/embeddedSystems/project/miniproject/vivado/ArmNet/ArmNet.gen/sources_1/bd/design_1/ipshared/a1ee/hdl/verilog/nn_inference_layer2_weights_V_45.v:21]
+INFO: [Synth 8-6155] done synthesizing module 'nn_inference_layer2_weights_V_45_rom' (93#1) [/home/sdu/Documents/embeddedSystems/project/miniproject/vivado/ArmNet/ArmNet.gen/sources_1/bd/design_1/ipshared/a1ee/hdl/verilog/nn_inference_layer2_weights_V_45.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'nn_inference_layer2_weights_V_45' (94#1) [/home/sdu/Documents/embeddedSystems/project/miniproject/vivado/ArmNet/ArmNet.gen/sources_1/bd/design_1/ipshared/a1ee/hdl/verilog/nn_inference_layer2_weights_V_45.v:39]
+INFO: [Synth 8-6157] synthesizing module 'nn_inference_layer2_weights_V_46' [/home/sdu/Documents/embeddedSystems/project/miniproject/vivado/ArmNet/ArmNet.gen/sources_1/bd/design_1/ipshared/a1ee/hdl/verilog/nn_inference_layer2_weights_V_46.v:39]
+	Parameter DataWidth bound to: 8 - type: integer 
+	Parameter AddressRange bound to: 64 - type: integer 
+	Parameter AddressWidth bound to: 6 - type: integer 
+INFO: [Synth 8-6157] synthesizing module 'nn_inference_layer2_weights_V_46_rom' [/home/sdu/Documents/embeddedSystems/project/miniproject/vivado/ArmNet/ArmNet.gen/sources_1/bd/design_1/ipshared/a1ee/hdl/verilog/nn_inference_layer2_weights_V_46.v:6]
+	Parameter DWIDTH bound to: 8 - type: integer 
+	Parameter AWIDTH bound to: 6 - type: integer 
+	Parameter MEM_SIZE bound to: 64 - type: integer 
+INFO: [Synth 8-3876] $readmem data file './nn_inference_layer2_weights_V_46_rom.dat' is read successfully [/home/sdu/Documents/embeddedSystems/project/miniproject/vivado/ArmNet/ArmNet.gen/sources_1/bd/design_1/ipshared/a1ee/hdl/verilog/nn_inference_layer2_weights_V_46.v:21]
+INFO: [Synth 8-6155] done synthesizing module 'nn_inference_layer2_weights_V_46_rom' (95#1) [/home/sdu/Documents/embeddedSystems/project/miniproject/vivado/ArmNet/ArmNet.gen/sources_1/bd/design_1/ipshared/a1ee/hdl/verilog/nn_inference_layer2_weights_V_46.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'nn_inference_layer2_weights_V_46' (96#1) [/home/sdu/Documents/embeddedSystems/project/miniproject/vivado/ArmNet/ArmNet.gen/sources_1/bd/design_1/ipshared/a1ee/hdl/verilog/nn_inference_layer2_weights_V_46.v:39]
+INFO: [Synth 8-6157] synthesizing module 'nn_inference_layer2_weights_V_47' [/home/sdu/Documents/embeddedSystems/project/miniproject/vivado/ArmNet/ArmNet.gen/sources_1/bd/design_1/ipshared/a1ee/hdl/verilog/nn_inference_layer2_weights_V_47.v:39]
+	Parameter DataWidth bound to: 9 - type: integer 
+	Parameter AddressRange bound to: 64 - type: integer 
+	Parameter AddressWidth bound to: 6 - type: integer 
+INFO: [Synth 8-6157] synthesizing module 'nn_inference_layer2_weights_V_47_rom' [/home/sdu/Documents/embeddedSystems/project/miniproject/vivado/ArmNet/ArmNet.gen/sources_1/bd/design_1/ipshared/a1ee/hdl/verilog/nn_inference_layer2_weights_V_47.v:6]
+INFO: [Common 17-14] Message 'Synth 8-6157' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+	Parameter DWIDTH bound to: 9 - type: integer 
+	Parameter AWIDTH bound to: 6 - type: integer 
+	Parameter MEM_SIZE bound to: 64 - type: integer 
+INFO: [Synth 8-3876] $readmem data file './nn_inference_layer2_weights_V_47_rom.dat' is read successfully [/home/sdu/Documents/embeddedSystems/project/miniproject/vivado/ArmNet/ArmNet.gen/sources_1/bd/design_1/ipshared/a1ee/hdl/verilog/nn_inference_layer2_weights_V_47.v:21]
+INFO: [Synth 8-6155] done synthesizing module 'nn_inference_layer2_weights_V_47_rom' (97#1) [/home/sdu/Documents/embeddedSystems/project/miniproject/vivado/ArmNet/ArmNet.gen/sources_1/bd/design_1/ipshared/a1ee/hdl/verilog/nn_inference_layer2_weights_V_47.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'nn_inference_layer2_weights_V_47' (98#1) [/home/sdu/Documents/embeddedSystems/project/miniproject/vivado/ArmNet/ArmNet.gen/sources_1/bd/design_1/ipshared/a1ee/hdl/verilog/nn_inference_layer2_weights_V_47.v:39]
+	Parameter DataWidth bound to: 8 - type: integer 
+	Parameter AddressRange bound to: 64 - type: integer 
+	Parameter AddressWidth bound to: 6 - type: integer 
+	Parameter DWIDTH bound to: 8 - type: integer 
+	Parameter AWIDTH bound to: 6 - type: integer 
+	Parameter MEM_SIZE bound to: 64 - type: integer 
+INFO: [Synth 8-3876] $readmem data file './nn_inference_layer2_weights_V_48_rom.dat' is read successfully [/home/sdu/Documents/embeddedSystems/project/miniproject/vivado/ArmNet/ArmNet.gen/sources_1/bd/design_1/ipshared/a1ee/hdl/verilog/nn_inference_layer2_weights_V_48.v:21]
+INFO: [Synth 8-6155] done synthesizing module 'nn_inference_layer2_weights_V_48_rom' (99#1) [/home/sdu/Documents/embeddedSystems/project/miniproject/vivado/ArmNet/ArmNet.gen/sources_1/bd/design_1/ipshared/a1ee/hdl/verilog/nn_inference_layer2_weights_V_48.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'nn_inference_layer2_weights_V_48' (100#1) [/home/sdu/Documents/embeddedSystems/project/miniproject/vivado/ArmNet/ArmNet.gen/sources_1/bd/design_1/ipshared/a1ee/hdl/verilog/nn_inference_layer2_weights_V_48.v:39]
+INFO: [Common 17-14] Message 'Synth 8-6155' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+	Parameter DataWidth bound to: 8 - type: integer 
+	Parameter AddressRange bound to: 64 - type: integer 
+	Parameter AddressWidth bound to: 6 - type: integer 
+	Parameter DWIDTH bound to: 8 - type: integer 
+	Parameter AWIDTH bound to: 6 - type: integer 
+	Parameter MEM_SIZE bound to: 64 - type: integer 
+INFO: [Synth 8-3876] $readmem data file './nn_inference_layer2_weights_V_49_rom.dat' is read successfully [/home/sdu/Documents/embeddedSystems/project/miniproject/vivado/ArmNet/ArmNet.gen/sources_1/bd/design_1/ipshared/a1ee/hdl/verilog/nn_inference_layer2_weights_V_49.v:21]
+	Parameter DataWidth bound to: 8 - type: integer 
+	Parameter AddressRange bound to: 64 - type: integer 
+	Parameter AddressWidth bound to: 6 - type: integer 
+	Parameter DWIDTH bound to: 8 - type: integer 
+	Parameter AWIDTH bound to: 6 - type: integer 
+	Parameter MEM_SIZE bound to: 64 - type: integer 
+INFO: [Synth 8-3876] $readmem data file './nn_inference_layer2_weights_V_50_rom.dat' is read successfully [/home/sdu/Documents/embeddedSystems/project/miniproject/vivado/ArmNet/ArmNet.gen/sources_1/bd/design_1/ipshared/a1ee/hdl/verilog/nn_inference_layer2_weights_V_50.v:21]
+	Parameter DataWidth bound to: 8 - type: integer 
+	Parameter AddressRange bound to: 64 - type: integer 
+	Parameter AddressWidth bound to: 6 - type: integer 
+	Parameter DWIDTH bound to: 8 - type: integer 
+	Parameter AWIDTH bound to: 6 - type: integer 
+	Parameter MEM_SIZE bound to: 64 - type: integer 
+INFO: [Synth 8-3876] $readmem data file './nn_inference_layer2_weights_V_51_rom.dat' is read successfully [/home/sdu/Documents/embeddedSystems/project/miniproject/vivado/ArmNet/ArmNet.gen/sources_1/bd/design_1/ipshared/a1ee/hdl/verilog/nn_inference_layer2_weights_V_51.v:21]
+	Parameter DataWidth bound to: 8 - type: integer 
+	Parameter AddressRange bound to: 64 - type: integer 
+	Parameter AddressWidth bound to: 6 - type: integer 
+	Parameter DWIDTH bound to: 8 - type: integer 
+	Parameter AWIDTH bound to: 6 - type: integer 
+	Parameter MEM_SIZE bound to: 64 - type: integer 
+INFO: [Synth 8-3876] $readmem data file './nn_inference_layer2_weights_V_52_rom.dat' is read successfully [/home/sdu/Documents/embeddedSystems/project/miniproject/vivado/ArmNet/ArmNet.gen/sources_1/bd/design_1/ipshared/a1ee/hdl/verilog/nn_inference_layer2_weights_V_52.v:21]
+	Parameter DataWidth bound to: 8 - type: integer 
+	Parameter AddressRange bound to: 64 - type: integer 
+	Parameter AddressWidth bound to: 6 - type: integer 
+	Parameter DWIDTH bound to: 8 - type: integer 
+	Parameter AWIDTH bound to: 6 - type: integer 
+	Parameter MEM_SIZE bound to: 64 - type: integer 
+INFO: [Synth 8-3876] $readmem data file './nn_inference_layer2_weights_V_53_rom.dat' is read successfully [/home/sdu/Documents/embeddedSystems/project/miniproject/vivado/ArmNet/ArmNet.gen/sources_1/bd/design_1/ipshared/a1ee/hdl/verilog/nn_inference_layer2_weights_V_53.v:21]
+	Parameter DataWidth bound to: 8 - type: integer 
+	Parameter AddressRange bound to: 64 - type: integer 
+	Parameter AddressWidth bound to: 6 - type: integer 
+	Parameter DWIDTH bound to: 8 - type: integer 
+	Parameter AWIDTH bound to: 6 - type: integer 
+	Parameter MEM_SIZE bound to: 64 - type: integer 
+INFO: [Synth 8-3876] $readmem data file './nn_inference_layer2_weights_V_54_rom.dat' is read successfully [/home/sdu/Documents/embeddedSystems/project/miniproject/vivado/ArmNet/ArmNet.gen/sources_1/bd/design_1/ipshared/a1ee/hdl/verilog/nn_inference_layer2_weights_V_54.v:21]
+	Parameter DataWidth bound to: 8 - type: integer 
+	Parameter AddressRange bound to: 64 - type: integer 
+	Parameter AddressWidth bound to: 6 - type: integer 
+	Parameter DWIDTH bound to: 8 - type: integer 
+	Parameter AWIDTH bound to: 6 - type: integer 
+	Parameter MEM_SIZE bound to: 64 - type: integer 
+INFO: [Synth 8-3876] $readmem data file './nn_inference_layer2_weights_V_55_rom.dat' is read successfully [/home/sdu/Documents/embeddedSystems/project/miniproject/vivado/ArmNet/ArmNet.gen/sources_1/bd/design_1/ipshared/a1ee/hdl/verilog/nn_inference_layer2_weights_V_55.v:21]
+	Parameter DataWidth bound to: 8 - type: integer 
+	Parameter AddressRange bound to: 64 - type: integer 
+	Parameter AddressWidth bound to: 6 - type: integer 
+	Parameter DWIDTH bound to: 8 - type: integer 
+	Parameter AWIDTH bound to: 6 - type: integer 
+	Parameter MEM_SIZE bound to: 64 - type: integer 
+INFO: [Synth 8-3876] $readmem data file './nn_inference_layer2_weights_V_56_rom.dat' is read successfully [/home/sdu/Documents/embeddedSystems/project/miniproject/vivado/ArmNet/ArmNet.gen/sources_1/bd/design_1/ipshared/a1ee/hdl/verilog/nn_inference_layer2_weights_V_56.v:21]
+	Parameter DataWidth bound to: 8 - type: integer 
+	Parameter AddressRange bound to: 64 - type: integer 
+	Parameter AddressWidth bound to: 6 - type: integer 
+	Parameter DWIDTH bound to: 8 - type: integer 
+	Parameter AWIDTH bound to: 6 - type: integer 
+	Parameter MEM_SIZE bound to: 64 - type: integer 
+INFO: [Synth 8-3876] $readmem data file './nn_inference_layer2_weights_V_57_rom.dat' is read successfully [/home/sdu/Documents/embeddedSystems/project/miniproject/vivado/ArmNet/ArmNet.gen/sources_1/bd/design_1/ipshared/a1ee/hdl/verilog/nn_inference_layer2_weights_V_57.v:21]
+	Parameter DataWidth bound to: 8 - type: integer 
+	Parameter AddressRange bound to: 64 - type: integer 
+	Parameter AddressWidth bound to: 6 - type: integer 
+	Parameter DWIDTH bound to: 8 - type: integer 
+	Parameter AWIDTH bound to: 6 - type: integer 
+	Parameter MEM_SIZE bound to: 64 - type: integer 
+INFO: [Synth 8-3876] $readmem data file './nn_inference_layer2_weights_V_58_rom.dat' is read successfully [/home/sdu/Documents/embeddedSystems/project/miniproject/vivado/ArmNet/ArmNet.gen/sources_1/bd/design_1/ipshared/a1ee/hdl/verilog/nn_inference_layer2_weights_V_58.v:21]
+	Parameter DataWidth bound to: 8 - type: integer 
+	Parameter AddressRange bound to: 64 - type: integer 
+	Parameter AddressWidth bound to: 6 - type: integer 
+	Parameter DWIDTH bound to: 8 - type: integer 
+	Parameter AWIDTH bound to: 6 - type: integer 
+	Parameter MEM_SIZE bound to: 64 - type: integer 
+INFO: [Synth 8-3876] $readmem data file './nn_inference_layer2_weights_V_59_rom.dat' is read successfully [/home/sdu/Documents/embeddedSystems/project/miniproject/vivado/ArmNet/ArmNet.gen/sources_1/bd/design_1/ipshared/a1ee/hdl/verilog/nn_inference_layer2_weights_V_59.v:21]
+	Parameter DataWidth bound to: 7 - type: integer 
+	Parameter AddressRange bound to: 64 - type: integer 
+	Parameter AddressWidth bound to: 6 - type: integer 
+	Parameter DWIDTH bound to: 7 - type: integer 
+	Parameter AWIDTH bound to: 6 - type: integer 
+	Parameter MEM_SIZE bound to: 64 - type: integer 
+INFO: [Synth 8-3876] $readmem data file './nn_inference_layer2_weights_V_60_rom.dat' is read successfully [/home/sdu/Documents/embeddedSystems/project/miniproject/vivado/ArmNet/ArmNet.gen/sources_1/bd/design_1/ipshared/a1ee/hdl/verilog/nn_inference_layer2_weights_V_60.v:21]
+	Parameter DataWidth bound to: 7 - type: integer 
+	Parameter AddressRange bound to: 64 - type: integer 
+	Parameter AddressWidth bound to: 6 - type: integer 
+	Parameter DWIDTH bound to: 7 - type: integer 
+	Parameter AWIDTH bound to: 6 - type: integer 
+	Parameter MEM_SIZE bound to: 64 - type: integer 
+INFO: [Synth 8-3876] $readmem data file './nn_inference_layer2_weights_V_61_rom.dat' is read successfully [/home/sdu/Documents/embeddedSystems/project/miniproject/vivado/ArmNet/ArmNet.gen/sources_1/bd/design_1/ipshared/a1ee/hdl/verilog/nn_inference_layer2_weights_V_61.v:21]
+	Parameter DataWidth bound to: 8 - type: integer 
+	Parameter AddressRange bound to: 64 - type: integer 
+	Parameter AddressWidth bound to: 6 - type: integer 
+	Parameter DWIDTH bound to: 8 - type: integer 
+	Parameter AWIDTH bound to: 6 - type: integer 
+	Parameter MEM_SIZE bound to: 64 - type: integer 
+INFO: [Synth 8-3876] $readmem data file './nn_inference_layer2_weights_V_62_rom.dat' is read successfully [/home/sdu/Documents/embeddedSystems/project/miniproject/vivado/ArmNet/ArmNet.gen/sources_1/bd/design_1/ipshared/a1ee/hdl/verilog/nn_inference_layer2_weights_V_62.v:21]
+	Parameter DataWidth bound to: 8 - type: integer 
+	Parameter AddressRange bound to: 64 - type: integer 
+	Parameter AddressWidth bound to: 6 - type: integer 
+	Parameter DWIDTH bound to: 8 - type: integer 
+	Parameter AWIDTH bound to: 6 - type: integer 
+	Parameter MEM_SIZE bound to: 64 - type: integer 
+INFO: [Synth 8-3876] $readmem data file './nn_inference_layer2_weights_V_63_rom.dat' is read successfully [/home/sdu/Documents/embeddedSystems/project/miniproject/vivado/ArmNet/ArmNet.gen/sources_1/bd/design_1/ipshared/a1ee/hdl/verilog/nn_inference_layer2_weights_V_63.v:21]
+	Parameter DataWidth bound to: 32 - type: integer 
+	Parameter AddressRange bound to: 100 - type: integer 
+	Parameter AddressWidth bound to: 7 - type: integer 
+	Parameter DWIDTH bound to: 32 - type: integer 
+	Parameter AWIDTH bound to: 7 - type: integer 
+	Parameter MEM_SIZE bound to: 100 - type: integer 
+	Parameter DataWidth bound to: 32 - type: integer 
+	Parameter AddressRange bound to: 64 - type: integer 
+	Parameter AddressWidth bound to: 6 - type: integer 
+	Parameter DWIDTH bound to: 32 - type: integer 
+	Parameter AWIDTH bound to: 6 - type: integer 
+	Parameter MEM_SIZE bound to: 64 - type: integer 
+	Parameter ID bound to: 1 - type: integer 
+	Parameter NUM_STAGE bound to: 2 - type: integer 
+	Parameter din0_WIDTH bound to: 32 - type: integer 
+	Parameter dout_WIDTH bound to: 64 - type: integer 
+	Parameter ID bound to: 1 - type: integer 
+	Parameter NUM_STAGE bound to: 2 - type: integer 
+	Parameter din0_WIDTH bound to: 64 - type: integer 
+	Parameter din1_WIDTH bound to: 64 - type: integer 
+	Parameter dout_WIDTH bound to: 1 - type: integer 
+	Parameter AP_OEQ bound to: 5'b00001 
+	Parameter AP_OGT bound to: 5'b00010 
+	Parameter AP_OGE bound to: 5'b00011 
+	Parameter AP_OLT bound to: 5'b00100 
+	Parameter AP_OLE bound to: 5'b00101 
+	Parameter AP_ONE bound to: 5'b00110 
+	Parameter AP_UNO bound to: 5'b01000 
+	Parameter OP_EQ bound to: 8'b00010100 
+	Parameter OP_GT bound to: 8'b00100100 
+	Parameter OP_GE bound to: 8'b00110100 
+	Parameter OP_LT bound to: 8'b00001100 
+	Parameter OP_LE bound to: 8'b00011100 
+	Parameter OP_NE bound to: 8'b00101100 
+	Parameter OP_UO bound to: 8'b00000100 
+	Parameter ID bound to: 1 - type: integer 
+	Parameter NUM_STAGE bound to: 1 - type: integer 
+	Parameter din0_WIDTH bound to: 8 - type: integer 
+	Parameter din1_WIDTH bound to: 32 - type: integer 
+	Parameter dout_WIDTH bound to: 40 - type: integer 
+	Parameter ID bound to: 1 - type: integer 
+	Parameter NUM_STAGE bound to: 1 - type: integer 
+	Parameter din0_WIDTH bound to: 7 - type: integer 
+	Parameter din1_WIDTH bound to: 32 - type: integer 
+	Parameter dout_WIDTH bound to: 39 - type: integer 
+	Parameter ID bound to: 1 - type: integer 
+	Parameter NUM_STAGE bound to: 1 - type: integer 
+	Parameter din0_WIDTH bound to: 9 - type: integer 
+	Parameter din1_WIDTH bound to: 32 - type: integer 
+	Parameter dout_WIDTH bound to: 39 - type: integer 
+	Parameter ID bound to: 1 - type: integer 
+	Parameter NUM_STAGE bound to: 1 - type: integer 
+	Parameter din0_WIDTH bound to: 9 - type: integer 
+	Parameter din1_WIDTH bound to: 32 - type: integer 
+	Parameter dout_WIDTH bound to: 40 - type: integer 
+	Parameter ID bound to: 1 - type: integer 
+	Parameter NUM_STAGE bound to: 1 - type: integer 
+	Parameter din0_WIDTH bound to: 32 - type: integer 
+	Parameter din1_WIDTH bound to: 8 - type: integer 
+	Parameter dout_WIDTH bound to: 39 - type: integer 
+	Parameter ID bound to: 1 - type: integer 
+	Parameter NUM_STAGE bound to: 1 - type: integer 
+	Parameter din0_WIDTH bound to: 32 - type: integer 
+	Parameter din1_WIDTH bound to: 7 - type: integer 
+	Parameter dout_WIDTH bound to: 38 - type: integer 
+	Parameter ID bound to: 1 - type: integer 
+	Parameter NUM_STAGE bound to: 1 - type: integer 
+	Parameter din0_WIDTH bound to: 32 - type: integer 
+	Parameter din1_WIDTH bound to: 6 - type: integer 
+	Parameter dout_WIDTH bound to: 38 - type: integer 
+	Parameter ID bound to: 1 - type: integer 
+	Parameter NUM_STAGE bound to: 1 - type: integer 
+	Parameter din0_WIDTH bound to: 8 - type: integer 
+	Parameter din1_WIDTH bound to: 32 - type: integer 
+	Parameter dout_WIDTH bound to: 39 - type: integer 
+	Parameter ID bound to: 1 - type: integer 
+	Parameter NUM_STAGE bound to: 1 - type: integer 
+	Parameter din0_WIDTH bound to: 7 - type: integer 
+	Parameter din1_WIDTH bound to: 32 - type: integer 
+	Parameter dout_WIDTH bound to: 38 - type: integer 
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:14 ; elapsed = 00:00:26 . Memory (MB): peak = 2767.789 ; gain = 179.750 ; free physical = 1653 ; free virtual = 15247
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:15 ; elapsed = 00:00:27 . Memory (MB): peak = 2785.602 ; gain = 197.562 ; free physical = 1572 ; free virtual = 15167
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:15 ; elapsed = 00:00:27 . Memory (MB): peak = 2785.602 ; gain = 197.562 ; free physical = 1572 ; free virtual = 15167
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00.25 ; elapsed = 00:00:00.25 . Memory (MB): peak = 2797.570 ; gain = 0.000 ; free physical = 1474 ; free virtual = 15070
+INFO: [Netlist 29-17] Analyzing 84 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [/home/sdu/Documents/embeddedSystems/project/miniproject/vivado/ArmNet/ArmNet.gen/sources_1/bd/design_1/ip/design_1_nn_inference_0_1/constraints/nn_inference_ooc.xdc] for cell 'inst'
+Finished Parsing XDC File [/home/sdu/Documents/embeddedSystems/project/miniproject/vivado/ArmNet/ArmNet.gen/sources_1/bd/design_1/ip/design_1_nn_inference_0_1/constraints/nn_inference_ooc.xdc] for cell 'inst'
+Parsing XDC File [/home/sdu/Documents/embeddedSystems/project/miniproject/vivado/ArmNet/ArmNet.runs/design_1_nn_inference_0_1_synth_1/dont_touch.xdc]
+Finished Parsing XDC File [/home/sdu/Documents/embeddedSystems/project/miniproject/vivado/ArmNet/ArmNet.runs/design_1_nn_inference_0_1_synth_1/dont_touch.xdc]
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00.01 ; elapsed = 00:00:00 . Memory (MB): peak = 2918.398 ; gain = 0.000 ; free physical = 1045 ; free virtual = 14672
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00.34 ; elapsed = 00:00:00.22 . Memory (MB): peak = 2918.398 ; gain = 0.000 ; free physical = 1034 ; free virtual = 14660
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:29 ; elapsed = 00:00:43 . Memory (MB): peak = 2918.398 ; gain = 330.359 ; free physical = 1151 ; free virtual = 14782
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xczu3eg-sbva484-1-i
+INFO: [Synth 8-6742] Reading net delay rules and data
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:29 ; elapsed = 00:00:43 . Memory (MB): peak = 2918.398 ; gain = 330.359 ; free physical = 1151 ; free virtual = 14782
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+Applied set_property KEEP_HIERARCHY = SOFT for inst. (constraint file  /home/sdu/Documents/embeddedSystems/project/miniproject/vivado/ArmNet/ArmNet.runs/design_1_nn_inference_0_1_synth_1/dont_touch.xdc, line 9).
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:29 ; elapsed = 00:00:43 . Memory (MB): peak = 2918.398 ; gain = 330.359 ; free physical = 1151 ; free virtual = 14782
+---------------------------------------------------------------------------------
+INFO: [Synth 8-4490] FSM extraction disabled for register 'ap_CS_fsm_reg' through user attribute
+INFO: [Synth 8-6904] The RAM "nn_inference_fp_input_img_V_ram:/ram0_reg" of size (depth=100 x width=32) is automatically implemented using LUTRAM. BRAM implementation would be inefficient 
+INFO: [Synth 8-6904] The RAM "nn_inference_temp_output_0_V_ram:/ram_reg" of size (depth=64 x width=32) is automatically implemented using LUTRAM. BRAM implementation would be inefficient 
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:33 ; elapsed = 00:00:49 . Memory (MB): peak = 2918.398 ; gain = 330.359 ; free physical = 1061 ; free virtual = 14694
+---------------------------------------------------------------------------------
+INFO: [Synth 8-223] decloning instance 'inst/fpext_32ns_64_2_no_dsp_1_U1/nn_inference_ap_fpext_0_no_dsp_32_u/inst/i_synth/DELAY_INVALID_OP' (delay__parameterized2) to 'inst/fpext_32ns_64_2_no_dsp_1_U1/nn_inference_ap_fpext_0_no_dsp_32_u/inst/i_synth/DELAY_DIVIDE_BY_ZERO'
+INFO: [Synth 8-223] decloning instance 'inst/fpext_32ns_64_2_no_dsp_1_U1/nn_inference_ap_fpext_0_no_dsp_32_u/inst/i_synth/DELAY_INVALID_OP' (delay__parameterized2) to 'inst/fpext_32ns_64_2_no_dsp_1_U1/nn_inference_ap_fpext_0_no_dsp_32_u/inst/i_synth/DELAY_ACCUM_OVERFLOW'
+INFO: [Synth 8-223] decloning instance 'inst/fpext_32ns_64_2_no_dsp_1_U1/nn_inference_ap_fpext_0_no_dsp_32_u/inst/i_synth/DELAY_INVALID_OP' (delay__parameterized2) to 'inst/fpext_32ns_64_2_no_dsp_1_U1/nn_inference_ap_fpext_0_no_dsp_32_u/inst/i_synth/DELAY_ACCUM_INPUT_OVERFLOW'
+INFO: [Synth 8-223] decloning instance 'inst/dcmp_64ns_64ns_1_2_no_dsp_1_U2/nn_inference_ap_dcmp_0_no_dsp_64_u/inst/i_synth/DELAY_DIVIDE_BY_ZERO' (delay__parameterized2) to 'inst/dcmp_64ns_64ns_1_2_no_dsp_1_U2/nn_inference_ap_dcmp_0_no_dsp_64_u/inst/i_synth/DELAY_OVERFLOW'
+INFO: [Synth 8-223] decloning instance 'inst/dcmp_64ns_64ns_1_2_no_dsp_1_U2/nn_inference_ap_dcmp_0_no_dsp_64_u/inst/i_synth/DELAY_DIVIDE_BY_ZERO' (delay__parameterized2) to 'inst/dcmp_64ns_64ns_1_2_no_dsp_1_U2/nn_inference_ap_dcmp_0_no_dsp_64_u/inst/i_synth/DELAY_UNDERFLOW'
+INFO: [Synth 8-223] decloning instance 'inst/dcmp_64ns_64ns_1_2_no_dsp_1_U2/nn_inference_ap_dcmp_0_no_dsp_64_u/inst/i_synth/DELAY_DIVIDE_BY_ZERO' (delay__parameterized2) to 'inst/dcmp_64ns_64ns_1_2_no_dsp_1_U2/nn_inference_ap_dcmp_0_no_dsp_64_u/inst/i_synth/DELAY_ACCUM_OVERFLOW'
+INFO: [Synth 8-223] decloning instance 'inst/dcmp_64ns_64ns_1_2_no_dsp_1_U2/nn_inference_ap_dcmp_0_no_dsp_64_u/inst/i_synth/DELAY_DIVIDE_BY_ZERO' (delay__parameterized2) to 'inst/dcmp_64ns_64ns_1_2_no_dsp_1_U2/nn_inference_ap_dcmp_0_no_dsp_64_u/inst/i_synth/DELAY_ACCUM_INPUT_OVERFLOW'
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 360 (col length:72)
+BRAMs: 432 (col length: RAMB18 72 RAMB36 36)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6904] The RAM "inst/fp_input_img_V_U/nn_inference_fp_input_img_V_ram_U/ram0_reg" of size (depth=100 x width=32) is automatically implemented using LUTRAM. BRAM implementation would be inefficient 
+INFO: [Synth 8-6904] The RAM "inst/temp_output_0_V_U/nn_inference_temp_output_0_V_ram_U/ram_reg" of size (depth=64 x width=32) is automatically implemented using LUTRAM. BRAM implementation would be inefficient 
+INFO: [Synth 8-6904] The RAM "inst/temp_output2_0_V_U/nn_inference_temp_output_0_V_ram_U/ram_reg" of size (depth=64 x width=32) is automatically implemented using LUTRAM. BRAM implementation would be inefficient 
+INFO: [Synth 8-6904] The RAM "inst/temp_output_0_V_U/nn_inference_temp_output_0_V_ram_U/ram_reg" of size (depth=64 x width=32) is automatically implemented using LUTRAM. BRAM implementation would be inefficient 
+INFO: [Synth 8-6904] The RAM "inst/temp_output2_0_V_U/nn_inference_temp_output_0_V_ram_U/ram_reg" of size (depth=64 x width=32) is automatically implemented using LUTRAM. BRAM implementation would be inefficient 
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:01:45 ; elapsed = 00:02:04 . Memory (MB): peak = 2978.398 ; gain = 390.359 ; free physical = 1372 ; free virtual = 15281
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:02:06 ; elapsed = 00:02:42 . Memory (MB): peak = 3339.883 ; gain = 751.844 ; free physical = 142 ; free virtual = 13909
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:02:22 ; elapsed = 00:02:59 . Memory (MB): peak = 3458.305 ; gain = 870.266 ; free physical = 154 ; free virtual = 13532
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+INFO: [Synth 8-7052] The timing for the instance inst/weights_layer1_weights_V_U/nn_inference_weights_layer1_weights_V_rom_U/q1_reg_0 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance inst/weights_layer1_weights_V_U/nn_inference_weights_layer1_weights_V_rom_U/q1_reg_1 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:02:33 ; elapsed = 00:03:11 . Memory (MB): peak = 3520.336 ; gain = 932.297 ; free physical = 143 ; free virtual = 13684
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:02:39 ; elapsed = 00:03:16 . Memory (MB): peak = 3520.336 ; gain = 932.297 ; free physical = 1851 ; free virtual = 15348
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:02:39 ; elapsed = 00:03:16 . Memory (MB): peak = 3520.336 ; gain = 932.297 ; free physical = 1841 ; free virtual = 15339
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:02:44 ; elapsed = 00:03:21 . Memory (MB): peak = 3520.336 ; gain = 932.297 ; free physical = 1785 ; free virtual = 15356
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:02:44 ; elapsed = 00:03:21 . Memory (MB): peak = 3520.336 ; gain = 932.297 ; free physical = 1779 ; free virtual = 15353
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:02:45 ; elapsed = 00:03:22 . Memory (MB): peak = 3520.336 ; gain = 932.297 ; free physical = 1777 ; free virtual = 15351
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:02:45 ; elapsed = 00:03:23 . Memory (MB): peak = 3520.336 ; gain = 932.297 ; free physical = 1776 ; free virtual = 15351
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+----------------+------+
+|      |Cell            |Count |
++------+----------------+------+
+|1     |CARRY8          |   756|
+|2     |DSP_ALU         |   242|
+|3     |DSP_A_B_DATA    |   242|
+|5     |DSP_C_DATA      |   242|
+|6     |DSP_MULTIPLIER  |   242|
+|7     |DSP_M_DATA      |   242|
+|8     |DSP_OUTPUT      |   242|
+|10    |DSP_PREADD      |   242|
+|11    |DSP_PREADD_DATA |   242|
+|12    |LUT1            |   298|
+|13    |LUT2            |  4388|
+|14    |LUT3            |   367|
+|15    |LUT4            |   616|
+|16    |LUT5            |   471|
+|17    |LUT6            |  1925|
+|18    |MUXCY           |    84|
+|19    |MUXF7           |   170|
+|20    |MUXF8           |    76|
+|21    |RAM16X1D        |    32|
+|22    |RAM32X1D        |    32|
+|23    |RAM64X1D        |    96|
+|24    |RAMB36E2        |     2|
+|26    |FDRE            |  3228|
+|27    |FDSE            |    21|
++------+----------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:02:45 ; elapsed = 00:03:23 . Memory (MB): peak = 3520.336 ; gain = 932.297 ; free physical = 1776 ; free virtual = 15351
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 0 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:02:36 ; elapsed = 00:03:12 . Memory (MB): peak = 3520.336 ; gain = 799.500 ; free physical = 1815 ; free virtual = 15391
+Synthesis Optimization Complete : Time (s): cpu = 00:02:45 ; elapsed = 00:03:23 . Memory (MB): peak = 3520.344 ; gain = 932.297 ; free physical = 1815 ; free virtual = 15391
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00.30 ; elapsed = 00:00:00.30 . Memory (MB): peak = 3520.344 ; gain = 0.000 ; free physical = 1899 ; free virtual = 15475
+INFO: [Netlist 29-17] Analyzing 1488 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 2 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00.01 ; elapsed = 00:00:00.01 . Memory (MB): peak = 3557.055 ; gain = 0.000 ; free physical = 1420 ; free virtual = 15078
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 415 instances were transformed.
+  (CARRY4) => CARRY8: 13 instances
+  DSP48E2 => DSP48E2 (DSP_ALU, DSP_A_B_DATA, DSP_C_DATA, DSP_MULTIPLIER, DSP_M_DATA, DSP_OUTPUT, DSP_PREADD, DSP_PREADD_DATA): 242 instances
+  RAM16X1D => RAM32X1D (RAMD32(x2)): 32 instances
+  RAM32X1D => RAM32X1D (RAMD32(x2)): 32 instances
+  RAM64X1D => RAM64X1D (RAMD64E(x2)): 96 instances
+
+INFO: [Common 17-83] Releasing license: Synthesis
+304 Infos, 0 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:03:07 ; elapsed = 00:03:45 . Memory (MB): peak = 3557.055 ; gain = 1249.250 ; free physical = 1642 ; free virtual = 15301
+INFO: [Common 17-1381] The checkpoint '/home/sdu/Documents/embeddedSystems/project/miniproject/vivado/ArmNet/ArmNet.runs/design_1_nn_inference_0_1_synth_1/design_1_nn_inference_0_1.dcp' has been generated.
+write_checkpoint: Time (s): cpu = 00:00:08 ; elapsed = 00:00:07 . Memory (MB): peak = 3589.070 ; gain = 32.016 ; free physical = 1500 ; free virtual = 15165
+WARNING: [Common 17-576] 'use_project_ipc' is deprecated. This option is deprecated and no longer used.
+INFO: [Coretcl 2-1648] Added synthesis output to IP cache for IP design_1_nn_inference_0_1, cache-ID = b189bed958224956
+INFO: [Coretcl 2-1174] Renamed 287 cell refs.
+INFO: [Common 17-1381] The checkpoint '/home/sdu/Documents/embeddedSystems/project/miniproject/vivado/ArmNet/ArmNet.runs/design_1_nn_inference_0_1_synth_1/design_1_nn_inference_0_1.dcp' has been generated.
+write_checkpoint: Time (s): cpu = 00:00:07 ; elapsed = 00:00:06 . Memory (MB): peak = 3589.070 ; gain = 0.000 ; free physical = 1087 ; free virtual = 14795
+INFO: [runtcl-4] Executing : report_utilization -file design_1_nn_inference_0_1_utilization_synth.rpt -pb design_1_nn_inference_0_1_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Thu Dec 29 17:45:00 2022...

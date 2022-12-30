@@ -1,0 +1,8 @@
+set_property IOSTANDARD LVCMOS33 [get_ports led_ctrl1_0]
+set_property IOSTANDARD LVCMOS33 [get_ports led_ctrl4_0]
+set_property IOSTANDARD LVCMOS33 [get_ports led_ctrl3_0]
+set_property IOSTANDARD LVCMOS33 [get_ports led_ctrl2_0]
+set_property PACKAGE_PIN D7 [get_ports led_ctrl1_0]
+set_property PACKAGE_PIN F8 [get_ports led_ctrl2_0]
+set_property PACKAGE_PIN F7 [get_ports led_ctrl3_0]
+set_property PACKAGE_PIN G7 [get_ports led_ctrl4_0]

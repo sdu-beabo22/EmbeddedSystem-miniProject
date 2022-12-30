@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="ASCII"?>
+<sdkproject:SdkProject xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:sdkproject="http://www.xilinx.com/sdkproject" name="ArmNetApplication" location="/home/sdu/Documents/embeddedSystems/project/miniproject/vitis/ArmNetApplication" platform="/home/sdu/Documents/embeddedSystems/project/miniproject/vitis/ArmNet/export/ArmNet/ArmNet.xpfm" platformUID="xilinx:ultra96v2::0.0(custom)" systemProject="ArmNetApplication_system" sysConfig="ArmNet" runtime="C/C++" cpu="standalone_domain" cpuInstance="psu_cortexa53_0" os="standalone" mssSignature="9c2da7cfd3c087a4b42f0301a22a38af">
+  <configuration name="Debug" id="xilinx.gnu.arm.a53.exe.debug.393496791">
+    <configBuildOptions xsi:type="sdkproject:SdkOptions"/>
+    <lastBuildOptions xsi:type="sdkproject:SdkOptions"/>
+  </configuration>
+  <configuration name="Release" id="xilinx.gnu.arm.a53.exe.release.1705468382" dirty="true">
+    <configBuildOptions xsi:type="sdkproject:SdkOptions"/>
+  </configuration>
+  <template appTemplateName="hello_world"/>
+</sdkproject:SdkProject>
