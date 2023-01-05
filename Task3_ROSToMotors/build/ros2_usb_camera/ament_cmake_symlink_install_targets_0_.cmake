@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/zain/Documents/1st_semester/Embedded_Systems/Assignments/MiniProject/EmbeddedSystem-miniProject/Task3_ROSToMotors/build/ros2_usb_camera/image_subscriber" "TARGETS" "image_subscriber" "DESTINATION" "lib/ros2_usb_camera")

@@ -1,0 +1,10 @@
+/home/zain/Documents/1st_semester/Embedded_Systems/Assignments/MiniProject/EmbeddedSystem-miniProject/Task3_ROSToMotors/build/ros2_usb_camera/CMakeFiles/install/strip.dir
+/home/zain/Documents/1st_semester/Embedded_Systems/Assignments/MiniProject/EmbeddedSystem-miniProject/Task3_ROSToMotors/build/ros2_usb_camera/CMakeFiles/install/local.dir
+/home/zain/Documents/1st_semester/Embedded_Systems/Assignments/MiniProject/EmbeddedSystem-miniProject/Task3_ROSToMotors/build/ros2_usb_camera/CMakeFiles/install.dir
+/home/zain/Documents/1st_semester/Embedded_Systems/Assignments/MiniProject/EmbeddedSystem-miniProject/Task3_ROSToMotors/build/ros2_usb_camera/CMakeFiles/list_install_components.dir
+/home/zain/Documents/1st_semester/Embedded_Systems/Assignments/MiniProject/EmbeddedSystem-miniProject/Task3_ROSToMotors/build/ros2_usb_camera/CMakeFiles/rebuild_cache.dir
+/home/zain/Documents/1st_semester/Embedded_Systems/Assignments/MiniProject/EmbeddedSystem-miniProject/Task3_ROSToMotors/build/ros2_usb_camera/CMakeFiles/image_subscriber.dir
+/home/zain/Documents/1st_semester/Embedded_Systems/Assignments/MiniProject/EmbeddedSystem-miniProject/Task3_ROSToMotors/build/ros2_usb_camera/CMakeFiles/edit_cache.dir
+/home/zain/Documents/1st_semester/Embedded_Systems/Assignments/MiniProject/EmbeddedSystem-miniProject/Task3_ROSToMotors/build/ros2_usb_camera/CMakeFiles/test.dir
+/home/zain/Documents/1st_semester/Embedded_Systems/Assignments/MiniProject/EmbeddedSystem-miniProject/Task3_ROSToMotors/build/ros2_usb_camera/CMakeFiles/ros2_usb_camera_uninstall.dir
+/home/zain/Documents/1st_semester/Embedded_Systems/Assignments/MiniProject/EmbeddedSystem-miniProject/Task3_ROSToMotors/build/ros2_usb_camera/CMakeFiles/uninstall.dir
