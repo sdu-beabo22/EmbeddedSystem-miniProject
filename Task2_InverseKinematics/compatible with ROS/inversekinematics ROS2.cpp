@@ -47,30 +47,32 @@ class InverseKinematics : public rclcpp::Node
     }
 
   private:
+  float pi = 3.14159;
+  float a1, a2, phi_1, phi_2, theta_1, phi_3, theta_2, x, y;
+  Converter converter1(0,1);
+  
     void timer_callback()
     {
-	Converter converter1(0,1);
 	float[2] coordinates = converter1.convert();
 	
 	x = coordinates[0];
 	y = coordinates[1];
-	
-	float pi = 3.14159;
 
-	float a1 = 5.0; // length of our first limb part
-	float a2 = 7.0; // length of our second limb part
+
+	a1 = 5.0; // length of our first limb part
+	 a2 = 7.0; // length of our second limb part
 
 	// inverse kinematics
-	float r1 = sqrt(pow(x, 2.0) + pow(y, 2.0));
+	 r1 = sqrt(pow(x, 2.0) + pow(y, 2.0));
 
-	float phi_1 = acos((pow(a2, 2.0) - pow(a1, 2.0) - pow(r1, 2.0)) / (-2.0 * a1 * r1));
-	float phi_2 = atan2(y, x);
+	 phi_1 = acos((pow(a2, 2.0) - pow(a1, 2.0) - pow(r1, 2.0)) / (-2.0 * a1 * r1));
+	 phi_2 = atan2(y, x);
 
-	float theta_1 = ((phi_2 - phi_1) * (180 / pi));
+	 theta_1 = ((phi_2 - phi_1) * (180 / pi));
 
-	float phi_3 = acos((pow(r1, 2.0) - pow(a1, 2.0) - pow(a2, 2.0)) / (-2.0 * a1 * a2));
+	 phi_3 = acos((pow(r1, 2.0) - pow(a1, 2.0) - pow(a2, 2.0)) / (-2.0 * a1 * a2));
 
-	float theta_2 = 180.0 - (phi_3 * (180 / pi));
+	 theta_2 = 180.0 - (phi_3 * (180 / pi));
 
       auto message1 = std_msgs::msg::Float();
       auto message2 = std_msgs::msg::Float();
