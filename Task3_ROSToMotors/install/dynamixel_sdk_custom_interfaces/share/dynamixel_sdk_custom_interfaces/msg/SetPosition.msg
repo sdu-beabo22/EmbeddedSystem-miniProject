@@ -1,1 +1,0 @@
-/home/zain/Documents/1st_semester/Embedded_Systems/Assignments/MiniProject/EmbeddedSystem-miniProject/Task3_ROSToMotors/src/dynamixel_sdk_custom_interfaces/msg/SetPosition.msg

@@ -1,1 +1,0 @@
-ament_cmake_symlink_install_targets("TARGET_FILES" "/home/zain/Documents/1st_semester/Embedded_Systems/Assignments/MiniProject/EmbeddedSystem-miniProject/Task3_ROSToMotors/build/dynamixel_sdk_examples/read_write_node" "TARGETS" "read_write_node" "DESTINATION" "lib/dynamixel_sdk_examples")

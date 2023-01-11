@@ -1,1 +1,0 @@
-/usr/bin/c++     CMakeFiles/ROS2Motors_node.dir/src/ROS2Motors_node.cpp.o  -o ROS2Motors_node 
