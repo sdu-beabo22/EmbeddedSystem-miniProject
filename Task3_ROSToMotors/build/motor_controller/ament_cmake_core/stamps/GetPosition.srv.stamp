@@ -1,0 +1,8 @@
+# Constants
+# Request
+uint8 id0
+uint8 id1
+---
+# Response
+int32 position0
+int32 position1

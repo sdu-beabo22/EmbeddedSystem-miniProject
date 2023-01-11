@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/zain/Documents/1st_semester/Embedded_Systems/Assignments/MiniProject/EmbeddedSystem-miniProject/Task3_ROSToMotors/build/motor_controller/motor_controller_publisher" "TARGETS" "motor_controller_publisher" "DESTINATION" "lib/motor_controller")

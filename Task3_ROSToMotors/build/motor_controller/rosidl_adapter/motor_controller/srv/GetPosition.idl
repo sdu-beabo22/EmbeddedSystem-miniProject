@@ -1,0 +1,24 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from motor_controller/srv/GetPosition.srv
+// generated code does not contain a copyright notice
+
+
+module motor_controller {
+  module srv {
+    @verbatim (language="comment", text=
+      " Constants" "\n"
+      " Request")
+    struct GetPosition_Request {
+      uint8 id0;
+
+      uint8 id1;
+    };
+    @verbatim (language="comment", text=
+      " Response")
+    struct GetPosition_Response {
+      int32 position0;
+
+      int32 position1;
+    };
+  };
+};
