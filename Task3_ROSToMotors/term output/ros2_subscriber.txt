@@ -1,0 +1,194 @@
+mp4d@u96v2:~/EmbeddedSystem-miniProject/Task3_ROSToMotors/src/motor_controller$ ros2 run motor_controller motor_controller_subscriber 
+[INFO] [1673552368.533343854] [motor_controller_subscriber]: Succeeded to open the port.
+[INFO] [1673552368.535156460] [motor_controller_subscriber]: Succeeded to set the baudrate.
+[INFO] [1673552368.535228153] [motor_controller_subscriber]: Succeeded to set Position Control Mode.
+[INFO] [1673552368.535265644] [motor_controller_subscriber]: Succeeded to enable torque.
+[INFO] [1673552368.650901173] [motor_controller_subscriber]: Run motor controller subscriber
+[INFO] [1673552368.816070611] [motor_controller_subscriber]: [TxRxResult] Incorrect status packet!
+[INFO] [1673552368.850508533] [motor_controller_subscriber]: [TxRxResult] Incorrect status packet!
+[INFO] [1673552368.853194355] [motor_controller_subscriber]: [TxRxResult] Incorrect status packet!
+[INFO] [1673552368.854428986] [motor_controller_subscriber]: [RxPacketError] Angle limit error!
+[INFO] [1673552368.856896919] [motor_controller_subscriber]: [RxPacketError] Instruction code error!
+[INFO] [1673552368.891080460] [motor_controller_subscriber]: [TxRxResult] Incorrect status packet!
+[INFO] [1673552368.925335915] [motor_controller_subscriber]: [TxRxResult] Incorrect status packet!
+[INFO] [1673552368.928036817] [motor_controller_subscriber]: Set [ID: 1] [Goal Position: 90]
+[INFO] [1673552368.929554970] [motor_controller_subscriber]: Set [ID: 1] [Goal Position: 90]
+[INFO] [1673552368.985851081] [motor_controller_subscriber]: [TxRxResult] Incorrect status packet!
+[INFO] [1673552369.020362435] [motor_controller_subscriber]: [TxRxResult] Incorrect status packet!
+[INFO] [1673552369.054674878] [motor_controller_subscriber]: [TxRxResult] Incorrect status packet!
+[INFO] [1673552369.088887078] [motor_controller_subscriber]: [TxRxResult] Incorrect status packet!
+[INFO] [1673552369.090452823] [motor_controller_subscriber]: Set [ID: 1] [Goal Position: 90]
+[INFO] [1673552369.118054048] [motor_controller_subscriber]: [RxPacketError] Instruction code error!
+[INFO] [1673552369.184191712] [motor_controller_subscriber]: [TxRxResult] Incorrect status packet!
+[INFO] [1673552369.218565648] [motor_controller_subscriber]: [TxRxResult] Incorrect status packet!
+[INFO] [1673552369.253049358] [motor_controller_subscriber]: [TxRxResult] Incorrect status packet!
+[INFO] [1673552369.287359092] [motor_controller_subscriber]: [TxRxResult] Incorrect status packet!
+[INFO] [1673552369.290053433] [motor_controller_subscriber]: Set [ID: 1] [Goal Position: 90]
+[INFO] [1673552369.316495730] [motor_controller_subscriber]: [RxPacketError] Instruction code error!
+[INFO] [1673552369.381793709] [motor_controller_subscriber]: [TxRxResult] Incorrect status packet!
+[INFO] [1673552369.416016269] [motor_controller_subscriber]: [TxRxResult] Incorrect status packet!
+[INFO] [1673552369.450204738] [motor_controller_subscriber]: [TxRxResult] Incorrect status packet!
+[INFO] [1673552369.484421557] [motor_controller_subscriber]: [TxRxResult] Incorrect status packet!
+[INFO] [1673552369.485995972] [motor_controller_subscriber]: Set [ID: 1] [Goal Position: 90]
+[INFO] [1673552369.514069207] [motor_controller_subscriber]: [RxPacketError] Instruction code error!
+[INFO] [1673552369.579675719] [motor_controller_subscriber]: [TxRxResult] Incorrect status packet!
+[INFO] [1673552369.613878368] [motor_controller_subscriber]: [TxRxResult] Incorrect status packet!
+[INFO] [1673552369.648075897] [motor_controller_subscriber]: [TxRxResult] Incorrect status packet!
+[INFO] [1673552369.682293196] [motor_controller_subscriber]: [TxRxResult] Incorrect status packet!
+[INFO] [1673552369.684739308] [motor_controller_subscriber]: Set [ID: 1] [Goal Position: 90]
+[INFO] [1673552369.712130264] [motor_controller_subscriber]: [RxPacketError] Instruction code error!
+[INFO] [1673552369.777689734] [motor_controller_subscriber]: [TxRxResult] Incorrect status packet!
+[INFO] [1673552369.811909144] [motor_controller_subscriber]: [TxRxResult] Incorrect status packet!
+[INFO] [1673552369.846104522] [motor_controller_subscriber]: [TxRxResult] Incorrect status packet!
+[INFO] [1673552369.880288180] [motor_controller_subscriber]: [TxRxResult] Incorrect status packet!
+[INFO] [1673552369.882855477] [motor_controller_subscriber]: Set [ID: 1] [Goal Position: 90]
+[INFO] [1673552369.910075816] [motor_controller_subscriber]: [RxPacketError] Instruction code error!
+[INFO] [1673552369.975724380] [motor_controller_subscriber]: [TxRxResult] Incorrect status packet!
+[INFO] [1673552370.010253932] [motor_controller_subscriber]: [TxRxResult] Incorrect status packet!
+[INFO] [1673552370.044760150] [motor_controller_subscriber]: [TxRxResult] Incorrect status packet!
+[INFO] [1673552370.078976546] [motor_controller_subscriber]: [TxRxResult] Incorrect status packet!
+[INFO] [1673552370.080541631] [motor_controller_subscriber]: Set [ID: 1] [Goal Position: 90]
+[INFO] [1673552370.108164214] [motor_controller_subscriber]: [RxPacketError] Instruction code error!
+[INFO] [1673552370.141084627] [motor_controller_subscriber]: [RxPacketError] Instruction code error!
+[INFO] [1673552370.206738224] [motor_controller_subscriber]: [TxRxResult] Incorrect status packet!
+[INFO] [1673552370.241249893] [motor_controller_subscriber]: [TxRxResult] Incorrect status packet!
+[INFO] [1673552370.275541182] [motor_controller_subscriber]: [TxRxResult] Incorrect status packet!
+[INFO] [1673552370.309771829] [motor_controller_subscriber]: [TxRxResult] Incorrect status packet!
+[INFO] [1673552370.344738736] [motor_controller_subscriber]: [TxRxResult] Incorrect status packet!
+[INFO] [1673552370.346509449] [motor_controller_subscriber]: Set [ID: 1] [Goal Position: 90]
+[INFO] [1673552370.372094468] [motor_controller_subscriber]: [RxPacketError] Instruction code error!
+[INFO] [1673552370.406358006] [motor_controller_subscriber]: [RxPacketError] Checksum error!
+[INFO] [1673552370.438097520] [motor_controller_subscriber]: [RxPacketError] Instruction code error!
+[INFO] [1673552370.503773558] [motor_controller_subscriber]: [TxRxResult] Incorrect status packet!
+[INFO] [1673552370.538122920] [motor_controller_subscriber]: [TxRxResult] Incorrect status packet!
+[INFO] [1673552370.572439511] [motor_controller_subscriber]: [TxRxResult] Incorrect status packet!
+[INFO] [1673552370.607155467] [motor_controller_subscriber]: [TxRxResult] Incorrect status packet!
+[INFO] [1673552370.608981123] [motor_controller_subscriber]: Set [ID: 1] [Goal Position: 90]
+[INFO] [1673552370.636103426] [motor_controller_subscriber]: [RxPacketError] Instruction code error!
+[INFO] [1673552370.701750363] [motor_controller_subscriber]: [TxRxResult] Incorrect status packet!
+[INFO] [1673552370.736048952] [motor_controller_subscriber]: [TxRxResult] Incorrect status packet!
+[INFO] [1673552370.770337752] [motor_controller_subscriber]: [TxRxResult] Incorrect status packet!
+[INFO] [1673552370.804623281] [motor_controller_subscriber]: [TxRxResult] Incorrect status packet!
+[INFO] [1673552370.806275749] [motor_controller_subscriber]: Set [ID: 1] [Goal Position: 90]
+[INFO] [1673552370.834121272] [motor_controller_subscriber]: [RxPacketError] Instruction code error!
+[INFO] [1673552370.899865863] [motor_controller_subscriber]: [TxRxResult] Incorrect status packet!
+[INFO] [1673552370.934516807] [motor_controller_subscriber]: [TxRxResult] Incorrect status packet!
+[INFO] [1673552370.968879759] [motor_controller_subscriber]: [TxRxResult] Incorrect status packet!
+[INFO] [1673552371.003214430] [motor_controller_subscriber]: [TxRxResult] Incorrect status packet!
+[INFO] [1673552371.006459604] [motor_controller_subscriber]: Set [ID: 1] [Goal Position: 90]
+[INFO] [1673552371.032291101] [motor_controller_subscriber]: [RxPacketError] Instruction code error!
+[INFO] [1673552371.097766135] [motor_controller_subscriber]: [TxRxResult] Incorrect status packet!
+[INFO] [1673552371.132060141] [motor_controller_subscriber]: [TxRxResult] Incorrect status packet!
+[INFO] [1673552371.166347197] [motor_controller_subscriber]: [TxRxResult] Incorrect status packet!
+[INFO] [1673552371.201135143] [motor_controller_subscriber]: [TxRxResult] Incorrect status packet!
+[INFO] [1673552371.203399187] [motor_controller_subscriber]: Set [ID: 1] [Goal Position: 90]
+[INFO] [1673552371.263106402] [motor_controller_subscriber]: [TxRxResult] Incorrect status packet!
+[INFO] [1673552371.264899676] [motor_controller_subscriber]: [RxPacketError] Instruction code error!
+[INFO] [1673552371.296257391] [motor_controller_subscriber]: [RxPacketError] Angle limit error!
+[INFO] [1673552371.362284758] [motor_controller_subscriber]: [TxRxResult] Incorrect status packet!
+[INFO] [1673552371.397006972] [motor_controller_subscriber]: [TxRxResult] Incorrect status packet!
+[INFO] [1673552371.431685524] [motor_controller_subscriber]: [TxRxResult] Incorrect status packet!
+[INFO] [1673552371.466015711] [motor_controller_subscriber]: [TxRxResult] Incorrect status packet!
+[INFO] [1673552371.468528585] [motor_controller_subscriber]: Set [ID: 1] [Goal Position: 90]
+[INFO] [1673552371.494292829] [motor_controller_subscriber]: [RxPacketError] Instruction code error!
+[INFO] [1673552371.559784063] [motor_controller_subscriber]: [TxRxResult] Incorrect status packet!
+[INFO] [1673552371.561422061] [motor_controller_subscriber]: [RxPacketError] Instruction code error!
+[INFO] [1673552371.592886610] [motor_controller_subscriber]: [RxPacketError] Instruction code error!
+[INFO] [1673552371.658821373] [motor_controller_subscriber]: [TxRxResult] Incorrect status packet!
+[INFO] [1673552371.693149330] [motor_controller_subscriber]: [TxRxResult] Incorrect status packet!
+[INFO] [1673552371.727449627] [motor_controller_subscriber]: [TxRxResult] Incorrect status packet!
+[INFO] [1673552371.761734003] [motor_controller_subscriber]: [TxRxResult] Incorrect status packet!
+[INFO] [1673552371.763364310] [motor_controller_subscriber]: Set [ID: 1] [Goal Position: 90]
+[INFO] [1673552371.791019912] [motor_controller_subscriber]: [RxPacketError] Instruction code error!
+[INFO] [1673552371.856797758] [motor_controller_subscriber]: [TxRxResult] Incorrect status packet!
+[INFO] [1673552371.891096995] [motor_controller_subscriber]: [TxRxResult] Incorrect status packet!
+[INFO] [1673552371.925379150] [motor_controller_subscriber]: [TxRxResult] Incorrect status packet!
+[INFO] [1673552371.959708878] [motor_controller_subscriber]: [TxRxResult] Incorrect status packet!
+[INFO] [1673552371.961449830] [motor_controller_subscriber]: Set [ID: 1] [Goal Position: 90]
+[INFO] [1673552371.989735848] [motor_controller_subscriber]: [RxPacketError] Instruction code error!
+[INFO] [1673552372.054929926] [motor_controller_subscriber]: [TxRxResult] Incorrect status packet!
+[INFO] [1673552372.089316923] [motor_controller_subscriber]: [TxRxResult] Incorrect status packet!
+[INFO] [1673552372.123627856] [motor_controller_subscriber]: [TxRxResult] Incorrect status packet!
+[INFO] [1673552372.157978931] [motor_controller_subscriber]: [TxRxResult] Incorrect status packet!
+[INFO] [1673552372.159653470] [motor_controller_subscriber]: Set [ID: 1] [Goal Position: 90]
+[INFO] [1673552372.187168714] [motor_controller_subscriber]: [RxPacketError] Instruction code error!
+[INFO] [1673552372.253261027] [motor_controller_subscriber]: [TxRxResult] Incorrect status packet!
+[INFO] [1673552372.287989408] [motor_controller_subscriber]: [TxRxResult] Incorrect status packet!
+[INFO] [1673552372.322355563] [motor_controller_subscriber]: [TxRxResult] Incorrect status packet!
+[INFO] [1673552372.357229970] [motor_controller_subscriber]: [TxRxResult] Incorrect status packet!
+[INFO] [1673552372.359879309] [motor_controller_subscriber]: Set [ID: 1] [Goal Position: 90]
+[INFO] [1673552372.385168021] [motor_controller_subscriber]: [RxPacketError] Instruction code error!
+[INFO] [1673552372.450806835] [motor_controller_subscriber]: [TxRxResult] Incorrect status packet!
+[INFO] [1673552372.485118319] [motor_controller_subscriber]: [TxRxResult] Incorrect status packet!
+[INFO] [1673552372.519409762] [motor_controller_subscriber]: [TxRxResult] Incorrect status packet!
+[INFO] [1673552372.553695544] [motor_controller_subscriber]: [TxRxResult] Incorrect status packet!
+[INFO] [1673552372.555328171] [motor_controller_subscriber]: Set [ID: 1] [Goal Position: 90]
+[INFO] [1673552372.583210190] [motor_controller_subscriber]: [RxPacketError] Instruction code error!
+[INFO] [1673552372.648878215] [motor_controller_subscriber]: [TxRxResult] Incorrect status packet!
+[INFO] [1673552372.683175868] [motor_controller_subscriber]: [TxRxResult] Incorrect status packet!
+[INFO] [1673552372.717564465] [motor_controller_subscriber]: [TxRxResult] Incorrect status packet!
+[INFO] [1673552372.751854028] [motor_controller_subscriber]: [TxRxResult] Incorrect status packet!
+[INFO] [1673552372.754385522] [motor_controller_subscriber]: Set [ID: 1] [Goal Position: 90]
+[INFO] [1673552372.781217518] [motor_controller_subscriber]: [RxPacketError] Instruction code error!
+[INFO] [1673552372.846827371] [motor_controller_subscriber]: [TxRxResult] Incorrect status packet!
+[INFO] [1673552372.881159315] [motor_controller_subscriber]: [TxRxResult] Incorrect status packet!
+[INFO] [1673552372.915757260] [motor_controller_subscriber]: [TxRxResult] Incorrect status packet!
+[INFO] [1673552372.950076294] [motor_controller_subscriber]: [TxRxResult] Incorrect status packet!
+[INFO] [1673552372.951760954] [motor_controller_subscriber]: Set [ID: 1] [Goal Position: 90]
+[INFO] [1673552372.979459935] [motor_controller_subscriber]: [RxPacketError] Instruction code error!
+[INFO] [1673552373.045023413] [motor_controller_subscriber]: [TxRxResult] Incorrect status packet!
+[INFO] [1673552373.079437357] [motor_controller_subscriber]: [TxRxResult] Incorrect status packet!
+[INFO] [1673552373.113740127] [motor_controller_subscriber]: [TxRxResult] Incorrect status packet!
+[INFO] [1673552373.148027186] [motor_controller_subscriber]: [TxRxResult] Incorrect status packet!
+[INFO] [1673552373.182312946] [motor_controller_subscriber]: [TxRxResult] Incorrect status packet!
+[INFO] [1673552373.216629876] [motor_controller_subscriber]: [TxRxResult] Incorrect status packet!
+[INFO] [1673552373.251515670] [motor_controller_subscriber]: [TxRxResult] Incorrect status packet!
+[INFO] [1673552373.253275062] [motor_controller_subscriber]: [RxPacketError] Angle limit error!
+[INFO] [1673552373.276598651] [motor_controller_subscriber]: [RxPacketError] Instruction code error!
+[INFO] [1673552373.343802133] [motor_controller_subscriber]: [TxRxResult] Incorrect status packet!
+[INFO] [1673552373.378690187] [motor_controller_subscriber]: [TxRxResult] Incorrect status packet!
+[INFO] [1673552373.413290229] [motor_controller_subscriber]: [TxRxResult] Incorrect status packet!
+[INFO] [1673552373.447812868] [motor_controller_subscriber]: [TxRxResult] Incorrect status packet!
+[INFO] [1673552373.449502068] [motor_controller_subscriber]: Set [ID: 1] [Goal Position: 90]
+[INFO] [1673552373.474414952] [motor_controller_subscriber]: [RxPacketError] Instruction code error!
+[INFO] [1673552373.539933485] [motor_controller_subscriber]: [TxRxResult] Incorrect status packet!
+[INFO] [1673552373.574145291] [motor_controller_subscriber]: [TxRxResult] Incorrect status packet!
+[INFO] [1673552373.608336586] [motor_controller_subscriber]: [TxRxResult] Incorrect status packet!
+[INFO] [1673552373.642524541] [motor_controller_subscriber]: [TxRxResult] Incorrect status packet!
+[INFO] [1673552373.644123597] [motor_controller_subscriber]: Set [ID: 1] [Goal Position: 90]
+[INFO] [1673552373.672224232] [motor_controller_subscriber]: [RxPacketError] Instruction code error!
+[INFO] [1673552373.737897291] [motor_controller_subscriber]: [TxRxResult] Incorrect status packet!
+[INFO] [1673552373.772354488] [motor_controller_subscriber]: [TxRxResult] Incorrect status packet!
+[INFO] [1673552373.806987731] [motor_controller_subscriber]: [TxRxResult] Incorrect status packet!
+[INFO] [1673552373.841282191] [motor_controller_subscriber]: [TxRxResult] Incorrect status packet!
+[INFO] [1673552373.842986321] [motor_controller_subscriber]: Set [ID: 1] [Goal Position: 90]
+[INFO] [1673552373.870161928] [motor_controller_subscriber]: [RxPacketError] Instruction code error!
+[INFO] [1673552373.935907340] [motor_controller_subscriber]: [TxRxResult] Incorrect status packet!
+[INFO] [1673552373.970103186] [motor_controller_subscriber]: [TxRxResult] Incorrect status packet!
+[INFO] [1673552374.004336613] [motor_controller_subscriber]: [TxRxResult] Incorrect status packet!
+[INFO] [1673552374.038898410] [motor_controller_subscriber]: [TxRxResult] Incorrect status packet!
+[INFO] [1673552374.041479666] [motor_controller_subscriber]: Set [ID: 1] [Goal Position: 90]
+[INFO] [1673552374.068315256] [motor_controller_subscriber]: [RxPacketError] Instruction code error!
+[INFO] [1673552374.133940627] [motor_controller_subscriber]: [TxRxResult] Incorrect status packet!
+[INFO] [1673552374.168348688] [motor_controller_subscriber]: [TxRxResult] Incorrect status packet!
+[INFO] [1673552374.202901545] [motor_controller_subscriber]: [TxRxResult] Incorrect status packet!
+[INFO] [1673552374.237497074] [motor_controller_subscriber]: [TxRxResult] Incorrect status packet!
+[INFO] [1673552374.239264456] [motor_controller_subscriber]: Set [ID: 1] [Goal Position: 90]
+[INFO] [1673552374.298996306] [motor_controller_subscriber]: [TxRxResult] Incorrect status packet!
+[INFO] [1673552374.333227540] [motor_controller_subscriber]: [TxRxResult] Incorrect status packet!
+[INFO] [1673552374.336259134] [motor_controller_subscriber]: [RxPacketError] Checksum error!
+[INFO] [1673552374.398029717] [motor_controller_subscriber]: [TxRxResult] Incorrect status packet!
+[INFO] [1673552374.432222099] [motor_controller_subscriber]: [TxRxResult] Incorrect status packet!
+[INFO] [1673552374.466421532] [motor_controller_subscriber]: [TxRxResult] Incorrect status packet!
+[INFO] [1673552374.500640125] [motor_controller_subscriber]: [TxRxResult] Incorrect status packet!
+[INFO] [1673552374.503158108] [motor_controller_subscriber]: Set [ID: 1] [Goal Position: 90]
+[INFO] [1673552374.530288661] [motor_controller_subscriber]: [RxPacketError] Instruction code error!
+[INFO] [1673552374.595909002] [motor_controller_subscriber]: [TxRxResult] Incorrect status packet!
+[INFO] [1673552374.630103874] [motor_controller_subscriber]: [TxRxResult] Incorrect status packet!
+[INFO] [1673552374.664292646] [motor_controller_subscriber]: [TxRxResult] Incorrect status packet!
+[INFO] [1673552374.698494418] [motor_controller_subscriber]: [TxRxResult] Incorrect status packet!
+[INFO] [1673552374.700039232] [motor_controller_subscriber]: Set [ID: 1] [Goal Position: 90]
+[INFO] [1673552374.728288610] [motor_controller_subscriber]: [RxPacketError] Instruction code error!
+[INFO] [1673552374.761280173] [motor_controller_subscriber]: [RxPacketError] Instruction code error!
+^C[INFO] [1673552374.763111968] [rclcpp]: signal_handler(signal_value=2)
+mp4d@u96v2:~/EmbeddedSystem-miniProject/Task3_ROSToMotors/src/motor_controller$

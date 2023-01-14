@@ -1,0 +1,2 @@
+mp4d@u96v2:~/EmbeddedSystem-miniProject/Task3_ROSToMotors$ ros2 run motor_controller motor_controller_publisher
+[INFO] [1673552360.991737505] [motor_controller_publisher]: Run motor controller publisher node
